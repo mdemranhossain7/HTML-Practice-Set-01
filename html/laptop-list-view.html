@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Application</title>
+    <link rel="stylesheet" href="../css/all.min.css"/>
+    <link rel="stylesheet" href="../css/slick-theme.css"/>
+    <link rel="stylesheet" href="../css/slick.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+  </head>
+  <body>
+
+    <!-- Start Header Section -->
+    <header>
+      <div class="container flex justify-between align-center">
+        <button type="button" class="flex justify-start align-center">
+          <p class="dates text-grey text-sm font-semibold">Mon-Thu:</p>
+          &nbsp;
+          <p class="times text-white text-sm font-semibold">9:00 AM - 5:30 PM &nbsp; <i class="fa-solid fa-angle-down"></i></p>
+        </button>
+        <div class="address">
+          <p class="text-grey text-sm font-semibold">Visit our showroom in 1234 Street Address City Address, 1234 &nbsp;<a href="./contact.html" class="text-white text-sm font-semibold">Contact Us</a>&nbsp;</p>
+        </div>
+        <div class="socials flex text-white justify-start align-center">
+          <p class="text-white text-sm font-semibold phone-number">Call Us: (00) 1234 5678</p>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start navbar Section -->
+    <nav uk-sticky="start: 200; animation: uk-animation-slide-top">
+      <div class="container flex justify-between align-center">
+        <div class="navbar-area flex justify-start align-center">
+          <a href="/index.html" class="logo flex">
+            <img src="../assets/imgs/logo.png" alt="">
+          </a>
+          <div class="navbar-items flex justify-center align-center">
+            <a href="./laptops.html" class="nav-link">Laptops</a>
+            <a href="#" class="nav-link">Desktop</a>
+            <a href="#" class="nav-link">Networking Devices</a>
+            <a href="#" class="nav-link">Printers & Scanners</a>
+            <a href="#" class="nav-link">PC Parts</a>
+            <a href="#" class="nav-link">All Other Products</a>
+            <a href="#" class="nav-link">Repairs</a>
+            <button class="deals text-md font-semibold">Our Deals</button>
+          </div>
+        </div>
+        <div class="account flex justify-start align-center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="./shopping-cart-1.html" class="text-black">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="./user-account.html">
+            <img src="../assets/imgs/profile.png" class="profile-icon">
+          </a>
+          <a href="#" class="menu-icon" onclick=showSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </a>
+        </div>
+        <div class="sidebar navbar-items">
+          <a href="#" class="nav-link" onclick=hideSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </a>
+          <a href="#" class="nav-link">Laptops</a>
+          <a href="#" class="nav-link">Desktop</a>
+          <a href="#" class="nav-link">Networking Devices</a>
+          <a href="#" class="nav-link">Printers & Scanners</a>
+          <a href="#" class="nav-link">PC Parts</a>
+          <a href="#" class="nav-link">All Other Products</a>
+          <a href="#" class="nav-link">Repairs</a>
+          <button class="deals text-md font-semibold">Our Deals</button>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar Section -->
+
+    <!-- Start Banner slider -->
+    <section id="slick-slider" class="container banner-2">
+      <a href="#" class="w-full banner-image">
+        <img src="../assets/imgs/banner-2.png" class="w-full h-full" alt="">
+      </a>
+      <a href="#" class="w-full banner-image">
+        <img src="../assets/imgs/banner-2.png" class="w-full h-full" alt="">
+      </a>
+      <a href="#" class="w-full banner-image">
+        <img src="../assets/imgs/banner-2.png" class="w-full h-full" alt="">
+      </a>
+      <a href="#" class="w-full banner-image">
+        <img src="../assets/imgs/banner-2.png" class="w-full h-full" alt="">
+      </a>
+    </section>
+    <!-- End Banner slider -->
+
+    <!-- Start Laptop Tabs -->
+    <Section class="laptop-tabs">
+      <div class="container flex align-center">
+        <a href="#" class="tabs-text-1">Home</a>
+        <a href="#" class="right-arrow">›</a>
+        <a href="#" class="tabs-text-1">Laptops</a>
+        <a href="#" class="right-arrow">›</a>
+        <a href="#" class="tabs-text-1">Everyday Use Notebooks</a>
+        <a href="#" class="right-arrow">›</a>
+        <a href="#" class="tabs-text-1">MSI Prestige Series</a>
+        <a href="#" class="right-arrow">›</a>
+        <a href="#" class="tabs-text-2">MSI WS Series</a>
+      </div>
+    </Section>
+    <!-- End Laptop Tabs -->
+
+    <!-- Start MSI PS Series -->
+    <section class="msi-ps">
+      <div class="container">
+        <h2>MSI PS Series (20)</h2>
+      </div>
+    </section>
+    <!-- End MSI PS Series -->
+
+    <!-- Start Dropdown Section -->
+    <section class="container flex justify-start">
+      <div class="flex back align-center justify-center">
+        <a href="#">‹</a>
+        <span>Back</span>
+      </div>
+
+      <div class="flex align-center justify-between">
+        <div class="item-number flex align-center justify-start">
+          <span class="text-md font-regular text-grey">Items 1-35 of 61</span>
+        </div>
+  
+        <div class="dropdown-icon flex align-center justify-between">
+          <div class="dropdown-1 flex align-center justify-center">
+            <p class="text-md text-grey font-semibold">Sort By: <span class="text-md text-black font-semibold">Position</span></p>
+            <i class="text-sm fa-solid fa-angle-down fa-fw"></i>
+          </div>
+  
+          <div class="dropdown-1 flex align-center justify-center">
+            <p class="text-md text-grey font-semibold">Show: <span class="text-md text-black font-semibold">35 per page</span></p>
+            <i class="text-sm fa-solid fa-angle-down fa-fw"></i>
+          </div>
+        
+          <div class="laptop-icons flex">
+            <a href="./laptops.html" class="flex align-center justify-center">
+              <svg class="svg-list" xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M240-160q-33 0-56.5-23.5T160-240q0-33 23.5-56.5T240-320q33 0 56.5 23.5T320-240q0 33-23.5 56.5T240-160Zm240 0q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm240 0q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160ZM240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400ZM240-640q-33 0-56.5-23.5T160-720q0-33 23.5-56.5T240-800q33 0 56.5 23.5T320-720q0 33-23.5 56.5T240-640Zm240 0q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Zm240 0q-33 0-56.5-23.5T640-720q0-33 23.5-56.5T720-800q33 0 56.5 23.5T800-720q0 33-23.5 56.5T720-640Z"/></svg>
+            </a>
+            <a href="#" class="flex align-center justify-center">
+              <svg  xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h240v80H120Zm0-200v-80h480v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- End DropdownSection -->
+
+    <!-- Start Filter & Product Section -->
+    <section class="container flex flex-row">
+    <div class="laptop-left">
+      <!-- Start Filters Section -->
+      <div class=" filter">
+      <div class="filter-top">
+        <p class="text-lg font-bold">Filters</p>
+        <a href="#" class="font-semibold text-md text-grey">Clear Filter</a>
+      </div>
+
+      <!-- Start Category Section -->
+      <div class="category-section">
+        <div class="category flex justify-between align-center">
+          <a href="#" class="text-md font-semibold text-black">Category</a>
+          <a href="#" class="text-black">
+            <i class="text-sm fa-solid fa-angle-up"></i>
+          </a>
+        </div>
+  
+        <div class="flex justify-between">
+          <div class="category-left">
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">CUSTOM PCS</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">MSI ALL-IN-ONE PCS</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">HP/COMPAQ PCS</p>
+            </a>
+          </div>
+  
+          <div class="category-right">
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">15</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">45</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">1</p>
+            </a>
+          </div>
+  
+        </div>
+      </div>
+      <!-- End Category Section -->
+
+      <!-- Start Price Section -->
+      <div class="price-section">
+        <div class="filter-price flex justify-between align-center">
+          <a href="#" class="text-md font-semibold text-black">Price</a>
+          <a href="#" class="text-black">
+            <i class="text-sm fa-solid fa-angle-up"></i>
+          </a>
+        </div>
+  
+        <div class="flex justify-between">
+          <div class="filter-price-left">
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$0.00 - $1,000.00</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$1,000.00 - $2,000.00</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$2,000.00 - $3,000.00</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$3,000.00 - $4,000.00</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$4,000.00 - $5,000.00</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$5,000.00 - $6,000.00</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$6,000.00 - $7,000.00</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">$7,000.00 And Above</p>
+            </a>
+            
+          </div>
+  
+          <div class="filter-price-right">
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">19</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">21</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">9</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">6</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">3</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">1</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">1</p>
+            </a>
+            <a href="#" class="text-black">
+              <p class="text-md font-regular">1</p>
+            </a>
+          </div>
+  
+        </div>
+      </div>
+      
+      <!-- End Price Section -->
+
+      <!-- Start Color Section -->
+      <div class="color-section">
+        <div class="filter-price flex justify-between align-center">
+          <a href="#" class="text-md font-semibold text-black">Color</a>
+          <a href="#" class="text-black">
+            <i class="text-sm fa-solid fa-angle-up"></i>
+          </a>
+        </div>
+
+        <div class="colors-name">
+          <input name="colors" type="radio">
+          <input name="colors" type="radio">
+        </div>
+      </div>
+      <!-- End Color Section -->
+
+      <!-- Start Filter Name Section -->
+      <div class="filter-name flex justify-between align-center">
+        <a href="#" class="text-md font-semibold text-black">Filter Name</a>
+        <a href="#" class="text-black">
+          <i class="text-sm fa-solid fa-angle-down"></i>
+        </a>
+      </div>
+
+
+      <div class="">
+        <a href="#" class="filter-btn text-md text-white font-semibold">Apply Filters (2)</a>
+      </div>
+      <!-- End Filter Name Section -->
+
+
+      </div>
+      <!-- End Filters Section -->
+
+      <!-- Start Laptop Brand -->
+      <div class="laptop-brand flex flex-column align-center">
+        <div class="text-center brand-top">
+          <p class="text-black text-lg font-bold">Brands</p>
+          <a href="#" class="laptop-brand-btn text-grey text-md font-semibold">All Brands</a>
+        </div>
+        <table>
+          <tr>
+            <td class="laptop-brand-img-1">
+              <img src="../assets/imgs/brand-1.png" class="w-full h-full">
+            </td>
+            <td class="laptop-brand-img-1">
+              <img src="../assets/imgs/brand-2.png" class="w-full h-full">
+            </td>
+          </tr>
+          <tr>
+            <td class="laptop-brand-img-1">
+              <img src="../assets/imgs/brand-3.png" class="w-full h-full">
+            </td>
+            <td class="laptop-brand-img-1">
+              <img src="../assets/imgs/brand-4.png" class="w-full h-full">
+            </td>
+          </tr>
+          <tr>
+            <td class="laptop-brand-img-1">
+              <img src="../assets/imgs/brand-5.png" class="w-full h-full">
+            </td>
+            <td class="laptop-brand-img-1">
+              <img src="../assets/imgs/brand-6.png" class="w-full h-full">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- End Laptop Brand -->
+
+      <!-- Start Laptop Compare Products Section -->
+      <div class="text-center compare">
+        <p class="text-lg text-black font-bold">Compare Products</p>
+        <p class="text-sm text-black font-regular">You have no items to compare.</p>
+      </div>
+      <!-- End Laptop Compare Products Section -->
+
+      <!-- Start Laptop Wist-list Section -->
+      <div class="text-center Wist-list">
+        <p class="text-lg text-black font-bold">My Wish List</p>
+        <p class="text-sm text-black font-regular">You have no items in your wish list.</p>
+      </div>
+      <!-- End Laptop Wist-list Section -->
+
+      <!-- Start Chairs Section -->
+      <div class="chairs">
+        <img src="../assets/imgs/laptop-chairs.png" alt="">
+      </div>
+      <!-- End Chairs Section -->
+    </div>
+
+    <div class="laptop-right">
+      <!-- Start Custom Pcs -->
+      <div class="laptop-custom">
+        <a class="custom-1 text-black text-sm font-semibold">CUSTOM PCS&nbsp;<span class="text-sm font-regular text-grey">(24)</span>&nbsp;<i class="text-md text-red fa-solid fa-circle-xmark"></i></a>
+
+        <a class="custom-1 text-black text-sm font-semibold">HP/COMPAQ PCS&nbsp;<span class="text-sm font-regular text-grey">(24)</span>&nbsp;<i class="text-md text-red fa-solid fa-circle-xmark"></i></a>
+
+        <a href="#" class="custom-1 text-black text-sm font-semibold">Clear All</a>
+      </div>
+      <!-- End Custom Pcs -->
+
+      <!-- Start Product-list-view Section -->
+      <div class="laptop-product-list-1 flex">
+        <!--Start List View left -->
+        <div class="list-view-left flex flex-column justify-between">
+          <img class="product-list-img" src="../assets/imgs/laptop-img.png">
+          <div class="product-list-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star no-rating"></i>
+            &nbsp;
+            <span class="text-grey text-sm font-regular">Reviews (4)</span>
+          </div>
+        </div>
+        <!--Start List View left -->
+
+        <!--Start List View Center -->
+        <div class="list-view-center-1 flex flex-column justify-between">
+          <div class="flex flex-column justify-center laptop-description">
+            <p class="text-black font-light text-sm">SKU D5515AI</p>
+            <p class="text-black font-regular text-md">MSI CREATOR 17 A10SFS-240AU 17 UHD 4K HDR Thin Bezel Intel 10th Gen i7 10875H - RTX 2070 SUPER MAX Q - 16GB RAM - 1TB SSD NVME - Windows 10 PRO Laptop</p>
+            <div class="flex align-center price-1">
+              <span class="price-2 text-grey text-md font-regular">$499.00</span>
+            <span class="text-black text-xl font-semibold">$499.00</span>
+            </div>
+            
+          </div>
+          
+            <a href="#" class="flex cart-btn align-center">
+              <i class="cart-icon text-blue fa-solid fa-cart-shopping"></i>
+              <span class="text-blue text-md font-semibold">Add To Cart</span>
+            </a>
+        </div>
+        <!--End List View Center -->
+        <!--Start Featured -->
+        <div class="featured flex flex-column justify-center">
+          <p class="featured-1 text-sm font-regular text-black">CPU<span>N/A</span></p>
+          <p class="featured-2 text-sm font-regular text-black">Featured<span>N/A</span></p>
+          <p class="featured-3 text-sm font-regular text-black">I/O Ports<span>N/A</span></p>
+        </div>
+        <!--End Featured -->
+        <!--Start List View Right -->
+        <div class="list-view-right flex flex-column align-center justify-between">
+          <div class="stock flex flex-row justify-center text-green align-center">
+            <i class="text-xs fa-solid fa-circle-check"></i>&nbsp;
+            <span class="text-xs font-regular">in stock</span>
+          </div>
+
+          
+          <div class="list-view-right-icons flex align-center justify-center">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="#">
+              <img src="../assets/imgs/list-Group.svg" alt="">
+            </a>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+        </div>
+        <!--End List View Right -->
+      
+      </div>
+      <!-- End Product-list-view Section -->
+
+      <!-- Start Product-list-view Section -->
+      <div class="laptop-product-list-2 flex">
+        <!--Start List View left -->
+        <div class="list-view-left flex flex-column justify-between">
+          <img class="product-list-img" src="../assets/imgs/laptop-img.png">
+          <div class="product-list-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star no-rating"></i>
+            &nbsp;
+            <span class="text-grey text-sm font-regular">Reviews (4)</span>
+          </div>
+        </div>
+        <!--Start List View left -->
+
+        <!--Start List View Center -->
+        <div class="list-view-center-1 flex flex-column justify-between">
+          <div class="flex flex-column justify-center laptop-description">
+            <p class="text-black font-light text-sm">SKU D5515AI</p>
+            <p class="text-black font-regular text-md">MSI CREATOR 17 A10SFS-240AU 17 UHD 4K HDR Thin Bezel Intel 10th Gen i7 10875H - RTX 2070 SUPER MAX Q - 16GB RAM - 1TB SSD NVME - Windows 10 PRO Laptop</p>
+            <div class="flex align-center price-1">
+              <span class="price-2 text-grey text-md font-regular">$499.00</span>
+            <span class="text-black text-xl font-semibold">$499.00</span>
+            </div>
+            
+          </div>
+          
+            <a href="#" class="flex cart-btn align-center">
+              <i class="cart-icon text-blue fa-solid fa-cart-shopping"></i>
+              <span class="text-blue text-md font-semibold">Add To Cart</span>
+            </a>
+        </div>
+        <!--End List View Center -->
+        <!--Start Featured -->
+        <div class="featured flex flex-column justify-center">
+          <p class="featured-1 text-sm font-regular text-black">CPU<span>N/A</span></p>
+          <p class="featured-2 text-sm font-regular text-black">Featured<span>N/A</span></p>
+          <p class="featured-3 text-sm font-regular text-black">I/O Ports<span>N/A</span></p>
+        </div>
+        <!--End Featured -->
+        <!--Start List View Right -->
+        <div class="list-view-right flex flex-column align-center justify-between">
+          <div class="stock flex flex-row justify-center text-green align-center">
+            <i class="text-xs fa-solid fa-circle-check"></i>&nbsp;
+            <span class="text-xs font-regular">in stock</span>
+          </div>
+
+          
+          <div class="list-view-right-icons flex align-center justify-center">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="#">
+              <img src="../assets/imgs/list-Group.svg" alt="">
+            </a>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+        </div>
+        <!--End List View Right -->
+      
+      </div>
+      <!-- End Product-list-view Section -->
+      <!-- Start Product-list-view Section -->
+      <div class="laptop-product-list-2 flex">
+        <!--Start List View left -->
+        <div class="list-view-left flex flex-column justify-between">
+          <img class="product-list-img" src="../assets/imgs/laptop-img.png">
+          <div class="product-list-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star no-rating"></i>
+            &nbsp;
+            <span class="text-grey text-sm font-regular">Reviews (4)</span>
+          </div>
+        </div>
+        <!--Start List View left -->
+
+        <!--Start List View Center -->
+        <div class="list-view-center-1 flex flex-column justify-between">
+          <div class="flex flex-column justify-center laptop-description">
+            <p class="text-black font-light text-sm">SKU D5515AI</p>
+            <p class="text-black font-regular text-md">MSI CREATOR 17 A10SFS-240AU 17 UHD 4K HDR Thin Bezel Intel 10th Gen i7 10875H - RTX 2070 SUPER MAX Q - 16GB RAM - 1TB SSD NVME - Windows 10 PRO Laptop</p>
+            <div class="flex align-center price-1">
+              <span class="price-2 text-grey text-md font-regular">$499.00</span>
+            <span class="text-black text-xl font-semibold">$499.00</span>
+            </div>
+            
+          </div>
+          
+            <a href="#" class="flex cart-btn align-center">
+              <i class="cart-icon text-blue fa-solid fa-cart-shopping"></i>
+              <span class="text-blue text-md font-semibold">Add To Cart</span>
+            </a>
+        </div>
+        <!--End List View Center -->
+        <!--Start Featured -->
+        <div class="featured flex flex-column justify-center">
+          <p class="featured-1 text-sm font-regular text-black">CPU<span>N/A</span></p>
+          <p class="featured-2 text-sm font-regular text-black">Featured<span>N/A</span></p>
+          <p class="featured-3 text-sm font-regular text-black">I/O Ports<span>N/A</span></p>
+        </div>
+        <!--End Featured -->
+        <!--Start List View Right -->
+        <div class="list-view-right flex flex-column align-center justify-between">
+          <div class="stock flex flex-row justify-center text-green align-center">
+            <i class="text-xs fa-solid fa-circle-check"></i>&nbsp;
+            <span class="text-xs font-regular">in stock</span>
+          </div>
+
+          
+          <div class="list-view-right-icons flex align-center justify-center">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="#">
+              <img src="../assets/imgs/list-Group.svg" alt="">
+            </a>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+        </div>
+        <!--End List View Right -->
+      
+      </div>
+      <!-- End Product-list-view Section -->
+      <!-- Start Product-list-view Section -->
+      <div class="laptop-product-list-2 flex">
+        <!--Start List View left -->
+        <div class="list-view-left flex flex-column justify-between">
+          <img class="product-list-img" src="../assets/imgs/laptop-img.png">
+          <div class="product-list-icons">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star no-rating"></i>
+            &nbsp;
+            <span class="text-grey text-sm font-regular">Reviews (4)</span>
+          </div>
+        </div>
+        <!--Start List View left -->
+
+        <!--Start List View Center -->
+        <div class="list-view-center-1 flex flex-column justify-between">
+          <div class="flex flex-column justify-center laptop-description">
+            <p class="text-black font-light text-sm">SKU D5515AI</p>
+            <p class="text-black font-regular text-md">MSI CREATOR 17 A10SFS-240AU 17 UHD 4K HDR Thin Bezel Intel 10th Gen i7 10875H - RTX 2070 SUPER MAX Q - 16GB RAM - 1TB SSD NVME - Windows 10 PRO Laptop</p>
+            <div class="flex align-center price-1">
+              <span class="price-2 text-grey text-md font-regular">$499.00</span>
+            <span class="text-black text-xl font-semibold">$499.00</span>
+            </div>
+            
+          </div>
+          
+            <a href="#" class="flex cart-btn align-center">
+              <i class="cart-icon text-blue fa-solid fa-cart-shopping"></i>
+              <span class="text-blue text-md font-semibold">Add To Cart</span>
+            </a>
+        </div>
+        <!--End List View Center -->
+        <!--Start Featured -->
+        <div class="featured flex flex-column justify-center">
+          <p class="featured-1 text-sm font-regular text-black">CPU<span>N/A</span></p>
+          <p class="featured-2 text-sm font-regular text-black">Featured<span>N/A</span></p>
+          <p class="featured-3 text-sm font-regular text-black">I/O Ports<span>N/A</span></p>
+        </div>
+        <!--End Featured -->
+        <!--Start List View Right -->
+        <div class="list-view-right flex flex-column align-center justify-between">
+          <div class="stock flex flex-row justify-center text-green align-center">
+            <i class="text-xs fa-solid fa-circle-check"></i>&nbsp;
+            <span class="text-xs font-regular">in stock</span>
+          </div>
+
+          
+          <div class="list-view-right-icons flex align-center justify-center">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="#">
+              <img src="../assets/imgs/list-Group.svg" alt="">
+            </a>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+        </div>
+        <!--End List View Right -->
+      
+      </div>
+      <!-- End Product-list-view Section -->
+
+      <!-- Start Pagination Section -->
+      <div class="laptop-pagination flex justify-center align-center">
+        <a class="text-sm text-grey font-semibold" href="#">
+          <i class="fa-solid fa-angle-left"></i>
+        </a>
+        <a class="text-sm text-grey font-semibold" href="#">1</a>
+        <a class="active text-sm text-grey font-semibold" href="#">2</a>
+        <a class="text-sm text-grey font-semibold" href="#">3</a>
+        <span class="text-sm text-grey font-semibold">...</span>
+        <a class="text-sm text-grey font-semibold" href="#">15</a>
+        <a class="text-sm text-grey font-semibold" href="#">
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+      <!-- End Pagination Section -->
+
+      <!-- Start MSI Description Section -->
+      <div class="msi-description">
+        <div class="white-overlay"></div>
+        <p>MSI has unveiled the Prestige Series line of business-class and gaming notebooks. Tuned for color accuracy, the Prestige Series also leverages True Color Technology, which allows users to adjust the display profile to best fit their computing needs.
+        </p>
+        <br>
+        <p>There are six different screen profiles, which are tuned for gaming, reducing eye fatigue, sRGB color accuracy, increasing clarity for words and lines, reducing harmful blue light, and optimizing contrast for watching movies.
+        </p>
+
+        <p>Given the various display profiles and discrete graphics chip, the Prestige Series notebooks can be used for various design work as well as for office tasks given that the screen can be adjusted for better clarity, color accuracy, or for eye strain reduction. Users working with video or 3D rendering will appreciate the "movie mode" for which contrast is increased.
+        </p>
+        <br>
+        <p>Home users or students can benefit from the "anti-blue" and the "office mode" options, both of which are designed to reduce eye strain. This is helpful when working on the computer for extended periods of time. Additionally, in their down time, students can also use the "gamer mode" to increase the screen brightness.</p>
+      </div>
+      <div class="flex justify-center align-center msi-description-more">
+        <a href="#" class="text-md text-grey font-semibold">More</a>
+      </div>
+      <!-- End MSI Description Section -->
+      
+    </div>
+    
+    </section>
+    <!-- End Filter & Product Section -->
+    
+
+
+    <!-- Start Icons Section -->
+    <section class="container laptop-page-icons flex justify-around">
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-headset icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Product Support</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 3 years on-site warranty available for your peace of mind.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-circle-user icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Personal Account</p>
+        <p class="icon-text-2 text-black text-md font-regular">With big discounts, free delivery and a dedicated support specialist.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-tag icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Amazing Savings</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 70% off new Products, you can be sure of the best price.</p>
+      </div>
+    </section>
+    <!-- End Icons Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer">
+      <div class="container footer-top flex justify-between">
+        <div class="footer-top-left align-center">
+          <p class="footer-top-text-1 text-white text-xlll font-medium">Sign Up To Our Newsletter.</p>
+          <p class="footer-top-text-2 p2 text-white font-light text-lg">Be the first to hear about the latest offers.</p>
+        </div>
+        <div class="footer-top-right justify-center align-center">
+          <input type="email" placeholder="Your Email" class="email text-white">
+          <input type="submit" value="Subscribe" class="text-md font-semibold text-white btn">
+        </div>
+      </div>
+
+      <div class="container footer-middel-1 flex justify-between">
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Information</h6>
+          <p>
+            <a href="./about-us.html" class="text-sm font-regular text-white">About Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">About Zip</a>
+          </p>
+          <p>
+            <a href="./faq.html" class="text-sm font-regular text-white">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Terms</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Orders and Returns</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Contact Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Advanced Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Newsletter Subscription</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">PC Parts</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">CPUS</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Add On Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Hard Drives (Internal)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Graphic Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Keyboards / Mice</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Cases / Power Supplies / Cooling</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">RAM (Memory)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Software</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Speakers / Headsets</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Motherboards</a>
+          </p>
+
+
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Desktop PCs</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Custom PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Servers</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI All-In-One PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">HP/Compaq PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">ASUS PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tecs PCs</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Laptops</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Evryday Use Notebooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Workstation Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Prestige Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tablets and Pads</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Netbooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Infinity Gaming Notebooks</a>
+          </p>
+          
+        </div>
+
+
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Address</h6>
+          <p class="text-sm font-regular text-white">Address: 1234 Street Adress City Address, 1234</p>
+          <p class="text-sm font-regular text-white">Phones: <a href="#" class="text-blue">(00) 1234 5678</a></p>
+          <p class="text-sm font-regular text-white">We are open: Monday-Thursday: 9:00 AM - 5:30 PM</p>
+          <p class="text-sm font-regular text-white">Friday: 9:00 AM - 6:00 PM</p>
+          <p class="text-sm font-regular text-white">Saturday: 11:00 AM - 5:00 PM</p>
+          <p class="text-sm font-regular text-white">E-mail: <a href="#" class="text-blue">shop@email.com</a></p>
+        </div>
+
+      </div>
+
+      
+      <div class="container footer-middel-2 flex justify-center">
+        <div class="informaition-1 align-center">
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Information</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">PC Parts</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Desktop PCs</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Laptops</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Address</a>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="container footer-bottom flex align-center justify-between">
+        <div class="footer-icons text-white align-center">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="payment-by align-center">
+          <img src="../assets/imgs/paypal.png" alt="paypal">
+          <img src="../assets/imgs/visa.png" alt="visa">
+          <img src="../assets/imgs/maestro.png" alt="master">
+          <img src="../assets/imgs/discover.png" alt="discover">
+          <img src="../assets/imgs/american-express.png" alt="american-express">
+        </div>
+        <div class="copyright">
+          <p class="text-white text-sm font-medium">Copyright &copy; 2023 DevFirm Ltd.</p>
+        </div>
+      </div>
+
+
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Inline JavaScript -->
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+
+    <!-- Js File -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

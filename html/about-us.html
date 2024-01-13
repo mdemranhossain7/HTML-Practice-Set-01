@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Application</title>
+    <link rel="stylesheet" href="../css/all.min.css"/>
+    <link rel="stylesheet" href="../css/slick-theme.css"/>
+    <link rel="stylesheet" href="../css/slick.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+  </head>
+  <body>
+
+    <!-- Start Header Section -->
+    <header>
+      <div class="container flex justify-between align-center">
+        <button type="button" class="flex justify-start align-center">
+          <p class="dates text-grey text-sm font-semibold">Mon-Thu:</p>
+          &nbsp;
+          <p class="times text-white text-sm font-semibold">9:00 AM - 5:30 PM &nbsp; <i class="fa-solid fa-angle-down"></i></p>
+        </button>
+        <div class="address">
+          <p class="text-grey text-sm font-semibold">Visit our showroom in 1234 Street Address City Address, 1234 &nbsp;<a href="./contact.html"  class="text-white text-sm font-semibold">Contact Us</a>&nbsp;</p>
+        </div>
+        <div class="socials flex text-white justify-start align-center">
+          <p class="text-white text-sm font-semibold phone-number">Call Us: (00) 1234 5678</p>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start navbar Section -->
+    <nav uk-sticky="start: 200; animation: uk-animation-slide-top">
+      <div class="container flex justify-between align-center">
+        <div class="navbar-area flex justify-start align-center">
+          <a href="/index.html" class="logo flex">
+            <img src="../assets/imgs/logo.png" alt="">
+          </a>
+          <div class="navbar-items flex justify-center align-center">
+            <a href="./laptops.html" class="nav-link">Laptops</a>
+            <a href="#" class="nav-link">Desktop</a>
+            <a href="#" class="nav-link">Networking Devices</a>
+            <a href="#" class="nav-link">Printers & Scanners</a>
+            <a href="#" class="nav-link">PC Parts</a>
+            <a href="#" class="nav-link">All Other Products</a>
+            <a href="#" class="nav-link">Repairs</a>
+            <button class="deals text-md font-semibold">Our Deals</button>
+          </div>
+        </div>
+        <div class="account flex justify-start align-center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="./shopping-cart-1.html" class="text-black">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="./user-account.html">
+            <img src="../assets/imgs/profile.png" class="profile-icon">
+          </a>
+          <a href="#" class="menu-icon" onclick=showSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </a>
+        </div>
+        <div class="sidebar navbar-items">
+          <a href="#" class="nav-link" onclick=hideSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </a>
+          <a href="#" class="nav-link">Laptops</a>
+          <a href="#" class="nav-link">Desktop</a>
+          <a href="#" class="nav-link">Networking Devices</a>
+          <a href="#" class="nav-link">Printers & Scanners</a>
+          <a href="#" class="nav-link">PC Parts</a>
+          <a href="#" class="nav-link">All Other Products</a>
+          <a href="#" class="nav-link">Repairs</a>
+          <button class="deals text-md font-semibold">Our Deals</button>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar Section -->
+
+
+    <!-- Start Laptop Tabs -->
+    <Section class="laptop-tabs">
+        <div class="container flex align-center">
+            <a href="/index.html" class="tabs-text-1">Home</a>
+            <a href="#" class="right-arrow">›</a>
+            <a href="#" class="tabs-text-1">About Us</a>
+        </div>
+    </Section>
+    <!-- End Laptop Tabs -->
+
+    <!-- Start User Account Section -->
+    <div class="user-account container">
+
+        <!-- Start User Account Top -->
+        <div class="customer-top">
+            <h1 class="text-black font-semibold">About Us</h1>
+        </div>
+        <br>
+        <!-- End User Account Top -->
+    </div>
+    <!-- End User Account Section -->
+
+
+    <!-- Start About Us Top -->
+    <div class="about-us-top">
+      <div class="about-us-top-items container flex flex-row justify-center align-center">
+
+        <div class="about-us-top-left flex flex-column">
+          <h1 class="text-white font-medium">A Family That Keeps On Growing</h1>
+
+          <p class="text-white font-light text-xl">We always aim to please the home market, supplying great computers and hardware at great prices to non-corporate customers, through our large Melbourne CBD showroom and our online store.</p>
+
+          <p class="text-white font-light text-xl">Shop management approach fosters a strong customer service focus in our staff. We prefer to cultivate long-term client relationships rather than achieve quick sales, demonstrated in the measure of our long-term success.</p>
+        </div>
+
+        <div class="about-us-top-right">
+          <img src="../assets/imgs/about-img-1.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- End About Us Top -->
+
+    <!-- Start About Us Middle -->
+    <div class="about-us-middle">
+      <div class="about-us-middle-items container flex flex-row justify-center align-center">
+
+        
+        <div class="about-us-middle-left">
+          <img src="../assets/imgs/about-img-2.png" alt="">
+        </div>
+
+        <div class="about-us-middle-right flex flex-column">
+          <div class="about-us-middle-right-top flex align-center flex-row">
+            <img src="../assets/imgs/logo-2.svg" alt="">
+            <h1 class="font-medium text-black">Shop.com</h1>
+          </div>
+
+          <p class="text-black font-regular text-xl">Shop.com <span class="text-black font-light text-xl">is a proudly Australian owned, Melbourne based supplier of I.T. goods and services, operating since 1991. Our client base encompasses individuals, small business, corporate and government organisations. We provide complete business IT solutions, centred on high quality hardware and exceptional customer service.</span></p>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- End About Us Middle -->
+
+
+
+    <!-- Start About Us Middle 3 -->
+    <div class="about-us-middle-3">
+      <div class="about-us-middle-items-3 container flex flex-row justify-center align-center">
+
+        <div class="about-us-middle-left-3 flex flex-column">
+          <div class="about-us-middle-left-top-3 flex flex-row">
+            <a href="#">
+              <i class="fa-solid fa-heart"></i>
+            </a>
+            <h1 class="font-medium text-white">Now You're In Safe
+              Hands</h1>
+          </div>
+
+          <p class="text-white font-light text-xl">Experience a 40% boost in computing from last generation. MSI Desktop equips the 10th Gen. Intel® Core™ i7 processor with the upmost computing power to bring you an unparalleled gaming experience.
+          </p>
+
+          <p class="text-white font-light text-xl">*Performance compared to i7-9700. Specs varies by model.</p>
+
+        </div>
+
+        <div class="about-us-middle-right-3">
+          <img src="../assets/imgs/about-img-3.png" alt="">
+        </div>
+
+      </div>
+    </div>
+    <!-- End About Us Middle 3 -->
+
+
+
+    <!-- Start About Us Middle 4 -->
+    <div class="about-us-middle">
+      <div class="about-us-middle-items container flex flex-row justify-center align-center">
+
+        
+        <div class="about-us-middle-left">
+          <img src="../assets/imgs/about-img-4.png" alt="">
+        </div>
+
+        <div class="about-us-middle-right flex flex-column">
+          <div class="about-us-middle-right-top flex flex-row">
+            <a href="#">
+              <i class="fa-solid fa-star"></i>
+            </a>
+            <h1 class="font-medium text-black">The Highest Quality of Products</h1>
+          </div>
+
+          <p class="text-black font-light text-xl">We guarantee the highest quality of the products we sell. Several decades of successful operation and millions of happy customers let us feel certain about that. Besides, all items we sell pass thorough quality control, so no characteristics mismatch can escape the eye of our professionals.</p>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- End About Us Middle 4 -->
+
+    
+    <!-- Start About Us Middle 5 -->
+    <div class="about-us-middle-3">
+      <div class="about-us-middle-items-3 container flex flex-row justify-center align-center">
+
+        <div class="about-us-middle-left-3 flex flex-column">
+          <div class="about-us-middle-left-top-3 flex flex-row">
+            <a href="#">
+              <i class="fa-solid fa-truck"></i>
+            </a>
+            <h1 class="font-medium text-white">We Deliver to Any Regions</h1>
+          </div>
+
+          <p class="text-white font-light text-xl">We deliver our goods all across Australia. No matter where you live, your order will be shipped in time and delivered right to your door or to any other location you have stated. The packages are handled with utmost care, so the ordered products will be handed to you safe and sound, just like you expect them to be.
+          </p>
+
+        </div>
+
+        <div class="about-us-middle-right-3">
+          <img src="../assets/imgs/about-img-5.png" alt="">
+        </div>
+
+      </div>
+    </div>
+    <!-- End About Us Middle 5 -->
+
+
+
+
+
+
+<!-- Start Feedback Section -->
+<section class="container feedback-2">
+    <div class="flex justify-between align-center">
+      <p class="text-1 font-regular">‘’</p>
+      <p class="text-2">My first order arrived today in perfect condition.  From the time I sent a question about the item to making the purchase, to the shipping and now the delivery, your company, Tecs, has stayed in touch.  Such great service.  I look forward to shopping on your site in the future and would highly recommend it.</p>
+    </div>
+    <div class="name">
+      <p class="text-3 text-md font-regular">- Tama Brown</p>
+    </div>
+    <div class="flex align-center justify-between">
+      <button class="leave-review text-md font-semibold">Leave Us A Review</button>
+      <div class="text-sm feedback-icons">
+        <i class="text-blue fa-solid fa-circle fa-fw"></i>
+        <i class="text-grey fa-solid fa-circle fa-fw"></i>
+        <i class="text-grey fa-solid fa-circle fa-fw"></i>
+        <i class="text-grey fa-solid fa-circle fa-fw"></i>
+      </div>
+    </div>
+  </section>
+  <!-- End Feedback Section -->
+
+
+
+    <!-- Start Icons Section -->
+    <section class="container laptop-page-icons flex justify-around">
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-headset icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Product Support</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 3 years on-site warranty available for your peace of mind.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-circle-user icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Personal Account</p>
+        <p class="icon-text-2 text-black text-md font-regular">With big discounts, free delivery and a dedicated support specialist.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-tag icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Amazing Savings</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 70% off new Products, you can be sure of the best price.</p>
+      </div>
+    </section>
+    <!-- End Icons Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer">
+      <div class="container footer-top flex justify-between">
+        <div class="footer-top-left align-center">
+          <p class="footer-top-text-1 text-white text-xlll font-medium">Sign Up To Our Newsletter.</p>
+          <p class="footer-top-text-2 p2 text-white font-light text-lg">Be the first to hear about the latest offers.</p>
+        </div>
+        <div class="footer-top-right justify-center align-center">
+          <input type="email" placeholder="Your Email" class="email text-white">
+          <input type="submit" value="Subscribe" class="text-md font-semibold text-white btn">
+        </div>
+      </div>
+
+      <div class="container footer-middel-1 flex justify-between">
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Information</h6>
+          <p>
+            <a href="./about-us.html" class="text-sm font-regular text-white">About Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">About Zip</a>
+          </p>
+          <p>
+            <a href="./faq.html" class="text-sm font-regular text-white">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Terms</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Orders and Returns</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Contact Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Advanced Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Newsletter Subscription</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">PC Parts</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">CPUS</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Add On Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Hard Drives (Internal)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Graphic Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Keyboards / Mice</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Cases / Power Supplies / Cooling</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">RAM (Memory)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Software</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Speakers / Headsets</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Motherboards</a>
+          </p>
+
+
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Desktop PCs</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Custom PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Servers</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI All-In-One PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">HP/Compaq PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">ASUS PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tecs PCs</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Laptops</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Evryday Use Notebooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Workstation Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Prestige Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tablets and Pads</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Netbooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Infinity Gaming Notebooks</a>
+          </p>
+          
+        </div>
+
+
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Address</h6>
+          <p class="text-sm font-regular text-white">Address: 1234 Street Adress City Address, 1234</p>
+          <p class="text-sm font-regular text-white">Phones: <a href="#" class="text-blue">(00) 1234 5678</a></p>
+          <p class="text-sm font-regular text-white">We are open: Monday-Thursday: 9:00 AM - 5:30 PM</p>
+          <p class="text-sm font-regular text-white">Friday: 9:00 AM - 6:00 PM</p>
+          <p class="text-sm font-regular text-white">Saturday: 11:00 AM - 5:00 PM</p>
+          <p class="text-sm font-regular text-white">E-mail: <a href="#" class="text-blue">shop@email.com</a></p>
+        </div>
+
+      </div>
+
+      
+      <div class="container footer-middel-2 flex justify-center">
+        <div class="informaition-1 align-center">
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Information</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">PC Parts</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Desktop PCs</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Laptops</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Address</a>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="container footer-bottom flex align-center justify-between">
+        <div class="footer-icons text-white align-center">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="payment-by align-center">
+          <img src="../assets/imgs/paypal.png" alt="paypal">
+          <img src="../assets/imgs/visa.png" alt="visa">
+          <img src="../assets/imgs/maestro.png" alt="master">
+          <img src="../assets/imgs/discover.png" alt="discover">
+          <img src="../assets/imgs/american-express.png" alt="american-express">
+        </div>
+        <div class="copyright">
+          <p class="text-white text-sm font-medium">Copyright &copy; 2023 DevFirm Ltd.</p>
+        </div>
+      </div>
+
+
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Inline JavaScript -->
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+
+    <!-- Js File -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

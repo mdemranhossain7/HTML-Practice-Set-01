@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Application</title>
+    <link rel="stylesheet" href="../css/all.min.css"/>
+    <link rel="stylesheet" href="../css/slick-theme.css"/>
+    <link rel="stylesheet" href="../css/slick.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+  </head>
+  <body>
+
+    <!-- Start Header Section -->
+    <header>
+      <div class="container flex justify-between align-center">
+        <button type="button" class="flex justify-start align-center">
+          <p class="dates text-grey text-sm font-semibold">Mon-Thu:</p>
+          &nbsp;
+          <p class="times text-white text-sm font-semibold">9:00 AM - 5:30 PM &nbsp; <i class="fa-solid fa-angle-down"></i></p>
+        </button>
+        <div class="address">
+          <p class="text-grey text-sm font-semibold">Visit our showroom in 1234 Street Address City Address, 1234 &nbsp;<a href="./contact.html"  class="text-white text-sm font-semibold">Contact Us</a>&nbsp;</p>
+        </div>
+        <div class="socials flex text-white justify-start align-center">
+          <p class="text-white text-sm font-semibold phone-number">Call Us: (00) 1234 5678</p>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start navbar Section -->
+    <nav uk-sticky="start: 200; animation: uk-animation-slide-top">
+      <div class="container flex justify-between align-center">
+        <div class="navbar-area flex justify-start align-center">
+          <a href="/index.html" class="logo flex">
+            <img src="../assets/imgs/logo.png" alt="">
+          </a>
+          <div class="navbar-items flex justify-center align-center">
+            <a href="./laptops.html" class="nav-link">Laptops</a>
+            <a href="#" class="nav-link">Desktop</a>
+            <a href="#" class="nav-link">Networking Devices</a>
+            <a href="#" class="nav-link">Printers & Scanners</a>
+            <a href="#" class="nav-link">PC Parts</a>
+            <a href="#" class="nav-link">All Other Products</a>
+            <a href="#" class="nav-link">Repairs</a>
+            <button class="deals text-md font-semibold">Our Deals</button>
+          </div>
+        </div>
+        <div class="account flex justify-start align-center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="./shopping-cart-1.html" class="text-black">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="./customer-login.html">
+            <img src="../assets/imgs/profile.png" class="profile-icon">
+          </a>
+          <a href="#" class="menu-icon" onclick=showSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </a>
+        </div>
+        <div class="sidebar navbar-items">
+          <a href="#" class="nav-link" onclick=hideSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </a>
+          <a href="#" class="nav-link">Laptops</a>
+          <a href="#" class="nav-link">Desktop</a>
+          <a href="#" class="nav-link">Networking Devices</a>
+          <a href="#" class="nav-link">Printers & Scanners</a>
+          <a href="#" class="nav-link">PC Parts</a>
+          <a href="#" class="nav-link">All Other Products</a>
+          <a href="#" class="nav-link">Repairs</a>
+          <button class="deals text-md font-semibold">Our Deals</button>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar Section -->
+
+
+    <!-- Start Laptop Tabs -->
+    <Section class="laptop-tabs">
+        <div class="container flex align-center">
+            <a href="#" class="tabs-text-1">Home</a>
+            <a href="#" class="right-arrow">›</a>
+            <a href="#" class="tabs-text-1">Contact Us</a>
+        </div>
+    </Section>
+    <!-- End Laptop Tabs -->
+
+        <!-- Start Form Section -->
+    <section class="container flex flex-row justify-between">
+        <div class="form">
+            <h1 class="text-black font-semibold">Contact Us</h1>
+            <div class="form-text">
+              <p class="text-black font-light text-lg">We love hearing from you, our Shop customers.</p>
+              <p class="text-black font-light text-lg">Please contact us and we will make sure to get back to you as soon as we possibly can.</p>
+            </div>
+            <div class="form-inputs flex flex-row">
+              <div class="form-input-1">
+                <p class="text-black text-md font-semibold">Your Name <span class="text-md font-semibold">*</span></p>
+                <input type="text" placeholder="Your Name" class="text-md text-grey font-light">
+              </div>
+              <div class="form-input-1">
+                <p class="text-black text-md font-semibold">Your Email <span class="text-md font-semibold">*</span></p>
+                <input type="email" placeholder="Your Email" class="text-md text-grey font-light">
+              </div>
+              <div class="form-input-1">
+                <p class="text-black text-md font-semibold">Your Phone Number <span class="text-md font-semibold">*</span></p>
+                <input type="text" placeholder="Your Phone Number" class="text-md text-grey font-light">
+              </div>
+
+              <div class="form-input-2">
+                <p class="text-black text-md font-semibold">What’s on your mind? <span class="text-md font-semibold">*</span></p>
+                <input type="text" placeholder="Jot us a note and we’ll get back to you as quickly as possible" class="text-md text-grey font-light">
+              </div>
+              <!-- End Form Section -->
+
+              <a class="form-btn text-md font-semibold text-white" href="#">Submit</a>
+            </div>
+        </div>
+        <!-- Start Contact Section -->
+        <div class="contact-us">
+          <div class="contact-bar flex flex-column justify-center">
+
+            
+            <div class="flex contact-bar-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="contact-item-text">
+                <p class="text-black text-xl font-semibold">Address:</p>
+                <p class="text-black text-sm font-regular">1234 Street Adress City Address, 1234</p>
+              </div>
+            </div>
+
+            <div class="flex contact-bar-item">
+              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="bx:bx-time">
+                <path id="Vector" d="M17.5 28.85C11.2429 28.85 6.15 23.7571 6.15 17.5C6.15 11.2429 11.2429 6.15 17.5 6.15C23.7571 6.15 28.85 11.2429 28.85 17.5C28.85 23.7571 23.7571 28.85 17.5 28.85Z" stroke="black" stroke-width="2.3"/>
+                <path id="Vector_2" d="M18.6671 20.1069L19.5282 19.2455C19.6442 19.1309 19.7909 19.0525 19.9506 19.0197C20.1103 18.9869 20.276 19.0012 20.4277 19.0609L21.4772 19.4801C21.6305 19.5423 21.762 19.6486 21.855 19.7855C21.948 19.9223 21.9985 20.0837 22 20.2492V22.1721C21.9991 22.2847 21.9754 22.3959 21.9304 22.4991C21.8854 22.6024 21.82 22.6954 21.7381 22.7726C21.6563 22.8499 21.5596 22.9098 21.454 22.9486C21.3483 22.9875 21.2359 23.0046 21.1235 22.9989C13.7696 22.5413 12.2857 16.3112 12.0051 13.9268C11.9921 13.8097 12.004 13.6912 12.04 13.5791C12.0761 13.4669 12.1355 13.3637 12.2143 13.2761C12.2931 13.1886 12.3895 13.1187 12.4972 13.0711C12.605 13.0235 12.7215 12.9993 12.8393 13H14.696C14.8617 13.0005 15.0235 13.0506 15.1605 13.1438C15.2975 13.237 15.4035 13.3691 15.4649 13.523L15.8839 14.5729C15.9455 14.7241 15.9612 14.8901 15.9291 15.0501C15.897 15.2102 15.8184 15.3572 15.7032 15.4728L14.8421 16.3343C14.8421 16.3343 15.338 19.6916 18.6671 20.1069Z" fill="black"/>
+                </g>
+              </svg>
+              <div class="contact-item-text">
+                <p class="text-black text-xl font-semibold">Phone:</p>
+                <p class="text-black text-sm font-regular">(00)1234 5678</p>
+              </div>
+            </div>
+
+            <div class="flex contact-bar-item">
+              <i class="fa-regular fa-clock"></i>
+              
+              
+              <div class="contact-item-text">
+                <p class="text-black text-xl font-semibold">We are open:</p>
+                <p class="text-black text-sm font-regular">Monday - Thursday: 9:00 AM - 5:30 PM</p>
+                <p class="text-black text-sm font-regular">Friday 9:00 AM - 6:00 PM</p>
+                <p class="text-black text-sm font-regular">Saturday: 11:00 AM - 5:00 PM</p>
+              </div>
+            </div>
+
+
+            <div class="flex contact-bar-item">
+              <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="bx:bx-time">
+                <path id="Vector" d="M17.5 28.85C11.2429 28.85 6.15 23.7571 6.15 17.5C6.15 11.2429 11.2429 6.15 17.5 6.15C23.7571 6.15 28.85 11.2429 28.85 17.5C28.85 23.7571 23.7571 28.85 17.5 28.85Z" stroke="black" stroke-width="2.3"/>
+                <g id="Group">
+                <path id="Vector_2" d="M11.5 21.4646V13.9L17.5 18.1L23.5 13.9V21.4646" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                </g>
+              </svg>
+              <div class="contact-item-text">
+                <p class="text-black text-xl font-semibold">E-mail:</p>
+                <a href="#" class="text-blue text-sm font-regular">shop@email.com</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+    </section>
+        <!-- End Contact Section -->
+
+
+
+
+
+
+
+
+
+    <!-- Start Icons Section -->
+    <section class="container laptop-page-icons flex justify-around">
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-headset icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Product Support</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 3 years on-site warranty available for your peace of mind.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-circle-user icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Personal Account</p>
+        <p class="icon-text-2 text-black text-md font-regular">With big discounts, free delivery and a dedicated support specialist.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-tag icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Amazing Savings</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 70% off new Products, you can be sure of the best price.</p>
+      </div>
+    </section>
+    <!-- End Icons Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer">
+      <div class="container footer-top flex justify-between">
+        <div class="footer-top-left align-center">
+          <p class="footer-top-text-1 text-white text-xlll font-medium">Sign Up To Our Newsletter.</p>
+          <p class="footer-top-text-2 p2 text-white font-light text-lg">Be the first to hear about the latest offers.</p>
+        </div>
+        <div class="footer-top-right justify-center align-center">
+          <input type="email" placeholder="Your Email" class="email text-white">
+          <input type="submit" value="Subscribe" class="text-md font-semibold text-white btn">
+        </div>
+      </div>
+
+      <div class="container footer-middel-1 flex justify-between">
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Information</h6>
+          <p>
+            <a href="./about-us.html" class="text-sm font-regular text-white">About Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">About Zip</a>
+          </p>
+          <p>
+            <a href="./faq.html" class="text-sm font-regular text-white">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Terms</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Orders and Returns</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Contact Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Advanced Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Newsletter Subscription</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">PC Parts</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">CPUS</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Add On Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Hard Drives (Internal)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Graphic Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Keyboards / Mice</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Cases / Power Supplies / Cooling</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">RAM (Memory)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Software</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Speakers / Headsets</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Motherboards</a>
+          </p>
+
+
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Desktop PCs</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Custom PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Servers</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI All-In-One PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">HP/Compaq PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">ASUS PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tecs PCs</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Laptops</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Evryday Use Notebooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Workstation Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Prestige Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tablets and Pads</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Netbooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Infinity Gaming Notebooks</a>
+          </p>
+          
+        </div>
+
+
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Address</h6>
+          <p class="text-sm font-regular text-white">Address: 1234 Street Adress City Address, 1234</p>
+          <p class="text-sm font-regular text-white">Phones: <a href="#" class="text-blue">(00) 1234 5678</a></p>
+          <p class="text-sm font-regular text-white">We are open: Monday-Thursday: 9:00 AM - 5:30 PM</p>
+          <p class="text-sm font-regular text-white">Friday: 9:00 AM - 6:00 PM</p>
+          <p class="text-sm font-regular text-white">Saturday: 11:00 AM - 5:00 PM</p>
+          <p class="text-sm font-regular text-white">E-mail: <a href="#" class="text-blue">shop@email.com</a></p>
+        </div>
+
+      </div>
+
+      
+      <div class="container footer-middel-2 flex justify-center">
+        <div class="informaition-1 align-center">
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Information</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">PC Parts</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Desktop PCs</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Laptops</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Address</a>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="container footer-bottom flex align-center justify-between">
+        <div class="footer-icons text-white align-center">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="payment-by align-center">
+          <img src="../assets/imgs/paypal.png" alt="paypal">
+          <img src="../assets/imgs/visa.png" alt="visa">
+          <img src="../assets/imgs/maestro.png" alt="master">
+          <img src="../assets/imgs/discover.png" alt="discover">
+          <img src="../assets/imgs/american-express.png" alt="american-express">
+        </div>
+        <div class="copyright">
+          <p class="text-white text-sm font-medium">Copyright &copy; 2023 DevFirm Ltd.</p>
+        </div>
+      </div>
+
+
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Inline JavaScript -->
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+
+    <!-- Js File -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

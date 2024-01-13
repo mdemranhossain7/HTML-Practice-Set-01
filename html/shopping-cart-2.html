@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Application</title>
+    <link rel="stylesheet" href="../css/all.min.css"/>
+    <link rel="stylesheet" href="../css/slick-theme.css"/>
+    <link rel="stylesheet" href="../css/slick.css"/>
+    <link rel="stylesheet" href="../css/main.css"/>
+  </head>
+  <body>
+
+    <!-- Start Header Section -->
+    <header>
+      <div class="container flex justify-between align-center">
+        <button type="button" class="flex justify-start align-center">
+          <p class="dates text-grey text-sm font-semibold">Mon-Thu:</p>
+          &nbsp;
+          <p class="times text-white text-sm font-semibold">9:00 AM - 5:30 PM &nbsp; <i class="fa-solid fa-angle-down"></i></p>
+        </button>
+        <div class="address">
+          <p class="text-grey text-sm font-semibold">Visit our showroom in 1234 Street Address City Address, 1234 &nbsp;<a href="./contact.html"  class="text-white text-sm font-semibold">Contact Us</a>&nbsp;</p>
+        </div>
+        <div class="socials flex text-white justify-start align-center">
+          <p class="text-white text-sm font-semibold phone-number">Call Us: (00) 1234 5678</p>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start navbar Section -->
+    <nav uk-sticky="start: 200; animation: uk-animation-slide-top">
+      <div class="container flex justify-between align-center">
+        <div class="navbar-area flex justify-start align-center">
+          <a href="/index.html" class="logo flex">
+            <img src="../assets/imgs/logo.png" alt="">
+          </a>
+          <div class="navbar-items flex justify-center align-center">
+            <a href="./laptops.html" class="nav-link">Laptops</a>
+            <a href="#" class="nav-link">Desktop</a>
+            <a href="#" class="nav-link">Networking Devices</a>
+            <a href="#" class="nav-link">Printers & Scanners</a>
+            <a href="#" class="nav-link">PC Parts</a>
+            <a href="#" class="nav-link">All Other Products</a>
+            <a href="#" class="nav-link">Repairs</a>
+            <button class="deals text-md font-semibold">Our Deals</button>
+          </div>
+        </div>
+        <div class="account flex justify-start align-center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="./shopping-cart-1.html" class="text-black">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+          <a href="./user-account.html">
+            <img src="../assets/imgs/profile.png" class="profile-icon">
+          </a>
+          <a href="#" class="menu-icon" onclick=showSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </a>
+        </div>
+        <div class="sidebar navbar-items">
+          <a href="#" class="nav-link" onclick=hideSidebar()>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </a>
+          <a href="#" class="nav-link">Laptops</a>
+          <a href="#" class="nav-link">Desktop</a>
+          <a href="#" class="nav-link">Networking Devices</a>
+          <a href="#" class="nav-link">Printers & Scanners</a>
+          <a href="#" class="nav-link">PC Parts</a>
+          <a href="#" class="nav-link">All Other Products</a>
+          <a href="#" class="nav-link">Repairs</a>
+          <button class="deals text-md font-semibold">Our Deals</button>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar Section -->
+
+
+    <!-- Start Laptop Tabs -->
+    <Section class="laptop-tabs">
+        <div class="container flex align-center">
+            <a href="/index.html" class="tabs-text-1">Home</a>
+            <a href="#" class="right-arrow">›</a>
+            <a href="#" class="tabs-text-1">Shopping Cart</a>
+        </div>
+    </Section>
+    <!-- End Laptop Tabs -->
+
+    <!-- Start Shopping Cart 1 Section -->
+    <section class="customer container">
+        <div class="customer-top">
+            <h1 class="text-black font-semibold">Shopping Cart</h1>
+        </div>
+        <!-- Start Shopping Cart 1 Items And Summary Section -->
+        <div class="flex flex-row justify-between">
+            <!-- Start Shopping Cart 1 Items -->
+            <div class="shopping-cart-items">
+
+                <div class="shopping-cart-top flex justify-between">
+                    <p class="text-black text-md font-semibold">Item</p>
+                    <div class="flex justify-between shopping-cart-top-right">
+                        <p class="text-black text-md font-semibold">Price</p>
+                        <p class="text-black text-md font-semibold">Qty</p>
+                        <p class="text-black text-md font-semibold">Subtotal</p>
+                    </div>
+                </div>
+
+                <hr>
+                <!-- Start Shopping Cart Middle -->
+                <div class="shopping-cart-middle flex justify-between">
+                  <img src="../assets/imgs/shopping-cart-1.png" alt="">
+                  <p class="shopping-cart-middle-text-1 text-black text-md font-regular">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER, 32GB RAM, 1TB SSD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty</p>
+                  <p class="text-black text-lg font-semibold">$4,349.00</p>
+                  <input class="shopping-cart-middle-input"  type="number" value="1">
+                  <p class="text-black text-lg font-semibold">$13,047.00</p>
+                  <div class="shopping-cart-middle-icon flex flex-column">
+
+                    <a href="#">
+                      <svg width="24" height="24" viewBox="0 0 27 27" fill="#A2A6B0" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 108">
+                        <circle id="Ellipse 19" cx="13.4882" cy="13.4882" r="12.4882" fill="white" stroke="#CACDD8" stroke-width="2"/>
+                        <path id="Vector 16" d="M9.44189 9.44177L18.2093 18.2091" stroke="#A2A6B0" stroke-width="2" stroke-linecap="round"/>
+                        <path id="Vector 17" d="M18.2091 9.44177L9.44175 18.2091" stroke="#A2A6B0" stroke-width="2" stroke-linecap="round"/>
+                        </g>
+                        </svg>
+                    </a>
+
+                      <a href="#" class="text-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="27" fill="#A2A6B0" viewBox="0 -960 960 960" width="27"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93ZM320-320v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T663-540L443-320H320Zm300-263-37-37 37 37ZM380-380h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>
+                      </a>
+
+                  </div>
+                </div>
+                <!-- End Shopping Cart Middle -->
+
+                <hr>
+                <!-- Start Shopping Cart Middle -->
+                <div class="shopping-cart-middle flex justify-between">
+                  <img src="../assets/imgs/laptop-img.png" alt="">
+                  <p class="shopping-cart-middle-text-1 text-black text-md font-regular">MSI MEG Trident X 10SD-1012AU Intel i7 10700K, 2070 SUPER, 32GB RAM, 1TB SSD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty</p>
+                  <p class="text-black text-lg font-semibold">$4,349.00</p>
+                  <input class="shopping-cart-middle-input"  type="number" value="1">
+                  <p class="text-black text-lg font-semibold">$13,047.00</p>
+                  <div class="shopping-cart-middle-icon flex flex-column">
+
+                    <a href="#">
+                      <svg width="24" height="24" viewBox="0 0 27 27" fill="#A2A6B0" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Group 108">
+                        <circle id="Ellipse 19" cx="13.4882" cy="13.4882" r="12.4882" fill="white" stroke="#CACDD8" stroke-width="2"/>
+                        <path id="Vector 16" d="M9.44189 9.44177L18.2093 18.2091" stroke="#A2A6B0" stroke-width="2" stroke-linecap="round"/>
+                        <path id="Vector 17" d="M18.2091 9.44177L9.44175 18.2091" stroke="#A2A6B0" stroke-width="2" stroke-linecap="round"/>
+                        </g>
+                        </svg>
+                    </a>
+
+                      <a href="#" class="text-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="27" fill="#A2A6B0" viewBox="0 -960 960 960" width="27"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93ZM320-320v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q8 9 12.5 20t4.5 22q0 11-4 22.5T663-540L443-320H320Zm300-263-37-37 37 37ZM380-380h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg>
+                      </a>
+
+                  </div>
+                </div>
+                <!-- End Shopping Cart Middle -->
+                
+                <hr>
+
+                <!-- Start Shopping Cart Bottom -->
+                <div class="shopping-cart-bottom flex flex-row justify-between">
+                  <div class="cart-btn-left flex align-center">
+                    <a href="#" class="cart-btn-1 text-md font-semibold text-grey">Continue Shopping</a>
+                    <a href="#" class="cart-btn-2 text-md font-semibold text-white">Clear Shopping Cart</a>
+                  </div>
+                  <div class="cart-btn-left flex align-center">
+                    <a href="#" class="cart-btn-3 text-md font-semibold text-white">Update Shopping Cart</a>
+                  </div>
+                  
+                </div>
+                <!-- End Shopping Cart Bottom -->
+            </div>
+            <!-- End Shopping Cart 1 Items -->
+            
+            <!-- Start Summary Section -->
+            <div class="shopping-cart-summary">
+              <!-- Start Summary Top -->
+              <div class="shopping-cart-summary-top">
+                <p class="text-black font-semibold">Summary</p>
+              </div>
+              <!-- End Summary Top -->
+              <!-- Start Summary Middle 1 -->
+              <div class="shopping-cart-summary-middle-1 flex flex-column">
+                <div class="summary-middle-item-1 flex align-center justify-between">
+                  <span class="text-black font-regular text-xl">Estimate Shipping and Tax</span>
+                  <a href="./shopping-cart-1.html" class="text-black">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+
+                
+
+                <p class="summary-middle-item-2 text-grey text-md font-regular">Enter your destination to get a shipping estimate.</p>
+
+                <!-- Start Estimate Shipping and Tax Dropdown -->
+                <div>
+
+                    <div class="country">
+                        <p class="text-black text-md font-semibold">Country</p>
+                        <div class="country-name">
+                            <select>
+                                <option class="text-black text-md font-regular" value="country">Country</option>
+                                <option class="text-black text-md font-regular" value="ar">Argentina</option>
+                                <option class="text-black text-md font-regular" value="au">Australia</option>
+                                <option class="text-black text-md font-regular" value="bt">Bhutan</option>
+                                <option class="text-black text-md font-regular" value="br">Brazil</option>
+                                <option class="text-black text-md font-regular" value="bd">Bangladesh</option>
+                                <option class="text-black text-md font-regular" value="cn">China</option>
+                                <option class="text-black text-md font-regular" value="fr">France</option>
+                                <option class="text-black text-md font-regular" value="in">India</option>
+                                <option class="text-black text-md font-regular" value="id">Indonesia</option>
+                                <option class="text-black text-md font-regular" value="jp">Japan</option>
+                                <option class="text-black text-md font-regular" value="my">Malaysia</option>
+                                <option class="text-black text-md font-regular" value="sa">Saudi Arabia</option>
+                                <option class="text-black text-md font-regular" value="us" selected>United States</option>
+                                <option class="text-black text-md font-regular" value="ye">Yemen</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="state">
+                      <p class="text-black text-md font-semibold">State/Province</p>
+                      <input type="text">
+                    </div>
+
+                    <div class="state">
+                      <p class="text-black text-md font-semibold">Zip/Postal Code</p>
+                      <input type="text">
+                    </div>
+
+                    <div class="radio-btn">
+
+                      <p class="text-black text-md font-semibold">Standard Rate</p>
+                      <input type="radio" id="test1" name="radio-group" checked>
+                      <label class="label font-regular" for="test1">
+                          <span>Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</span>
+                      </label>
+              
+                      <br>
+                      
+                      <p class="text-black text-md font-semibold">Pickup from store</p>
+                      <input type="radio" id="test2" name="radio-group">
+                      <label class="label font-regular" for="test2">
+                          <span>1234 Street Adress City Address, 1234 $0.00</span>
+                      </label>
+
+                    </div>
+
+                </div>
+                <!-- End Estimate Shipping and Tax Dropdown -->
+
+                <!-- Start Apply Discount Code -->
+                
+                <div class="summary-middle-item-1 flex align-center justify-between">
+                  <span class="text-black font-regular text-xl">Apply Discount Code</span>
+                  <a href="./shopping-cart-1.html" class="text-black">
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+
+                <div class="state">
+                  <p class="text-black text-md font-semibold">Enter Discount Code</p>
+                  <input type="text" placeholder="Enter Discount Code">
+
+                  <div class="summary-btn-4">
+                    <a href="#" class="text-blue text-md font-semibold">Apply Discount</a>
+                  </div>
+                </div>
+                <!-- End Apply Discount Code -->
+              </div>
+              <!-- End Summary Middle 1 -->
+
+              <hr>
+              <!-- Start Summary Middle 2 -->
+              <div class="shopping-cart-summary-middle-2 flex flex-column">
+
+                <div class="summary-middle-item-1 flex align-center justify-between">
+                  <p class="text-black font-semibold text-md">Subtotal</p>
+                  <p class="text-black font-semibold text-md">$13,047.00</p>
+                </div>
+
+                <div class="summary-middle-item-1 flex align-center justify-between">
+                  <p class="text-black font-semibold text-md">Shipping</p>
+                  <p class="text-black font-semibold text-md">$21.00</p>
+                </div>
+
+                <p class="summary-middle-item-3 text-grey text-xs font-regular">(Standard Rate - Price may vary depending on the item/destination. TECS Staff will contact you.)</p>
+                
+                <div class="summary-middle-item-1 flex align-center justify-between">
+                  <p class="text-black font-semibold text-md">Tax</p>
+                  <p class="text-black font-semibold text-md">$1.91</p>
+                </div>
+                
+                <div class="summary-middle-item-1 flex align-center justify-between">
+                  <p class="text-black font-semibold text-md">GST (10%)</p>
+                  <p class="text-black font-semibold text-md">$1.91</p>
+                </div>
+                
+                <div class="summary-middle-item-1 flex align-center justify-between">
+                  <p class="text-black font-semibold text-md">Order Total</p>
+                  <p class="text-black font-semibold text-xl">$13,068.00</p>
+                </div>
+
+              </div>
+              <!-- End Summary Middle 2 -->
+
+              <!-- Start Summary Middle 3 -->
+              <div class="summary-btn flex flex-column">
+
+                <div class="summary-btn-1">
+                  <a href="./checkout.html" class="text-white text-md font-semibold">Proceed to Checkout</a>
+                </div>
+
+                <div class="summary-btn-2">
+                  <a href="#" class="text-dark-blue text-md font-semibold">Check out with &nbsp; &nbsp;<img src="../assets/imgs/paypal-btn.svg" alt=""></a>
+                </div>
+
+                <div class="summary-btn-3">
+                  <a href="#" class="text-grey text-md font-semibold">Check Out with Multiple Addresses</a>
+                </div>
+
+              </div>
+              <!-- End Summary Middle 3 -->
+
+              <!-- Start Summary Ads -->
+              <div class="summary-ads flex align-center">
+                <img src="../assets/imgs/ads-1.png" alt="">
+                <svg width="15" height="20" viewBox="0 0 2 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path id="Vector 10" d="M1 1V19" stroke="#00AEB8" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                  <span class="text-sm font-semibold text-dark-blue">own</span>&nbsp;
+                  <span class="text-sm font-regular text-dark-blue">it now, up to 6 months interest free</span>&nbsp;
+                  <a href="#" class="text-xs font-regular text-dark-blue">learn more</a>
+              </div>
+              <!-- End Summary Ads -->
+            </div>
+            <!-- End Summary Section -->
+        </div>
+        <!-- End Shopping Cart 1 Items And Summary Section -->
+
+        
+        
+        
+    </section>
+    <!-- End Shopping Cart 1 Section -->
+
+
+
+
+
+
+
+
+
+    <!-- Start Icons Section -->
+    <section class="container laptop-page-icons flex justify-around">
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-headset icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Product Support</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 3 years on-site warranty available for your peace of mind.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-circle-user icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Personal Account</p>
+        <p class="icon-text-2 text-black text-md font-regular">With big discounts, free delivery and a dedicated support specialist.</p>
+      </div>
+      <div class="icons">
+        <p class="icons-bg">
+          <i class="fa-solid fa-tag icons-icon"></i>
+        </p>
+        <p class="icon-text-1 text-black text-xl font-bold">Amazing Savings</p>
+        <p class="icon-text-2 text-black text-md font-regular">Up to 70% off new Products, you can be sure of the best price.</p>
+      </div>
+    </section>
+    <!-- End Icons Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer">
+      <div class="container footer-top flex justify-between">
+        <div class="footer-top-left align-center">
+          <p class="footer-top-text-1 text-white text-xlll font-medium">Sign Up To Our Newsletter.</p>
+          <p class="footer-top-text-2 p2 text-white font-light text-lg">Be the first to hear about the latest offers.</p>
+        </div>
+        <div class="footer-top-right justify-center align-center">
+          <input type="email" placeholder="Your Email" class="email text-white">
+          <input type="submit" value="Subscribe" class="text-md font-semibold text-white btn">
+        </div>
+      </div>
+
+      <div class="container footer-middel-1 flex justify-between">
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Information</h6>
+          <p>
+            <a href="./about-us.html" class="text-sm font-regular text-white">About Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">About Zip</a>
+          </p>
+          <p>
+            <a href="./faq.html" class="text-sm font-regular text-white">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Terms</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Orders and Returns</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Contact Us</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Advanced Search</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Newsletter Subscription</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">PC Parts</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">CPUS</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Add On Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Hard Drives (Internal)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Graphic Cards</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Keyboards / Mice</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Cases / Power Supplies / Cooling</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">RAM (Memory)</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Software</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Speakers / Headsets</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Motherboards</a>
+          </p>
+
+
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Desktop PCs</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Custom PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Servers</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI All-In-One PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">HP/Compaq PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">ASUS PCs</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tecs PCs</a>
+          </p>
+          
+        </div>
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Laptops</h6>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Evryday Use Notebooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Workstation Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">MSI Prestige Series</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Tablets and Pads</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Netbooks</a>
+          </p>
+          <p>
+            <a href="#" class="text-sm font-regular text-white">Infinity Gaming Notebooks</a>
+          </p>
+          
+        </div>
+
+
+
+        <div class="informaition-1 align-center">
+          <h6 class="text-grey font-bold text-md">Address</h6>
+          <p class="text-sm font-regular text-white">Address: 1234 Street Adress City Address, 1234</p>
+          <p class="text-sm font-regular text-white">Phones: <a href="#" class="text-blue">(00) 1234 5678</a></p>
+          <p class="text-sm font-regular text-white">We are open: Monday-Thursday: 9:00 AM - 5:30 PM</p>
+          <p class="text-sm font-regular text-white">Friday: 9:00 AM - 6:00 PM</p>
+          <p class="text-sm font-regular text-white">Saturday: 11:00 AM - 5:00 PM</p>
+          <p class="text-sm font-regular text-white">E-mail: <a href="#" class="text-blue">shop@email.com</a></p>
+        </div>
+
+      </div>
+
+      
+      <div class="container footer-middel-2 flex justify-center">
+        <div class="informaition-1 align-center">
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Information</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">PC Parts</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Desktop PCs</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Laptops</a>
+          <a href="#" class="informaition-text-1 text-grey font-bold text-md">Address</a>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="container footer-bottom flex align-center justify-between">
+        <div class="footer-icons text-white align-center">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="payment-by align-center">
+          <img src="../assets/imgs/paypal.png" alt="paypal">
+          <img src="../assets/imgs/visa.png" alt="visa">
+          <img src="../assets/imgs/maestro.png" alt="master">
+          <img src="../assets/imgs/discover.png" alt="discover">
+          <img src="../assets/imgs/american-express.png" alt="american-express">
+        </div>
+        <div class="copyright">
+          <p class="text-white text-sm font-medium">Copyright &copy; 2023 DevFirm Ltd.</p>
+        </div>
+      </div>
+
+
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Inline JavaScript -->
+    <script>
+      function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+
+    <!-- Js File -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
