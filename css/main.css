@@ -290,7 +290,47 @@ hr {
   border: 1px solid #EDEDED;
 }
 
+/* Start Dropdown Section */
+.dropdown {
+  padding: 20px 0;
+}
 
+.dropdown-btn-1 {
+  background: #008ECC;
+  padding: 10px 15px;
+  border-radius: 50px;
+  gap: 6px;
+  color: #fff;
+}
+
+.dropdown-btn-1 p {
+  font-size: 14px;
+}
+
+.dropdown-btn-1 i {
+  font-size: 18px;
+}
+
+.dropdown-btn-2 {
+  background: #F3F9FB;
+  padding: 10px 15px;
+  border-radius: 50px;
+  gap: 6px;
+  color: #fff;
+}
+
+.dropdown-btn-2 p {
+  font-size: 14px;
+  color: #222;
+}
+
+.dropdown-btn-2 i {
+  font-size: 18px;
+  color: #008ECC;
+}
+
+
+/* End Dropdown Section */
 
 
 
