@@ -341,8 +341,11 @@ hr {
 
 .banner-left {
   width: 60%;
-  gap: 20px;
   padding: 40px 47px;
+}
+
+.banner-left-top {
+  gap: 20px;
 }
 
 .banner-left-text-1 {
@@ -359,6 +362,8 @@ hr {
   font-size: 30px;
   color: #fff;
 }
+
+
 
 .banner-right {
   width: 40%;
