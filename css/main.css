@@ -437,6 +437,11 @@ hr {
   font-size: 18px;
   color: #008ECC;
 }
+
+.hr {
+  margin-top: -6px;
+  border: 1px solid #EDEDED;
+}
 /* End Smartphones Section */
 
 
