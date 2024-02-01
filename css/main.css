@@ -413,6 +413,9 @@ hr {
 /* End Banner Slider */
 
 /* Start Smartphones Section */
+.smartphone {
+  padding: 20px 0;
+}
 
 .smartphone-top-left p {
   color: #666;
@@ -529,8 +532,9 @@ hr {
   width: 227px;
   height: 295px;
   margin: 40px 0;
-  border: 1px solid #EDEDED;
+  border: 1px solid #008ECC;
   border-radius: 16px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .product-item-2-top {
@@ -542,8 +546,8 @@ hr {
 
 .product-item-2-img {
   background: #F5F5F5;
-  width: 84px;
-  height: 158px;
+  width: 126px;
+  height: 174px;
   margin: 0 auto;
   text-align: center;
 }
@@ -603,13 +607,168 @@ hr {
 }
 /* End Product Item-2 */
 
+/* Start Product Item-3 */
+.product-item-3 {
+  width: 227px;
+  height: 295px;
+  margin: 40px 0;
+  border: 1px solid #EDEDED;
+  border-radius: 16px;
+}
+
+.product-item-3-top {
+  height: 60%;
+  background: #F5F5F5;
+  position: relative;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.product-item-3-img {
+  background: #F5F5F5;
+  width: 126px;
+  height: 174px;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-item-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-item-3-top-discount {
+  position: absolute;
+  background: #008ECC;
+  width: 51px;
+  height: 53px;
+  top: 0;
+  right: 0;
+  border-radius: 0px 16px 0px 16px;
+}
+
+.product-item-3-top-discount p {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.product-item-3-bottom {
+  height: 60%;
+  padding: 12px;
+  color: #222;
+}
+
+.product-item-3-bottom-text-1 {
+  font-size: 16px;
+}
+
+.product-item-3-price {
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.product-item-3-price .price-1 {
+  font-size: 16px;
+  color: #222;
+}
+
+.product-item-3-price .price-2 {
+  font-size: 16px;
+  color: #222;
+  text-decoration: line-through;
+}
+
+.product-item-3-bottom .price-3 {
+  color: #249B3E;
+  font-size: 16px;
+  padding: 10px 0;
+}
+/* End Product Item-3 */
+
 /* End Product Section */
-
-
 
 /* End Smartphones Section */
 
 
+
+/* Start Categories Section */
+
+/* Start Categories Item-1 */
+.categories-item-1 {
+  width: 132px;
+  height: 172px;
+  margin: 40px 0;
+}
+
+.categories-item-1-top {
+  width: 132px;
+  height: 132px;
+  background: #F5F5F5;
+  border-radius: 50%;
+  padding: 16px 0;
+  border: 1px solid #008ECC;
+}
+
+.categories-item-1-top-img {
+  background: #F5F5F5;
+  width: 52px;
+  height: 98px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.categories-item-1-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categories-item-1-bottom-name {
+  font-size: 16px;
+  text-align: center;
+  color: #222;
+}
+/* End Categories Item-1 */
+
+/* Start Categories Item-2 */
+.categories-item-2 {
+  width: 132px;
+  height: 172px;
+  margin: 40px 0;
+}
+
+.categories-item-2-top {
+  width: 132px;
+  height: 132px;
+  background: #F5F5F5;
+  border-radius: 50%;
+  padding: 16px 0;
+}
+
+.categories-item-2-top-img {
+  background: #F5F5F5;
+  width: 52px;
+  height: 98px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.categories-item-2-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categories-item-2-bottom-name {
+  font-size: 16px;
+  text-align: center;
+  color: #222;
+}
+/* End Categories Item-2 */
+
+
+/* End Categories Section */
 
 
 
