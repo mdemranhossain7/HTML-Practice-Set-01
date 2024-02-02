@@ -773,6 +773,253 @@ hr {
 
 
 
+/* Start Electronics Section */
+
+/* Start Electronics Items */
+.electronics-items {
+  margin: 40px 0;
+}
+
+/* Start Electronics Item-1 */
+
+.electronics-item-1 {
+  width: 389px;
+  height: 207px;
+  background: #313131;
+  border-radius: 16px;
+  border: 1px solid #414141;
+  position: relative;
+}
+
+
+.round-fill {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 16px;
+}
+
+.round-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.electronics-item-1-left {
+  margin: 20px;
+  width: 45%;
+  gap: 20px;
+}
+
+.electronics-item-1-text-1 {
+  width: 100px;
+  height: 35px;
+  background: #494949;
+  border-radius: 8px;
+}
+
+.electronics-item-1-text-1 p {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+}
+
+.brand {
+  background: #fff;
+  padding: 7px 12px;
+  width: 62px;
+  aspect-ratio: 1/1;
+  border-radius: 16px;
+}
+
+.electronics-item-1-left .item-offer {
+  color: #fff;
+  font-size: 24px;
+}
+
+.electronics-item-1-right {
+  width: 40%;
+}
+
+
+.electronics-item-1-right-photo {
+  width: 104px;
+  height: 185px;
+  margin: 10px 20px;
+  position: absolute;
+  z-index: 999;
+}
+
+.electronics-item-1-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* End Electronics Item-1 */
+
+
+
+
+
+/* Start Electronics Item-2 */
+
+.electronics-item-2 {
+  width: 389px;
+  height: 207px;
+  background: #FFF3CC;
+  border-radius: 16px;
+  position: relative;
+}
+
+
+.round-fill {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 16px;
+}
+
+.round-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.electronics-item-2-left {
+  margin: 20px;
+  width: 45%;
+  gap: 20px;
+}
+
+.electronics-item-2-text-1 {
+  width: 100px;
+  height: 35px;
+  background: #F6DE8D;
+  border-radius: 8px;
+}
+
+.electronics-item-2-text-1 p {
+  text-align: center;
+  color: #222222;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+}
+
+
+.electronics-item-2-left .item-offer {
+  color: #222222;
+  font-size: 24px;
+}
+
+.electronics-item-2-right {
+  width: 40%;
+}
+
+
+.electronics-item-2-right-photo {
+  width: 158px;
+  height: 185px;
+  margin: 10px 5px;
+  position: absolute;
+  z-index: 999;
+}
+
+.electronics-item-2-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* End Electronics Item-2 */
+
+
+
+
+
+/* Start Electronics Item-3 */
+
+.electronics-item-3 {
+  width: 389px;
+  height: 207px;
+  background: #FFECDF;
+  border-radius: 16px;
+  position: relative;
+}
+
+
+.round-fill {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 16px;
+}
+
+.round-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.electronics-item-3-left {
+  margin: 20px;
+  width: 45%;
+  gap: 20px;
+}
+
+.electronics-item-3-text-1 {
+  width: 100px;
+  height: 35px;
+  background: #FFD1B0;
+  border-radius: 8px;
+}
+
+.electronics-item-3-text-1 p {
+  text-align: center;
+  color: #222222;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+}
+
+
+.electronics-item-3-left .item-offer {
+  color: #222222;
+  font-size: 24px;
+}
+
+.electronics-item-3-right {
+  width: 40%;
+}
+
+
+.electronics-item-3-right-photo {
+  width: 158px;
+  height: 185px;
+  margin: 10px 5px;
+  position: absolute;
+  z-index: 999;
+}
+
+.electronics-item-3-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* End Electronics Item-3 */
+
+
+/* End Electronics Items */
+
+/* End Electronics Section */
+
+
+
+
 /* xxl applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .container {
