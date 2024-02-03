@@ -1121,6 +1121,126 @@ hr {
 
 
 
+/* Start Footer Section */
+footer {
+  background: #008ECC;
+  width: 100%;
+  height: 592px;
+  position: relative;
+}
+
+/* Start Footer Top */
+.footer-top {
+  width: 80%;
+  padding: 60px 0;
+}
+/* Start Footer Top Left */
+.footer-top-left {
+  width: 30%;
+}
+
+.footer-top-left-item {
+  gap: 20px;
+}
+
+.footer-top-left-item-middle {
+  gap: 20px;
+}
+
+
+.footer-top-left-item-middle p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-top-left-item-middle-item-1 {
+  gap: 10px;
+}
+
+.footer-top-left-item-middle-item-1 i {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.footer-top-left-item-middle-item-1-text-1 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-top-left-item-middle-item-1-text-2 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-top-left-item-bottom {
+  gap: 20px;
+}
+
+.footer-top-left-item-bottom p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-top-left-item-bottom-photo {
+  gap: 20px;
+}
+/* End Footer Top Left */
+
+/* Start Footer Top Right */
+.footer-top-right-item-1 h1 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-top-right-item-1 ul {
+  padding: 10px 20px;
+  gap: 20px;
+}
+
+.footer-top-right-item-1 li {
+  list-style-type: disc;
+  color: #fff;
+}
+
+.footer-top-right-item-1 li a {
+  font-size: 16px;
+  color: #fff;
+}
+/* End Footer Top Right */
+.footer-round-border {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer-round-fill {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/* End Footer Top */
+
+.footer hr {
+  border: 1px solid #05ABF3;
+}
+
+
+.footer-bottom {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer-bottom p {
+  color: #fff;
+  font-size: 20px;
+}
+/* End Footer Section */
+
+
+
+
 
 
 /* xxl applies to x-large devices (large desktops, less than 1400px) */
