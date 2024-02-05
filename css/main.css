@@ -183,7 +183,11 @@ body {
 }
 /* Common Classes */
 
-
+/* Start Header Section */
+header {
+  background: #FCEED5;
+}
+/* End Header Section */
 
 
 
