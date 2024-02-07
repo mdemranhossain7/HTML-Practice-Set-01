@@ -184,6 +184,12 @@ body {
 /* Start Header Section */
 nav {
   background: #FCEED5;
+  position: relative;
+}
+
+.navbar-rectangle-1 {
+  position: absolute;
+  z-index: -999;
 }
 
 .navbar {
@@ -211,7 +217,7 @@ nav {
 /* Start Navbar Right */
 
 .navbar-right {
-  width: 50%;
+  width: 45%;
 }
 
 /* Start Navbar Right Item 1 */
@@ -244,7 +250,30 @@ nav {
   font-size: 16px;
   color: #FDFDFD;
 }
-/* End Navbar Right Item 1 */
+/* End Navbar Right Item 2 */
+
+/* Start Navbar Right Item 3 */
+
+.navbar-right-item-3 {
+  gap: 6px;
+}
+
+.navbar-right-item-3 .vnd-flag {
+  width: 21px;
+  aspect-ratio: 1/1;
+}
+
+.navbar-right-item-3 .vnd-flag img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.navbar-right-item-3 p {
+  font-size: 16px;
+  color: #002A48;
+}
+
+/* End Navbar Right Item 3 */
 
 /* End Navbar Right */
 
