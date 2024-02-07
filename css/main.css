@@ -181,8 +181,8 @@ body {
 }
 /* Common Classes */
 
-/* Start Header Section */
-nav {
+/* Start Navbar Section */
+.navbar-1 {
   background: #FCEED5;
   position: relative;
 }
@@ -277,7 +277,117 @@ nav {
 
 /* End Navbar Right */
 
-/* End Header Section */
+/* Start Responsive Navbar */
+.navbar-2 {
+  display: none;
+  background: #FCEED5;
+}
+
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 14px;
+
+  z-index: 1;
+}
+
+#menuToggle a {
+  color: #003459;
+  transition: 0.3s ease;
+}
+
+#menuToggle a:hover {
+  color: #589be2;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #00171F;
+  border-radius: 5px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #003459;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menu {
+  position: absolute;
+  width: 300px;
+  height: 1080px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+
+.navbar-logo-2 {
+  padding: 45px 10px;
+}
+
+.navbar-2-right i {
+  font-size: 23px;
+  padding: 0 14px;
+}
+/* End Responsive Navbar */
+
+/* End Navbar Section */
 
 
 
@@ -326,5 +436,14 @@ nav {
     margin: 0 auto;
   }
 
+  /* Start Navbar Responsive */
+  .navbar-1 {
+    display: none;
+  }
+
+  .navbar-2 {
+    display: flex;
+  }
+  /* End Navbar Responsive */
   
 }

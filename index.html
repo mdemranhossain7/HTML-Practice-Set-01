@@ -13,14 +13,14 @@
 <body>
     
     <!-- Start Navbar Section -->
-    <nav>
+    <nav class="navbar-1">
         <img class="navbar-rectangle-1" src="./assets/Rectangle 1.png" alt="">
             
         <div class="container navbar flex flex-row justify-between">
             <!-- Start Navbar Left -->
             <div class="navbar-left flex flex-row align-center justify-between">
 
-                <a href="index.html" class="navbar-logo">
+                <!-- <a href="index.html" class="navbar-logo">
                     <svg width="115" height="40" viewBox="0 0 115 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1567_3777)">
                         <path d="M32.5685 32.6316C33.2107 32.6316 33.7423 32.8491 34.1687 33.2787C34.6055 33.7083 34.8161 34.244 34.8161 34.8805C34.8161 35.5169 34.6055 36.042 34.1687 36.4823C33.7423 36.9119 33.2107 37.1293 32.5685 37.1293H31.1842V39.4737H30.0684V32.6369H32.5685V32.6316ZM32.5685 36.0686C33.2265 36.0686 33.7002 35.57 33.7002 34.8752C33.7002 34.1803 33.2265 33.6818 32.5685 33.6818H31.1842V36.0633H32.5685V36.0686Z" fill="#103559"/>
@@ -52,7 +52,8 @@
                         </clipPath>
                         </defs>
                     </svg>
-                </a>
+                </a> -->
+                <img src="./assets/navbar-logo.svg" alt="">
 
                 <div class="navbar-left-item flex flex-row">
                     <a href="index.html" class="font-semibold">Home</a>
@@ -97,9 +98,57 @@
 
         </div>
     </nav>
+    <!-- Start Responsive Navbar -->
+    <div class="navbar-2 flex flex-row justify-between">
+
+        <nav role="navigation">
+            <div id="menuToggle">
+    
+                <input type="checkbox">
+    
+                <span></span>
+                <span></span>
+                <span></span>
+    
+                <ul id="menu">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Category</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+    
+            </div>
+        </nav>
+
+        <div class="navbar-logo-2">
+            <img src="./assets/navbar-logo-1.png" alt="">
+        </div>
+
+        <div class="navbar-2-right flex flex-row align-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+    </div>
+    <!-- End Responsive Navbar -->
+
     <!-- End Navbar Section -->
         
 
 
 </body>
+
+    <!-- Js File -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/main.js"></script>
 </html>
