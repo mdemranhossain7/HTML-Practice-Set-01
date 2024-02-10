@@ -574,6 +574,22 @@ header {
 }
 /* End Pets Product Item-1 */
 
+
+/* Start Pets Product Bottom */
+.pets-product-bottom {
+  display: none;
+}
+.pets-product-bottom a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #003459;
+  padding: 12px 136px;
+  border: 1.5px solid #003459;
+  border-radius: 50px;
+  gap: 8px;
+}
+/* End Pets Product Bottom */
+
 /* End Pets Product Section */
 
 
@@ -639,6 +655,8 @@ header {
     display: flex;
   }
   /* End Navbar Responsive */
+
+
   
   /* Start Responsive Header */
   .header {
@@ -646,11 +664,12 @@ header {
     flex-direction: row;
     gap: 45px;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .header-left {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 16px;
   }
 
   .header-left h1 {
@@ -699,4 +718,69 @@ header {
     margin: 0 auto;
   }
   /* End Responsive Header */
+
+
+  /* Start Responsive Pets Product Section */
+
+  .pets-product {
+    padding: 20px 16px;
+    gap: 20px;
+  }
+
+
+  .pets-product-top-left h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  .pets-product-top-left p {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .pets-product-top-right {
+    display: none;
+  }
+
+  .pets-product-items {
+    gap: 12px;
+  }
+
+  .pets-product-item-1 {
+    width: 185px;
+    height: 317px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .pets-product-item-1-top {
+    width: 169px;
+  }
+
+  .pets-product-item-1-bottom {
+    padding: 0;
+    gap: 8px;
+  }
+
+  .pets-product-item-1-bottom h1 {
+    font-size: 14px;
+  }
+
+  .pets-product-item-1-bottom-text-group-1 {
+    display: inline;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .pets-product-item-1-bottom h2 {
+    font-size: 16px;
+  }
+
+  .pets-product-bottom {
+    display: flex;
+  }
+  /* End Responsive Pets Product Section */
 }
