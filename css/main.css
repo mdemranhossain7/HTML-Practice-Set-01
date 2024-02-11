@@ -864,6 +864,114 @@ header {
 
 
 
+/* Start Banner 2 Section */
+.banner-2 {
+  background: #FFB775;
+  border-radius: 20px;
+  margin: 50px 0;
+}
+
+/* Start Banner 2 Left */
+.banner-2-left {
+  width: 40%;
+  overflow: hidden;
+}
+
+.banner-2-left-photo {
+  width: 538px;
+  height: 358px;
+  transform: rotate(58.93deg);
+}
+
+.banner-2-left-photo img {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(-1);
+}
+/* End Banner 2 Left */
+
+
+/* Start Banner 2 Right */
+.banner-2-right {
+  width: 40%;
+  margin: 0 76px;
+  gap: 24px;
+}
+
+.banner-2-right-top {
+  gap: 8px;
+}
+
+.banner-2-right-top-item-1 {
+  gap: 16px;
+}
+
+.banner-2-right-top h1 {
+  font-size: 52px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #003459;
+}
+
+.banner-2-right-top h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #003459;
+}
+
+.banner-2-right-top p {
+  width: 90%;
+  font-size: 12px;
+  font-weight: 500;
+  color: #003459;
+}
+
+
+
+.banner-2-right-bottom {
+  gap: 20px;
+}
+
+.banner-2-right-bottom-item-1 {
+  width: 40%;
+  gap: 8px;
+  padding: 12px 28px;
+  border: 1.5px solid #003459;
+  border-radius: 50px;
+  color: #003459;
+}
+
+.banner-2-right-bottom-item-1 p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #003459;
+}
+
+.banner-2-right-bottom-item-1 i {
+  font-size: 20px;
+}
+
+.banner-2-right-bottom-item-2 {
+  width: 40%;
+  padding: 14px 35px;
+  background: #003459;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.banner-2-right-bottom-item-2 p {
+  color: #FDFDFD;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* End Banner 2 Right */
+
+
+/* End Banner 2 Section */
+
+
+
 
 
 
@@ -1108,4 +1216,16 @@ header {
     height: 100%;
   }
   /* End Responsive Banner Section */
+
+  .our-product {
+    display: none;
+  }
+
+  .pet-sellers {
+    display: none;
+  }
+
+  .banner-2 {
+    display: none;
+  }
 }
