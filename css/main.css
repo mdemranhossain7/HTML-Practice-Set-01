@@ -764,7 +764,7 @@ header {
 
 .our-product-item-1-bottom {
   padding: 8px;
-  gap: 5px;
+  gap: 8px;
 }
 
 .our-product-item-1-bottom h1 {
@@ -808,9 +808,58 @@ header {
 }
 /* End our Product Item-1 */
 
-
-
 /* End Our Product Section */
+
+
+/* Start Pet Sellers Section */
+.pet-sellers {
+  padding: 60px 0;
+  gap: 28px;
+}
+
+/* Start Pet Sellers Top */
+.pet-sellers-top-left {
+  gap: 8px;
+}
+
+.pet-sellers-top-left h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.pet-sellers-top-left p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #003459;
+  text-transform: capitalize;
+}
+
+.pet-sellers-top-right a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #003459;
+  gap: 8px;
+  padding: 12px 28px;
+  border: 1.5px solid #003459;
+  border-radius: 50px;
+}
+/* End Pet Sellers Top */
+
+/* Start Pet Sellers Brand Item-1 */
+.pet-sellers-brand-item-1 {
+  width: 12%;
+  padding: 24px 37px;
+}
+
+.pet-sellers-brand-item-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* End Pet Sellers Brand Item-1 */
+
+/* End Pet Sellers Section */
 
 
 
