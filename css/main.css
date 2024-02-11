@@ -978,6 +978,115 @@ header {
 
 
 
+
+
+/* Start pet knowledge Section */
+.pet-knowledge {
+  padding: 60px 0;
+  gap: 28px;
+}
+
+/* Start pet knowledge Top */
+.pet-knowledge-top-left h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.pet-knowledge-top-left p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #003459;
+  text-transform: capitalize;
+}
+
+.pet-knowledge-top-right a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #003459;
+  gap: 8px;
+  padding: 12px 28px;
+  border: 1.5px solid #003459;
+  border-radius: 50px;
+}
+/* End pet knowledge Top */
+
+/* Start pet knowledge Item-1 */
+.pet-knowledge-item-1 {
+  width: 380px;
+  height: 424px;
+  padding: 8px;
+  background: #FDFDFD;
+  border-radius: 12px;
+  gap: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.pet-knowledge-item-1-top {
+  width: 364px;
+  height: 240px;
+}
+
+.pet-knowledge-item-1-top img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.pet-knowledge-item-1-middle p {
+  font-size: 10px;
+  font-weight: 700;
+  color: #FDFDFD;
+  padding: 2px 10px;
+  background: #00A7E7;
+  border-radius: 50px;
+}
+
+.pet-knowledge-item-1-bottom {
+  padding: 0px;
+  gap: 8px;
+}
+
+.pet-knowledge-item-1-bottom h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00171F;
+}
+
+.pet-knowledge-item-1-bottom-text-group-1 {
+  gap: 10px;
+}
+
+.pet-knowledge-item-1-bottom p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #667479;
+}
+
+.pet-knowledge-item-1-bottom span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #667479;
+}
+
+.pet-knowledge-item-1-bottom h2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #00171F;
+  overflow: hidden;
+}
+
+/* End pet knowledge Item-1 */
+
+/* End pet knowledge Section */
+
+
+
+
+
+
+
 /* xxl applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .container {
@@ -1228,4 +1337,31 @@ header {
   .banner-2 {
     display: none;
   }
+
+  /* Start Responsive pet knowledge Section */
+  .pet-knowledge {
+    padding: 20px 16px;
+  }
+
+
+  .pet-knowledge-top-right {
+    display: none;
+  }
+
+  .pet-knowledge-top-left h1 {
+    font-size: 14px;
+  }
+
+  .pet-knowledge-top-left p {
+    font-size: 20px;
+  }
+
+  .pet-knowledge-item-1 {
+    margin: 10px auto;
+  }
+
+  /* End Responsive pet knowledge Section */
+
+
+
 }
