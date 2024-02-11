@@ -708,6 +708,118 @@ header {
 
 
 
+/* Start Our Product Section */
+.our-product {
+  padding: 60px 0;
+  gap: 28px;
+}
+
+/* Start our Product Top */
+.our-product-top-left h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.our-product-top-left p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #003459;
+  text-transform: capitalize;
+}
+
+.our-product-top-right a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #003459;
+  gap: 8px;
+  padding: 12px 28px;
+  border: 1.5px solid #003459;
+  border-radius: 50px;
+}
+/* End our Product Top */
+
+/* Start our Product Item-1 */
+.our-product-item-1 {
+  width: 280px;
+  height: 446px;
+  padding: 8px;
+  background: #FDFDFD;
+  border-radius: 12px;
+  gap: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.our-product-item-1-top {
+  width: 264px;
+  aspect-ratio: 1/1;
+}
+
+.our-product-item-1-top img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.our-product-item-1-bottom {
+  padding: 8px;
+  gap: 5px;
+}
+
+.our-product-item-1-bottom h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00171F;
+}
+
+.our-product-item-1-bottom-text-group-1 {
+  gap: 10px;
+}
+
+.our-product-item-1-bottom p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #667479;
+}
+
+.our-product-item-1-bottom span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #667479;
+}
+
+.our-product-item-1-bottom h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #00171F;
+}
+
+.free {
+  background: #FCEED5;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.free p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #002A48;
+}
+/* End our Product Item-1 */
+
+
+
+/* End Our Product Section */
+
+
+
+
+
+
+
+
+
 
 /* xxl applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
