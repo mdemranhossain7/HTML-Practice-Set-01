@@ -1084,6 +1084,135 @@ header {
 
 
 
+/* Start Footer Section */
+footer {
+  background: #FCEED5;
+}
+
+
+/* Start Footer Top */
+.footer-top {
+  padding-top: 60px;
+}
+/* Start Footer Top Item-1 */
+.footer-top-item-1 {
+  background: #003459;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+/* Start Footer Top Item-1 Left */
+.footer-top-item-1-left {
+  width: 28%;
+}
+.footer-top-item-1-left p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FDFDFD;
+  text-transform: capitalize;
+}
+/* End Footer Top Item-1 Left */
+
+/* Start Footer Top Item-1 Right */
+.footer-top-item-1-right {
+  background: #fff;
+  padding: 12px 12px;
+  border-radius: 14px;
+  gap: 12px;
+}
+
+.footer-top-item-1-right .input-1 {
+  width: 508px;
+  padding: 14px 28px;
+  border: 1px solid #99A2A5;
+  border-radius: 8px;
+}
+
+.footer-top-item-1-right .input-1::placeholder {
+  color: #99A2A5;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-top-item-1-right .input-2 {
+  background: #003459;
+  color: #FDFDFD;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+/* End Footer Top Item-1 Right */
+
+/* End Footer Top Item-1 */
+
+
+
+/* Start Footer Top Item-2 */
+.footer-top-item-2 {
+  padding: 40px 0;
+}
+
+/* Start Footer Top Item-2 Left */
+.footer-top-item-2-left {
+  width: 28%;
+}
+
+.footer-top-item-2-left a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00171F;
+}
+/* End Footer Top Item-2 Left */
+
+/* Start Footer Top Item-2 Right */
+.footer-top-item-2-right {
+  width: 15%;
+}
+.footer-top-item-2-right a {
+  color: #00171F;
+}
+
+.footer-top-item-2-right i {
+  font-size: 24px;
+}
+/* End Footer Top Item-2 Right */
+
+/* End Footer Top Item-2 */
+
+/* End Footer Top */
+
+.footer hr {
+  border: 1px solid #CCD1D2;
+}
+
+/* Start Footer Bottom */
+.footer-bottom {
+  padding: 40px 0;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #667479;
+}
+
+.footer-bottom-text {
+  width: 15%;
+}
+
+.footer-bottom-text a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #667479;
+}
+/* End Footer Bottom */
+
+/* End Footer Section */
+
+
+
+
 
 
 
