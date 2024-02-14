@@ -198,12 +198,21 @@ body {
 
 /* Start Navbar Left */
 .navbar-left {
-  width: 45%;
+  width: 48%;
   gap: 48px;
 }
 
 .navbar-left-item {
   gap: 48px;
+}
+
+.navbar-left-img {
+  width: 100px;
+}
+
+.navbar-left-img img {
+  width: 100%;
+  height: 100%;
 }
 
 .navbar-left-item a {
@@ -217,13 +226,13 @@ body {
 /* Start Navbar Right */
 
 .navbar-right {
-  width: 45%;
+  width: 48%;
 }
 
 /* Start Navbar Right Item 1 */
 .navbar-right-item-1 {
   background: #FDFDFD;
-  width: 40%;
+  width: 42%;
   padding: 12px 16px;
   border-radius: 50px;
   gap: 12px;
@@ -277,6 +286,9 @@ body {
   color: #002A48;
 }
 
+.navbar-right-item-3 i {
+  font-size: 18px;
+}
 /* End Navbar Right Item 3 */
 
 /* End Navbar Right */
@@ -385,6 +397,10 @@ body {
   padding: 45px 10px;
 }
 
+.navbar-2-right a {
+  color: #00171F;
+}
+
 .navbar-2-right i {
   font-size: 23px;
   padding: 0 14px;
@@ -429,7 +445,6 @@ header {
 
 .header-left-bottom {
   width: 60%;
-  gap: 20px;
 }
 
 .header-left-bottom-1 {
@@ -437,6 +452,7 @@ header {
   padding: 12px 28px;
   border: 2px solid #003459;
   border-radius: 50px;
+  gap: 8px;
 }
 
 .header-left-bottom-1 span {
@@ -1223,6 +1239,18 @@ footer {
     margin: 0 auto;
   }
 
+  /* Start Responsive Header Section */
+  .header-left p {
+    width: 95%;
+  }
+
+  .header-left-bottom {
+    width: 75%;
+  }
+
+  /* End Responsive Header Section */
+
+
 }
 
 /* xl applies to large devices ( desktops, less than 1200px) */
@@ -1231,6 +1259,52 @@ footer {
     width: 	960px;
     margin: 0 auto;
   }
+
+  /* Start Responsive Navbar Section */
+  .navbar-left {
+    width: 45%;
+    gap: 0;
+  }
+
+  .navbar-left-item {
+    gap: 30px;
+  }
+
+  .navbar-left-item a {
+    font-size: 14px;
+  }
+
+  .navbar-right {
+    width: 50%;
+  }
+
+  .navbar-right-item-1 {
+    width: 38%;
+    padding: 10px 10px;
+    gap: 8px;
+  }
+
+  .navbar-right-item-1 i {
+    font-size: 16px;
+  }
+
+  .navbar-right-item-1 input {
+    width: 75%;
+  }
+
+  .navbar-right-item-1 input::placeholder {
+    font-size: 12px;
+    color: #99A2A5;
+  }
+
+  .navbar-right-item-2 {
+    padding: 12px 20px;
+  }
+
+  .navbar-right-item-2 p {
+    font-size: 14px;
+  }
+  /* End Responsive Navbar Section */
 
 }
 
@@ -1241,6 +1315,70 @@ footer {
     margin: 0 auto;
   }
   
+  /* Start Responsive Navbar Section */
+  .navbar-left {
+    gap: 0;
+  }
+
+  .navbar-left-item {
+    gap: 25px;
+  }
+
+  .navbar-left-img {
+    width: 90px;
+  }
+
+  .navbar-left-item a {
+    font-size: 12px;
+  }
+
+  .navbar-right {
+    width: 50%;
+  }
+
+  .navbar-right-item-1 {
+    gap: 5px;
+    width: 44%;
+    padding: 6px 0px;
+  }
+
+  .navbar-right-item-1 i {
+    font-size: 12px;
+  }
+
+  .navbar-right-item-1 input {
+    width: 52%;
+  }
+
+  .navbar-right-item-1 input::placeholder {
+    font-size: 8px;
+  }
+
+  .navbar-right-item-2 {
+    padding: 8px 16px;
+  }
+
+
+  .navbar-right-item-2 p {
+    font-size: 12px;
+  }
+
+  .navbar-right-item-3 {
+    gap: 2px;
+  }
+
+  .navbar-right-item-3 .vnd-flag {
+    width: 18px;
+  }
+
+  .navbar-right-item-3 p {
+    font-size: 12px;
+  }
+
+  .navbar-right-item-3 i {
+    font-size: 12px;
+  }
+  /* End Responsive Navbar Section */
 
 }
 /* md applies to small devices (landscape phones, less than 768px) */
@@ -1250,6 +1388,15 @@ footer {
     margin: 0 auto;
   }
   
+  /* Start Navbar Responsive */
+  .navbar-1 {
+    display: none;
+  }
+
+  .navbar-2 {
+    display: flex;
+  }
+  /* End Navbar Responsive */
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
