@@ -535,8 +535,8 @@ header {
 
 /* Start Pets Product Item-1 */
 .pets-product-item-1 {
-  width: 280px;
-  height: 378px;
+  width: 330px;
+  height: 420px;
   padding: 8px;
   background: #FDFDFD;
   border-radius: 12px;
@@ -546,7 +546,7 @@ header {
 }
 
 .pets-product-item-1-top {
-  width: 264px;
+  width: 312px;
   aspect-ratio: 1/1;
 }
 
@@ -1250,11 +1250,17 @@ footer {
 
   /* End Responsive Header Section */
 
-  /* Start Responsive Header */
+  /* Start Responsive Pets Product Section */
 
+  .pets-product-item-1 {
+    width: 265px;
+    height: 360px;
+  }
 
-
-  /* End Responsive Header */
+  .pets-product-item-1-top {
+    width: 248px;
+  }
+  /* End Responsive Pets Product Section */
 
 
 }
@@ -1348,6 +1354,27 @@ footer {
     font-size: 14px;
   }
   /* End Responsive Header */
+
+
+  /* Start Responsive Pets Product Section */
+  .pets-product {
+    padding: 50px 0;
+  }
+
+  .pets-product-item-1 {
+    width: 295px;
+    height: 390px;
+  }
+
+  .pets-product-item-1-top {
+    width: 278px;
+  }
+
+  .p-p-i-7 ,
+  .p-p-i-8 {
+    display: none;
+  }
+  /* End Responsive Pets Product Section */
 
 }
 
@@ -1473,6 +1500,54 @@ footer {
   }
   /* End Responsive Header */
 
+
+  /* Start Responsive Pets Product Section */
+  .pets-product-top-left h1 {
+    font-size: 14px;
+  }
+
+  .pets-product-top-left p {
+    font-size: 22px;
+  }
+
+  .pets-product-top-right a {
+    font-size: 12px;
+    padding: 10px 24px;
+  }
+
+
+  .pets-product-item-1 {
+    width: 220px;
+    height: 310px;
+  }
+
+  .pets-product-item-1-top {
+    width: 204px;
+  }
+
+  .pets-product-item-1-bottom h1 {
+    font-size: 14px;
+  }
+
+  .pets-product-item-1-bottom p {
+    font-size: 10px;
+  }
+
+  .pets-product-item-1-bottom span {
+    font-size: 10px;
+  }
+
+  .pets-product-item-1-bottom h2 {
+    font-size: 13px;
+  }
+  
+  .p-p-i-7 ,
+  .p-p-i-8 {
+    display: none;
+  }
+
+  /* End Responsive Pets Product Section */
+
 }
 /* md applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1557,6 +1632,25 @@ footer {
     margin: 0 auto;
   }
   /* End Responsive Header */
+
+  /* Start Responsive Pets Product Section */
+  .pets-product-item-1 {
+    width: 250px;
+    height: 345px;
+  }
+
+  .pets-product-item-1-top {
+    width: 234px;
+  }
+
+  .pets-product-top-right {
+    display: none;
+  }
+
+  .pets-product-bottom {
+    display: flex;
+  }
+  /* End Responsive Pets Product Section */
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -1672,19 +1766,21 @@ footer {
   }
 
   .pets-product-item-1 {
-    width: 185px;
-    height: 317px;
+    width: 48%;
+    height: 265px;
     margin: 0;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
   }
 
   .pets-product-item-1-top {
-    width: 169px;
+    width: 135px;
+    margin: 0 auto;
   }
 
   .pets-product-item-1-bottom {
     padding: 0;
     gap: 8px;
+    margin: 0 auto;
   }
 
   .pets-product-item-1-bottom h1 {
@@ -1706,6 +1802,12 @@ footer {
   .pets-product-bottom {
     display: flex;
   }
+
+  .pets-product-bottom a {
+    padding: 12px 100px;
+  }
+
+
   /* End Responsive Pets Product Section */
 
 
