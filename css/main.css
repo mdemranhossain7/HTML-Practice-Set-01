@@ -1250,6 +1250,12 @@ footer {
 
   /* End Responsive Header Section */
 
+  /* Start Responsive Header */
+
+
+
+  /* End Responsive Header */
+
 
 }
 
@@ -1305,6 +1311,43 @@ footer {
     font-size: 14px;
   }
   /* End Responsive Navbar Section */
+
+  
+  /* Start Responsive Header */
+
+  .header-left {
+    width: 50%;
+    padding: 20px 0;
+  }
+
+  .header-left h1 {
+    font-size: 55px;
+  }
+
+  .header-left h2 {
+    font-size: 40px;
+  }
+
+  .header-left p {
+    font-size: 14px;
+  }
+
+  .header-left-bottom {
+    width: 72%;
+  }
+
+  .header-left-bottom-1 span {
+    font-size: 14px;
+  }
+
+  .header-left-bottom-1 i {
+    font-size: 16px;
+  }
+
+  .header-left-bottom-2 span {
+    font-size: 14px;
+  }
+  /* End Responsive Header */
 
 }
 
@@ -1380,6 +1423,56 @@ footer {
   }
   /* End Responsive Navbar Section */
 
+  /*Start Responsive Header */
+  .header-left {
+    padding: 20px 0;
+  }
+  
+  .header-left h1 {
+    font-size: 40px;
+  }
+
+  .header-left h2 {
+    font-size: 30px;
+  }
+
+  .header-left p {
+    font-size: 12px;
+    width: 80%;
+    padding: 25px 0;
+  }
+
+  .header-left-bottom {
+    width: 80%;
+  }
+  
+  .header-left-bottom-1 {
+    padding: 8px 16px;
+    gap: 4px;
+  }
+
+  .header-left-bottom-1 span {
+    font-size: 12px;
+  }
+
+  .header-left-bottom-1 i {
+    font-size: 14px;
+  }
+
+  .header-left-bottom-2 {
+    padding: 8px 16px;
+  }
+
+  .header-left-bottom-2 span {
+    font-size: 12px;
+  }
+
+  .header-right-item-1 {
+    width: 320px;
+    height: 350px;
+  }
+  /* End Responsive Header */
+
 }
 /* md applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1397,6 +1490,73 @@ footer {
     display: flex;
   }
   /* End Navbar Responsive */
+
+  
+  
+  /* Start Responsive Header */
+  .header {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .header-left {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .header-left h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #002A48;
+    text-align: center;
+  }
+
+  .header-left h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #002A48;
+    text-align: center;
+  }
+
+  .header-left p {
+    width: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #242B33;
+    padding: 25px 0;
+    text-align: justify;
+  }
+
+  .header-left-bottom {
+    width: auto;
+  }
+
+  .header-left-bottom-1 {
+    width: auto;
+    gap: 8px;
+    padding: 12px 75px;
+  }
+
+  .header-left-bottom-2 {
+    width: auto;
+    padding: 12px 80px;
+  }
+
+  .header-right {
+    width: auto;
+  }
+
+  .header-right-item-1 {
+    width: 315px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  /* End Responsive Header */
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -1425,22 +1585,23 @@ footer {
     gap: 45px;
     justify-content: center;
     margin-bottom: 20px;
+    padding: 0 16px;
   }
 
   .header-left {
     width: 100%;
-    padding: 0 16px;
+    padding: 10px 0;
   }
 
   .header-left h1 {
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 800;
     text-transform: capitalize;
     color: #002A48;
   }
 
   .header-left h2 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
     color: #002A48;
@@ -1448,7 +1609,7 @@ footer {
 
   .header-left p {
     width: auto;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     color: #242B33;
     padding: 25px 0;
@@ -1457,15 +1618,18 @@ footer {
 
   .header-left-bottom {
     width: auto;
+    justify-content: space-around;
   }
 
   .header-left-bottom-1 {
     width: auto;
     gap: 8px;
+    padding: 10px 20px;
   }
 
   .header-left-bottom-2 {
     width: auto;
+    padding: 10px 30px;
   }
 
   .header-right {
