@@ -1261,6 +1261,24 @@ footer {
     width: 248px;
   }
   /* End Responsive Pets Product Section */
+  
+  /* Start Responsive Banner Section */
+  .banner {
+    margin: 0px 0px;
+  }
+
+  .banner-left {
+    width: 45%;
+  }
+
+  .banner-left-photo {
+    margin-top: 50px;
+  }
+
+  .banner-right {
+    width: 36%;
+  }
+  /* End Responsive Banner Section */
 
 
 }
@@ -1375,6 +1393,37 @@ footer {
     display: none;
   }
   /* End Responsive Pets Product Section */
+
+  /* Start Responsive Banner Section */
+  .banner {
+    margin: 20px 0;
+  }
+
+  .banner-left-photo {
+    margin-top: 85px;
+  }
+
+  .banner-right {
+    width: 44%;
+  }
+
+  .banner-right-top h1 {
+    font-size: 55px;
+  }
+
+  .banner-right-bottom-item-1 p {
+    font-size: 14px;
+  }
+
+  .banner-right-bottom-item-1 i {
+    font-size: 16px;
+  }
+
+  .banner-right-bottom-item-2 p {
+    font-size: 14px;
+    text-align: center;
+  }
+  /* End Responsive Banner Section */
 
 }
 
@@ -1548,6 +1597,60 @@ footer {
 
   /* End Responsive Pets Product Section */
 
+  /* Start Responsive Banner Section */
+  .banner-left {
+    width: 50%;
+    position: relative;
+  }
+
+  .banner-left-photo {
+    position: absolute;
+    bottom: 0;
+    left: -50px;
+    width: 450px;
+    height: 280px;
+  }
+
+  .banner-right {
+    margin: 20px 0;
+    margin-right: 38px;
+    width: 42%;
+    gap: 20px;
+  }
+
+  .banner-right-top h1 {
+    font-size: 38px;
+  }
+
+  .banner-right-top h2 {
+    font-size: 26px;
+  }
+
+  .banner-right-top p {
+    width: 87%;
+  }
+
+  .banner-right-bottom-item-1 {
+    width: 45%;
+  }
+
+  .banner-right-bottom-item-1 p {
+    font-size: 12px;
+  }
+
+  .banner-right-bottom-item-1 i {
+    font-size: 14px;
+  }
+
+  .banner-right-bottom-item-2 {
+    width: 46%;
+  }
+
+  .banner-right-bottom-item-2 p {
+    font-size: 12px;
+  }
+  /* End Responsive Banner Section */
+
 }
 /* md applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1650,6 +1753,66 @@ footer {
   .pets-product-bottom {
     display: flex;
   }
+
+  
+  /* Start Responsive Banner Section */
+  .banner {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+  }
+
+  .banner-left {
+    display: none;
+  }
+
+  .banner-right {
+    text-align: center;
+    margin: 20px 20px;
+    width: auto;
+  }
+
+  .banner-right-top h1 {
+    font-size: 50px;
+  }
+
+  .banner-right-top h2 {
+    font-size: 30px;
+  }
+
+  .banner-right-top p {
+    width: auto;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .banner-right-bottom {
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .banner-right-bottom-item-1 {
+    width: 48%;
+  }
+
+  .banner-right-bottom-item-2 {
+    width: 48%;
+  }
+
+  
+.responsive-banner-bottom {
+  display: flex;
+}
+
+.responsive-banner-bottom img {
+    width: 100%;
+    height: 100%;
+  }
+  /* End Responsive Banner Section */
+
   /* End Responsive Pets Product Section */
 
 }
@@ -1851,13 +2014,25 @@ footer {
 
   .banner-right-bottom-item-1 {
     width: 48%;
+    gap: 6px;
+  }
+
+  .banner-right-bottom-item-1 p {
+    font-size: 10px;
+  }
+
+  .banner-right-bottom-item-1 i {
+    font-size: 12px;
   }
 
   .banner-right-bottom-item-2 {
     width: 48%;
   }
 
-  
+  .banner-right-bottom-item-2 p {
+    font-size: 10px;
+  }
+
 .responsive-banner-bottom {
   display: flex;
 }
