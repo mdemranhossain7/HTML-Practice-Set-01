@@ -930,6 +930,10 @@ header {
   color: #003459;
 }
 
+.pet-footprint {
+  padding: 0.5px;
+}
+
 .banner-2-right-top h2 {
   font-size: 36px;
   font-weight: 700;
@@ -1309,6 +1313,18 @@ footer {
   }
   /* End Responsive Pet Sellers Section */
 
+  /* Start Responsive Banner 2 Section */
+  .banner-2-right {
+    margin: 0 60px;
+  }
+
+  .banner-2-left-photo {
+    width: 502px;
+    height: 315px;
+    transform: rotate(55deg);
+  }
+  /* End Responsive Banner 2 Section */
+
 }
 
 /* xl applies to large devices ( desktops, less than 1200px) */
@@ -1493,6 +1509,38 @@ footer {
     padding: 10px 0;
   }
   /* End Responsive Pet Sellers Section */
+
+  
+  /* Start Responsive Banner 2 Section */
+  .banner-2-right {
+    width: 45%;
+    margin: 16px 40px;
+  }
+
+  .banner-2-right-top h2 {
+    font-size: 34px;
+  }
+
+  .banner-2-right-bottom-item-2 p {
+    font-size: 14px;
+  }
+
+  .banner-2-right-bottom-item-1 p {
+    font-size: 14px;
+  }
+
+  .banner-2-right-bottom-item-1 i {
+    font-size: 16px;
+  }
+
+
+  .banner-2-left-photo {
+    width: 485px;
+    height: 310px;
+    transform: rotate(55deg);
+    margin-left: -80px;
+  }
+  /* End Responsive Banner 2 Section */
 
 }
 
@@ -1800,6 +1848,64 @@ footer {
 }
 /* End Responsive Pet Sellers Section */
 
+/* Start Responsive Banner 2 Section */
+.banner-2-right {
+  margin: 15px 30px;
+  width: 45%;
+}
+
+.banner-2-right-top-item-1 {
+  gap: 8px;
+}
+
+.banner-2-right-top h1 {
+  font-size: 40px;
+}
+
+.banner-2-right-top h2 {
+  font-size: 25px;
+}
+
+.pet-footprint {
+  padding: 4px;
+}
+
+.banner-2-left-photo {
+  width: 485px;
+  height: 310px;
+  margin-left: -80px;
+}
+
+.banner-2-right-bottom-item-2 {
+  padding: 14px 30px;
+}
+
+.banner-2-right-bottom-item-2 p {
+  font-size: 12px;
+}
+
+.banner-2-right-bottom-item-1 {
+  padding: 12px 24px;
+}
+
+.banner-2-right-bottom-item-1 p {
+  font-size: 12px;
+}
+
+.banner-2-right-bottom-item-1 i {
+  font-size: 14px;
+}
+
+.banner-2-left-photo {
+  width: 450px;
+  height: 300px;
+}
+
+.banner-2-left {
+  width: 45%;
+}
+/* End Responsive Banner 2 Section */
+
 }
 /* md applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1994,6 +2100,41 @@ footer {
   }
 
   /* End Responsive Pet Sellers Section */
+
+  /* Start Responsive Banner 2 Section */
+  .banner-2-right {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .banner-2-right-top-item-1 {
+    justify-content: center;
+  }
+
+  .banner-2-right-top h2 {
+    font-size: 35px;
+  }
+
+  .banner-2-right-top p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .banner-2-right-bottom {
+    justify-content: center;
+  }
+
+  .banner-2-left {
+    width: 100%;
+  }
+
+  .banner-2-left-photo {
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  /* End Responsive Banner 2 Section */
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
