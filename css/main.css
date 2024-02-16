@@ -1297,6 +1297,18 @@ footer {
   }
   /* End Responsive Our Product Section */
 
+  
+  /* Start Responsive Pet Sellers Section */
+  .pet-sellers {
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .pet-sellers-brand-item-1 {
+    width: 13%;
+  }
+  /* End Responsive Pet Sellers Section */
+
 }
 
 /* xl applies to large devices ( desktops, less than 1200px) */
@@ -1456,6 +1468,31 @@ footer {
     display: none;
   }
   /* End Responsive Our Product Section */
+
+  /* Start Responsive Pet Sellers Section */
+  .pet-sellers-top-left h1 {
+    font-size: 14px;
+  }
+
+  .pet-sellers-top-left p {
+    font-size: 22px;
+  }
+
+  .pet-sellers-top-right a {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+
+  .pet-sellers-brand-item-1 {
+    width: 14%;
+  }
+
+  .pet-sellers {
+    gap: 10px;
+    padding: 10px 0;
+  }
+  /* End Responsive Pet Sellers Section */
 
 }
 
@@ -1735,8 +1772,33 @@ footer {
     display: none;
   }
 
-
   /* End Responsive Our Product Section */
+
+
+/* Start Responsive Pet Sellers Section */
+.pet-sellers {
+  padding: 10px 0;
+  gap: 20px;
+}
+
+.pet-sellers-top-left h1 {
+  font-size: 13px;
+}
+
+.pet-sellers-top-left p {
+  font-size: 21px;
+}
+
+.pet-sellers-top-right a {
+  font-size: 10px;
+  padding: 8px 18px;
+  gap: 5px;
+}
+
+.pet-sellers-brand-item-1 {
+  padding: 20px 20px;
+}
+/* End Responsive Pet Sellers Section */
 
 }
 /* md applies to small devices (landscape phones, less than 768px) */
@@ -1916,6 +1978,22 @@ footer {
     width: 234px;
   }
   /* End Responsive Our Product Section */
+
+  /* Start Responsive Pet Sellers Section */
+  .pet-sellers {
+    padding: 20px 0;
+    gap: 20px;
+  }
+
+  .pet-sellers-top-right {
+    display: none;
+  }
+
+  .pet-sellers-brand-item-1 {
+    width: 28%;
+  }
+
+  /* End Responsive Pet Sellers Section */
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
