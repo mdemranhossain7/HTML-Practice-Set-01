@@ -757,8 +757,8 @@ header {
 
 /* Start our Product Item-1 */
 .our-product-item-1 {
-  width: 280px;
-  height: 446px;
+  width: 330px;
+  height: 490px;
   padding: 8px;
   background: #FDFDFD;
   border-radius: 12px;
@@ -768,7 +768,7 @@ header {
 }
 
 .our-product-item-1-top {
-  width: 264px;
+  width: 312px;
   aspect-ratio: 1/1;
 }
 
@@ -779,6 +779,7 @@ header {
 }
 
 .our-product-item-1-bottom {
+  width: 100%;
   padding: 8px;
   gap: 8px;
 }
@@ -814,7 +815,7 @@ header {
 .free {
   background: #FCEED5;
   border-radius: 8px;
-  padding: 8px 10px;
+  padding: 8px 12px;
 }
 
 .free p {
@@ -1279,7 +1280,22 @@ footer {
     width: 36%;
   }
   /* End Responsive Banner Section */
+  
 
+  /* Start Responsive Our Product Section */
+  .our-product-item-1 {
+    width: 265px;
+    height: 425px;
+  }
+
+  .our-product-item-1-top {
+    width: 248px;
+  }
+
+  .free {
+    padding: 8px 10px;
+  }
+  /* End Responsive Our Product Section */
 
 }
 
@@ -1424,6 +1440,22 @@ footer {
     text-align: center;
   }
   /* End Responsive Banner Section */
+
+  /* Start Responsive Our Product Section */
+  .our-product-item-1 {
+    width: 295px;
+    height: 440px;
+  }
+
+  .our-product-item-1-top {
+    width: 278px;
+  }
+
+  .o-p-i-7 ,
+  .o-p-i-8 {
+    display: none;
+  }
+  /* End Responsive Our Product Section */
 
 }
 
@@ -1651,6 +1683,61 @@ footer {
   }
   /* End Responsive Banner Section */
 
+  /* Start Responsive Our Product Section */
+  .our-product-top-left h1 {
+    font-size: 14px;
+  }
+
+  .our-product-top-left p {
+    font-size: 22px;
+  }
+
+  .our-product-top-right a {
+    font-size: 12px;
+    padding: 10px 24px;
+  }
+
+  .our-product-item-1 {
+    width: 220px;
+    height: 370px;
+  }
+
+  .our-product-item-1-top {
+    width: 204px;
+  }
+
+  .our-product-item-1-bottom h1 {
+    font-size: 14px;
+  }
+
+  .our-product-item-1-bottom p {
+    font-size: 10px;
+  }
+
+  .our-product-item-1-bottom span {
+    font-size: 10px;
+  }
+
+  .our-product-item-1-bottom h2 {
+    font-size: 13px;
+  }
+
+  .free {
+    padding: 6px 10px;
+  }
+
+  .free p {
+    font-size: 12px;
+  }
+  
+  .o-p-i-7 ,
+  .o-p-i-8 {
+    display: none;
+  }
+
+
+  /* End Responsive Our Product Section */
+
 }
 /* md applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1754,6 +1841,8 @@ footer {
     display: flex;
   }
 
+  /* End Responsive Pets Product Section */
+
   
   /* Start Responsive Banner Section */
   .banner {
@@ -1813,7 +1902,20 @@ footer {
   }
   /* End Responsive Banner Section */
 
-  /* End Responsive Pets Product Section */
+  /* Start Responsive Our Product Section */
+  .our-product-item-1 {
+    width: 250px;
+    height: 415px;
+  }
+
+  .our-product-top-right {
+    display: none;
+  }
+
+  .our-product-item-1-top {
+    width: 234px;
+  }
+  /* End Responsive Our Product Section */
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
