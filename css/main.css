@@ -1325,6 +1325,12 @@ footer {
   }
   /* End Responsive Banner 2 Section */
 
+  /* Start Responsive pet knowledge Section */
+  .pet-knowledge-item-1 {
+    width: 350px;
+  }
+  /* End Responsive pet knowledge Section */
+
 }
 
 /* xl applies to large devices ( desktops, less than 1200px) */
@@ -1541,6 +1547,29 @@ footer {
     margin-left: -80px;
   }
   /* End Responsive Banner 2 Section */
+
+  /* Start Responsive pet knowledge Section */
+  .pet-knowledge-item-1 {
+    width: 295px;
+    height: 380px;
+  }
+
+  .pet-knowledge-item-1-top {
+    height: 200px;
+  }
+
+  .pet-knowledge-item-1-middle p {
+    font-size: 9px;
+  }
+
+  .pet-knowledge-item-1-bottom h1 {
+    font-size: 14px;
+  }
+
+  .pet-knowledge-item-1-bottom h2 {
+    font-size: 12px;
+  }
+  /* End Responsive pet knowledge Section */
 
 }
 
@@ -1906,6 +1935,42 @@ footer {
 }
 /* End Responsive Banner 2 Section */
 
+/* Start Responsive pet knowledge Section */
+.pet-knowledge-top-left h1 {
+  font-size: 14px;
+}
+
+.pet-knowledge-top-left p {
+  font-size: 22px;
+}
+
+.pet-knowledge-top-right a {
+  font-size: 12px;
+  padding: 10px 24px;
+}
+
+.pet-knowledge-item-1 {
+  width: 220px;
+  height: 360px;
+}
+
+.pet-knowledge-item-1-top {
+  height: 180px;
+}
+
+.pet-knowledge-item-1-middle p {
+  font-size: 8px;
+}
+
+.pet-knowledge-item-1-bottom h1 {
+  font-size: 14px;
+}
+
+.pet-knowledge-item-1-bottom h2 {
+  font-size: 11px;
+}
+/* End Responsive pet knowledge Section */
+
 }
 /* md applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -2135,6 +2200,27 @@ footer {
     margin: 0 auto;
   }
   /* End Responsive Banner 2 Section */
+
+  /* Start Responsive pet knowledge Section */
+  .pet-knowledge-item-1 {
+    width: 510px;
+    height: auto;
+    padding: 15px;
+  }
+
+  .pet-knowledge-item-1-top {
+    width: 480px;
+    height: 290px;
+  }
+
+  .pet-knowledge-item-1-bottom h2 {
+    font-size: 13px;
+  }
+
+  .pet-knowledge-top-right {
+    display: none;
+  }
+  /* End Responsive pet knowledge Section */
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -2395,6 +2481,7 @@ footer {
   }
 
   .pet-knowledge-item-1 {
+    width: 320px;
     margin: 10px auto;
   }
 
