@@ -1218,6 +1218,10 @@ footer {
   color: #667479;
 }
 
+.footer-bottom-logo {
+  padding: 0.5px;
+}
+
 .footer-bottom-text {
   width: 15%;
 }
@@ -1228,6 +1232,12 @@ footer {
   color: #667479;
 }
 /* End Footer Bottom */
+
+/* Start Responsive Footer Bottom */
+.responsive-footer-bottom {
+  display: none;
+}
+/* End Responsive Footer Bottom */
 
 /* End Footer Section */
 
@@ -1330,6 +1340,24 @@ footer {
     width: 350px;
   }
   /* End Responsive pet knowledge Section */
+
+  /* Start Responsive Footer Section */
+  .footer-top-item-1-left {
+    width: 35%;
+  }
+
+  .footer-top-item-1-right .input-1 {
+    width: 480px;
+  }
+
+  .footer-bottom-text {
+    width: 20%;
+  }
+
+  .footer-bottom-text p {
+    color: #667479;
+  }
+  /* End Responsive Footer Section */
 
 }
 
@@ -1571,6 +1599,67 @@ footer {
   }
   /* End Responsive pet knowledge Section */
 
+
+  /* Start Responsive Footer Section */
+  .footer-top {
+    padding-top: 45px;
+  }
+
+  .footer-top-item-1 {
+    padding: 28px;
+  }
+
+
+  .footer-top-item-1-left p {
+    font-size: 22px;
+  }
+
+  .footer-top-item-1-right .input-1 {
+    width: 420px;
+    padding: 10px 20px;
+  }
+
+  .footer-top-item-1-right .input-2 {
+    padding: 10px 26px;
+    font-size: 14px;
+  }
+
+  .footer-top-item-1-right {
+    padding: 10px 10px;
+  }
+
+  .footer-top-item-2 {
+    padding: 30px 0;
+  }
+
+  .footer-top-item-2-left a {
+    font-size: 14px;
+  }
+
+  .footer-top-item-2-right i {
+    font-size: 20px;
+  }
+
+  .footer-bottom {
+    padding: 30px 0;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+  }
+
+  .footer-bottom-text {
+    width: 20%;
+  }
+
+  .footer-bottom-logo {
+    padding: 5px;
+  }
+
+  .footer-bottom-text a {
+    font-size: 12px;
+  }
+  /* End Responsive Footer Section */
 }
 
 /* lg applies to medium devices (tablets, less than 992px) */
@@ -1971,6 +2060,75 @@ footer {
 }
 /* End Responsive pet knowledge Section */
 
+/* Start Responsive Footer Section */
+.footer-top {
+  padding-top: 30px;
+}
+
+.footer-top-item-1 {
+  padding: 20px;
+}
+
+.footer-top-item-1-left {
+  width: 35%;
+}
+
+.footer-top-item-1-left p {
+  font-size: 18px;
+}
+
+.footer-top-item-1-right .input-1 {
+  width: 270px;
+  padding: 14px 14px;
+}
+
+.footer-top-item-1-right .input-1::placeholder {
+  font-size: 13px;
+}
+
+.footer-top-item-1-right .input-2 {
+  font-size: 13px;
+  padding: 14px 12px;
+}
+
+.footer-top-item-2 {
+  padding: 30px 0;
+}
+
+.footer-top-item-2-left {
+  width: 35%;
+}
+
+.footer-top-item-2-left a {
+  font-size: 13px;
+}
+
+.footer-top-item-2-right i {
+  font-size: 20px;
+}
+
+.footer-bottom {
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+}
+
+.footer-bottom-logo {
+  padding: 6px;
+}
+
+.footer-bottom-text {
+  width: 25%;
+}
+
+.footer-bottom-text a {
+  font-size: 12px;
+}
+/* End Responsive Footer Section */
+
+
 }
 /* md applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -2221,6 +2379,73 @@ footer {
     display: none;
   }
   /* End Responsive pet knowledge Section */
+
+  /* Start Responsive Footer Section */
+  .footer-top {
+    padding-top: 30px;
+  }
+
+  .footer-top-item-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-top-item-1-left {
+    width: 100%;
+  }
+
+  .footer-top-item-1-right {
+    width: 100%;
+  }
+
+  .footer-top-item-1-right .input-2 {
+    width: 100%;
+  }
+
+  .footer-top-item-2 {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0;
+  }
+
+  .footer-top-item-2-left {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-top-item-2-right {
+    width: 40%;
+  }
+
+  .footer-bottom p {
+    font-size: 10px;
+    width: 24%;
+  }
+
+  .footer-bottom-logo {
+    padding: 2px;
+  }
+
+  .footer-bottom-text {
+    width: 25%;
+  }
+
+  .footer-bottom-text a {
+    font-size: 10px;
+  }
+
+  .footer-bottom-text {
+    width: 28%;
+  }
+
+  .footer-bottom {
+    padding: 20px 0;
+  }
+  /* End Responsive Footer Section */
+
+
+
 
 }
 /* sm applies to x-small devices (portrait phones, less than 576px) */
@@ -2487,6 +2712,91 @@ footer {
 
   /* End Responsive pet knowledge Section */
 
+  
+  /* Start Responsive Footer Section */
+  .footer-top {
+    padding-top: 20px;
+    margin: 0px 16px;
+  }
+
+  .footer-top-item-1 {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .footer-top-item-1-left {
+    width: 100%;
+  }
+
+  .footer-top-item-1-left p {
+    font-size: 18px;
+  }
+
+  .footer-top-item-1-right {
+    width: 100%;
+  }
+
+  .footer-top-item-1-right .input-2 {
+    width: 100%;
+  }
+
+  .footer-top-item-2 {
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 0;
+  }
+
+  .footer-top-item-2-left {
+    width: 100%;
+  }
+
+  .footer-top-item-2-right {
+    width: 60%;
+  }
+
+  .footer-top-item-2-right i {
+    font-size: 20px;
+  }
+
+  .footer-bottom {
+    padding: 20px 0;
+  }
+
+  .footer-bottom {
+    display: none;
+  }
+
+  .responsive-footer-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 16px;
+    gap: 32px;
+  }
+
+  .footer-bottom-text {
+    width: 70%;
+  }
+
+  .footer-bottom-group-1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer-bottom-group-1 a {
+    font-size: 12px;
+    color: #667479;
+  }
+
+  .footer-bottom-text {
+    gap: 8px;
+  }
+
+  .footer-bottom-text p {
+    font-size: 10px;
+    margin: 0 auto;
+    color: #667479;
+  }
+  /* End Responsive Footer Section */
 
 
 }
