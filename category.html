@@ -4,9 +4,385 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monito</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
     
+    
+    <!-- Start Navbar Section -->
+    <nav class="category-navbar-1">
+            
+        <div class="container navbar flex flex-row justify-between">
+            <!-- Start Navbar Left -->
+            <div class="navbar-left flex flex-row align-center justify-between">
+
+                <a href="index.html" class="navbar-left-img">
+                    <img src="./assets/navbar-logo.svg" alt="">
+                </a>
+
+                <div class="navbar-left-item flex flex-row">
+                    <a href="index.html" class="font-semibold">Home</a>
+                    <a href="./category.html" class="font-semibold">Category</a>
+                    <a href="#" class="font-semibold">About</a>
+                    <a href="#" class="font-semibold">Contact</a>
+                </div>
+
+            </div>
+            <!-- End Navbar Left -->
+
+            <!-- Start Navbar Right -->
+            <div class="navbar-right flex flex-row align-center justify-between">
+
+                <!-- Start Navbar Right Item 1 -->
+                <div class="navbar-right-item-1 align-center justify-center flex flex-row">
+                    <label for="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input class="font-medium" id="search" type="text" placeholder="Search something here!">
+                </div>
+                <!-- End Navbar Right Item 1 -->
+
+                <!-- Start Navbar Right Item 2 -->
+                <a href="#" class="navbar-right-item-2 flex flex-row align-center">
+                    <p class="font-bold">Join the community</p>
+                </a>
+                <!-- End Navbar Right Item 2 -->
+
+                <!-- Start Navbar Right Item 3 -->
+                <div class="navbar-right-item-3 flex flex-row align-center justify-center">
+                    <div class="vnd-flag">
+                        <img src="./assets/vietnam-flag.png" alt="">
+                    </div>
+
+                    <p class="font-medium">VND</p>
+
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <!-- End Navbar Right Item 3 -->
+
+            </div>
+            <!-- End Navbar Right -->
+
+        </div>
+    </nav>
+
+    <!-- Start Responsive Navbar -->
+    <div class="navbar-2 flex flex-row justify-between">
+
+        <nav role="navigation">
+            <div id="menuToggle">
+    
+                <input type="checkbox">
+    
+                <span></span>
+                <span></span>
+                <span></span>
+    
+                <ul id="menu">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Category</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+    
+            </div>
+        </nav>
+
+        <a href="index.html" class="navbar-logo-2">
+            <img src="./assets/navbar-logo-1.png" alt="">
+        </a>
+
+        <div class="navbar-2-right flex flex-row align-center">
+            <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+
+    </div>
+    <!-- End Responsive Navbar -->
+
+    <!-- End Navbar Section -->
+        
+
+
+
+    <!-- Start Home title Section -->
+    <div class="container home-title flex flex-row align-center">
+        <a href="#">Home</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <a href="#">Dog</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <a href="#">Small Dog</a>
+    </div>
+    <!-- End Home title Section -->
+
+    
+
+
+
+    <!-- Start category-banner Section -->
+    <section class="container">
+
+        <div class="category-banner flex flex-row ">
+            <!-- Start category-banner Left -->
+            <div class="category-banner-left">
+                <div class="category-banner-left-photo">
+                    <img src="./assets/category-banner.png" alt="">
+                </div>
+            </div>
+            <!-- End category-banner Left -->
+
+
+            <!-- Start category-banner Right -->
+            <div class="category-banner-right flex flex-column">
+                <div class="category-banner-right-top flex flex-column">
+                    <h1>One more friend</h1>
+                    <h2>Thousands more fun!</h2>
+                    <p>Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+                    </div>
+
+                <div class="category-banner-right-bottom flex flex-row align-center justify-between">
+                    <a href="#" class="category-banner-right-bottom-item-1 flex flex-row align-center">
+                        <span>View Intro</span>
+                        <i class="fa-regular fa-circle-play"></i>
+                    </a>
+                    <a href="#" class="category-banner-right-bottom-item-2">
+                        <span>Explore Now</span>
+                    </a>
+                </div>
+            </div>
+            <!-- End category-banner Right -->
+
+
+            <!-- Start Responsive category-banner Bottom -->
+            <div class="responsive-category-banner-bottom">
+                <img src="./assets/category-banner-img-1.png" alt="">
+            </div>
+            <!-- End Responsive category-banner Bottom -->
+
+        </div>
+    </section>
+    <!-- End category-banner Section -->
+
+
+
+
+
+    <!-- Start Category Middle Section -->
+    <div class="category-middle flex flex-row container">
+        <!-- Start Category Middle Left Section -->
+        <div class="category-middle-left flex flex-column">
+            <h1>Filter</h1>
+
+            <!-- Start Gender -->
+            <div class="gender flex flex-column">
+                <h2>Gender</h2>
+                
+                <div class="gender-items flex flex-column">
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="male">
+                        <label for="male">Male</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="female">
+                        <label for="female">Female</label>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Gender -->
+
+            <hr>
+
+            <!-- Start Color -->
+            <div class="gender flex flex-column">
+                <h2>Color</h2>
+                
+                <div class="gender-items flex flex-column">
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="red">
+                        <img src="./assets/red.png" alt="">
+                        <label for="red">Red</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="apricot">
+                        <img src="./assets/Apricot.png" alt="">
+                        <label for="apricot">Apricot</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="black">
+                        <img src="./assets/Black.png" alt="">
+                        <label for="black">Black</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="black & white">
+                        <img src="./assets/Black & White.png" alt="">
+                        <label for="black & white">Black & White</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="silver">
+                        <img src="./assets/Silver.png" alt="">
+                        <label for="silver">Silver</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="tan">
+                        <img src="./assets/Tan.png" alt="">
+                        <label for="tan">Tan</label>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Color -->
+
+            <hr>
+
+            <!-- Start Price -->
+            <div class="gender flex flex-column">
+                <h2>Price</h2>
+                
+                <div class="price-items flex flex-row justify-between">
+
+                    <div class="price-item-1">
+                        <select>
+                            <option value="min">Min</option>
+                            <option value="100">100.000 VND</option>
+                            <option value="200">200.000 VND</option>
+                            <option value="300">300.000 VND</option>
+                            <option value="400">400.000 VND</option>
+                            <option value="500">500.000 VND</option>
+                            <option value="600">600.000 VND</option>
+                            <option value="700">700.000 VND</option>
+                            <option value="800">800.000 VND</option>
+                            <option value="900">900.000 VND</option>
+                            <option value="1000">1.000.000 VND</option>
+                            <option value="2000">2.000.000 VND</option>
+                            <option value="3000">3.000.000 VND</option>
+                            <option value="4000">4.000.000 VND</option>
+                            <option value="5000">5.000.000 VND</option>
+                            <option value="6000">6.000.000 VND</option>
+                            <option value="7000">7.000.000 VND</option>
+                            <option value="8000">8.000.000 VND</option>
+                            <option value="9000">9.000.000 VND</option>
+                            <option value="10000">10.000.000 VND</option>
+                            <option value="20000">20.000.000 VND</option>
+                            <option value="30000">30.000.000 VND</option>
+                            <option value="40000">40.000.000 VND</option>
+                            <option value="50000">50.000.000 VND</option>
+                            <option value="60000">60.000.000 VND</option>
+                            <option value="70000">70.000.000 VND</option>
+                            <option value="80000">80.000.000 VND</option>
+                            <option value="90000">90.000.000 VND</option>
+                            <option value="100000">1.00.000.000 VND</option>
+                        </select>
+                        
+                        <hr>
+                    </div>
+
+                    <div class="price-item-1">
+                        <select>
+                            <option value="max">Max</option>
+                            <option value="100">100.000 VND</option>
+                            <option value="200">200.000 VND</option>
+                            <option value="300">300.000 VND</option>
+                            <option value="400">400.000 VND</option>
+                            <option value="500">500.000 VND</option>
+                            <option value="600">600.000 VND</option>
+                            <option value="700">700.000 VND</option>
+                            <option value="800">800.000 VND</option>
+                            <option value="900">900.000 VND</option>
+                            <option value="1000">1.000.000 VND</option>
+                            <option value="2000">2.000.000 VND</option>
+                            <option value="3000">3.000.000 VND</option>
+                            <option value="4000">4.000.000 VND</option>
+                            <option value="5000">5.000.000 VND</option>
+                            <option value="6000">6.000.000 VND</option>
+                            <option value="7000">7.000.000 VND</option>
+                            <option value="8000">8.000.000 VND</option>
+                            <option value="9000">9.000.000 VND</option>
+                            <option value="10000">10.000.000 VND</option>
+                            <option value="20000">20.000.000 VND</option>
+                            <option value="30000">30.000.000 VND</option>
+                            <option value="40000">40.000.000 VND</option>
+                            <option value="50000">50.000.000 VND</option>
+                            <option value="60000">60.000.000 VND</option>
+                            <option value="70000">70.000.000 VND</option>
+                            <option value="80000">80.000.000 VND</option>
+                            <option value="90000">90.000.000 VND</option>
+                            <option value="100000">1.00.000.000 VND</option>
+                        </select>
+                        
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Price -->
+
+            <hr>
+
+            <!-- Start Breed -->
+            <div class="gender flex flex-column">
+                <h2>Breed</h2>
+                
+                <div class="gender-items flex flex-column">
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="small">
+                        <label for="small">Small</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="medium">
+                        <label for="medium">Medium</label>
+                    </div>
+
+                    <div class="gender-item-1 flex flex-row align-center">
+                        <input type="checkbox" id="large">
+                        <label for="large">Large</label>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End Breed -->
+
+            <hr>
+
+        </div>
+        <!-- End Category Middle Left Section -->
+
+        <!-- Start Category Middle Right Section -->
+        <div class="category-middle-right"></div>
+        <!-- End Category Middle Right Section -->
+    </div>
+    <!-- End Category Middle Section -->
+
+
+
+
+
+
+
+
     
     <!-- Js File -->
     <script src="../js/jquery-3.7.1.min.js"></script>
@@ -16,3 +392,31 @@
     <script src="../js/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+            <!-- Start category-banner Right -->
+            <!-- <div class="category-banner-right flex flex-column justify-center">
+                <div class="category-banner-right-top flex flex-column">
+                    <h1>One more friend</h1>
+                    <h2>Thousands more fun!</h2>
+                    <p>Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</p>
+                </div>
+
+                <div class="category-banner-right-bottom flex flex-row justify-end align-center">
+                    <a href="#" class="category-banner-right-bottom-item-1 align-center flex flex-row justify-center">
+                        <p>View Intro</p>
+                        <i class="fa-regular fa-circle-play"></i>
+                    </a>
+                    <a href="#" class="category-banner-right-bottom-item-2">
+                        <p>Explore Now</p>
+                    </a>
+                </div>
+
+            </div> -->
+            <!-- End category-banner Right -->
