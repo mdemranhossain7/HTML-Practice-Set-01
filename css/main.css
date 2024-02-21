@@ -1732,6 +1732,34 @@ footer {
   }
   /* End Responsive Footer Section */
 
+
+  /* Start Responsive Category Middle Right Section */
+  /* Start Responsive Category Middle Right Top */
+  .category-middle-right-top {
+    margin-bottom: 10px;
+  }
+  
+  .category-middle-right-top-item-1 {
+    width: 22%;
+  }
+
+  .category-middle-right-top-item-2 {
+    width: 20%;
+  }
+  /* End Responsive Category Middle Right Top */
+
+  /* Start Responsive Category Middle Right Bottom */
+  .pets-product-item-2 {
+    width: 276px;
+  }
+
+  .pets-product-item-2-top {
+    width: 260px;
+  }
+  /* End Responsive Category Middle Right Bottom */
+
+  /* End Responsive Category Middle Right Section */
+
 }
 
 /* xl applies to large devices ( desktops, less than 1200px) */
