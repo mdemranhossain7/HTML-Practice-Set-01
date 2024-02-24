@@ -1572,12 +1572,15 @@ footer {
   border: 0;
   border-radius: 5px;
   margin: 5x 0;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .price-item-1 option {
   font-size: 14px;
   font-weight: 500;
   color: #242B33;
+  font-weight: 500;
 }
 /* End Category Middle Left Section */
 
@@ -1625,6 +1628,27 @@ footer {
 
 .category-middle-right-top-item-2 i {
   font-size: 10px;
+}
+
+.category-middle-right-top-item-3 {
+  width: 15%;
+  display: none;
+}
+
+.category-middle-right-top-item-3 a {
+  color: #002A48;
+  gap: 8px;
+}
+
+.category-middle-right-top-item-3 i {
+  font-size: 24px;
+  color: #002A48;
+}
+
+.category-middle-right-top-item-3 span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #002A48;
 }
 /* End Category Middle Right Top */
 
@@ -1686,6 +1710,10 @@ footer {
   color: #00171F;
 }
 /* End Pets Product Item-2 */
+
+.extra-pets-product {
+  display: none;
+}
 
 
 /* End Category Middle Right Bottom */
@@ -2269,6 +2297,100 @@ footer {
   /* End Responsive Category Banner Section */
 
 
+
+  /* Start Responsive Category Middle Section */
+  .category-middle {
+    padding: 35px 0;
+  }
+
+  /* Start Responsive Category Middle Left Section */
+  .category-middle-left h1 {
+    font-size: 22px;
+  }
+
+  .gender h2 {
+    font-size: 14px;
+  }
+
+  .gender-item-1 label {
+    font-size: 12px;
+  }
+
+  .price-item-1 select {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .price-item-1 option {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  /* End Responsive Category Middle Left Section */
+
+  /* Start Responsive Category Middle Right Section */
+  .category-middle-right-top-item-1 {
+    width: 23%;
+  }
+
+  .category-middle-right-top-item-1 h1 {
+    font-size: 22px;
+  }
+
+  .category-middle-right-top-item-1 p {
+    font-size: 12px;
+  }
+
+  .category-middle-right-top-item-2 {
+    width: 20%;
+  }
+
+  .category-middle-right-top-item-2 a {
+    font-size: 12px;
+  }
+
+  .pets-product-item-2 {
+    width: 228px;
+  }
+
+  .pets-product-item-2-top {
+    width: 212px;
+  }
+
+  .pets-product-item-2-bottom h1 {
+    font-size: 14px;
+  }
+
+  .pets-product-item-2-bottom h2 {
+    font-size: 13px;
+  }
+
+  .pets-product-item-2-bottom p {
+    font-size: 10px;
+  }
+
+  .pets-product-item-2-bottom span {
+    font-size: 10px;
+  }
+  /* End Responsive Category Middle Right Section */
+
+  /* Start Responsive Category Pagination Section  */
+  .category-pagination-item {
+    margin: 25px 0;
+    gap: 10px;
+  }
+
+  .category-pagination-item i {
+    font-size: 22px;
+  }
+
+  .category-pagination-item span {
+    font-size: 16px;
+  }
+  /* End Responsive Category Pagination Section  */
+
+  /* End Responsive Category Middle Section */
+
+
 }
 
 /* lg applies to medium devices (tablets, less than 992px) */
@@ -2803,6 +2925,113 @@ footer {
   }
   /* End Responsive Category Banner Section */
 
+  
+
+
+  /* Start Responsive Category Middle Section */
+  .category-middle {
+    padding: 35px 0;
+  }
+
+  /* Start Responsive Category Middle Left Section */
+  .category-middle-left h1 {
+    font-size: 20px;
+  }
+
+  .gender h2 {
+    font-size: 13px;
+  }
+
+  .gender-item-1 label {
+    font-size: 11px;
+  }
+
+  .gender-item-1 img {
+    width: 14px;
+  }
+
+  .price-item-1 select {
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .price-item-1 option {
+    font-size: 11px;
+    font-weight: 500;
+  }
+  /* End Responsive Category Middle Left Section */
+dj king
+  /* Start Responsive Category Middle Right Section */
+  .category-middle-right-top-item-1 {
+    width: 28%;
+  }
+  
+  .category-middle-right-top-item-1 h1 {
+    font-size: 20px;
+  }
+
+  .category-middle-right-top-item-1 p {
+    font-size: 11px;
+  }
+
+  .category-middle-right-top-item-2 {
+    width: 25%;
+  }
+
+  .category-middle-right-top-item-2 a {
+    font-size: 11px;
+    gap: 5px;
+  }
+
+  .pets-product-item-2 {
+    width: 175px;
+    margin: 6px;
+  }
+
+  .pets-product-item-2-top {
+    width: 160px;
+  }
+
+  .pets-product-item-2-bottom h1 {
+    font-size: 13px;
+  }
+
+  .pets-product-item-2-bottom-text-group-1 {
+    gap: 8px;
+  }
+
+  .pets-product-item-2-bottom p {
+    font-size: 9px;
+  }
+
+  .pets-product-item-2-bottom span {
+    font-size: 9px;
+  }
+
+  .pets-product-item-2-bottom h2 {
+    font-size: 12px;
+  }
+
+  /* End Responsive Category Middle Right Section */
+
+  /* Start Responsive Category Pagination Section  */
+  .category-pagination-item {
+    margin: 25px 0;
+    gap: 8px;
+  }
+
+  .category-pagination-item i {
+    font-size: 20px;
+  }
+
+  .category-pagination-item span {
+    font-size: 14px;
+  }
+  /* End Responsive Category Pagination Section  */
+
+  /* End Responsive Category Middle Section */
+
+
 
 
 
@@ -3210,6 +3439,51 @@ footer {
 
   }
   /* End Responsive Category Banner Section */
+
+
+  /* Start Responsive Category Middle Section */
+  .category-middle-right {
+    width: 100%;
+  }
+  /* Start Responsive Category Middle Left Section */
+  .category-middle-left {
+    display: none;
+  }
+  /* End Responsive Category Middle Left Section */
+
+  /* Start Responsive Category Middle Right Section */
+  .category-middle-right-top-item-1 {
+    display: none;
+  }
+
+  .category-middle-right-top-item-3 {
+    display: flex;
+  }
+
+  .category-middle-right-top-item-2 {
+    width: 25%;
+  }
+
+  .category-middle-right-top-item-2 a {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .pets-product-item-2 {
+    width: 250px;
+  }
+
+  .pets-product-item-2-top {
+    width: 234px;
+  }
+
+  
+.extra-pets-product {
+  display: flex;
+}
+  /* End Responsive Category Middle Right Section */
+
+  /* End Responsive Category Middle Section */
 
 
 
@@ -3667,5 +3941,90 @@ footer {
   /* End Responsive Category Banner Section */
 
 
+  
+  /* Start Responsive Category Middle Section */
+  .category-middle-right {
+    width: 100%;
+    margin: 0 16px;
+  }
+  /* Start Responsive Category Middle Left Section */
+  .category-middle-left {
+    display: none;
+  }
+  /* End Responsive Category Middle Left Section */
+
+  /* Start Responsive Category Middle Right Section */
+  .category-middle-right-top {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .category-middle-right-top-item-1 {
+    display: none;
+  }
+
+  .category-middle-right-top-item-3 {
+    display: flex;
+    width: 25%;
+  }
+
+  .category-middle-right-top-item-2 {
+    width: 50%;
+  }
+
+  .category-middle-right-top-item-2 a {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+
+  .pets-product-item-2 {
+    width: 48%;
+    margin: 0;
+    margin-bottom: 0px;
+  }
+
+  .pets-product-item-2-top {
+    width: 135px;
+    margin: 0 auto;
+  }
+
+  
+.extra-pets-product {
+  display: flex;
+}
+
+.pets-product-item-2-bottom h1 {
+  font-size: 14px;
+}
+
+.pets-product-item-2-bottom {
+  gap: 5px;
+  padding: 0;
+}
+  /* End Responsive Category Middle Right Section */
+
+  
+  /* Start Responsive Category Pagination Section  */
+  .category-pagination-item {
+    margin: 25px 0;
+    gap: 2px;
+  }
+
+  .category-pagination-item i {
+    font-size: 20px;
+  }
+
+  .category-pagination-item span {
+    font-size: 14px;
+  }
+  /* End Responsive Category Pagination Section  */
+
+  /* End Responsive Category Middle Section */
+
+
+
+
 
 }
+
