@@ -1751,12 +1751,85 @@ footer {
 
 /* End Category Middle Section */
 
-
-
-
 /* End Category Page  */
 
 
+
+/* Start detalis Page */
+
+/* Start Pet detalis Section */
+.pet-detalis-group {
+  border: 1px solid #EBEEEF;
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* Start pet detalis header left */
+.pet-detalis-group-header-left {
+  width: 45%;
+}
+
+/* Start Pet detalis Group header left photo slider Item 1 */
+.pet-detalis-group-header-left-photo-slider-item-1 {
+  width: 560px;
+  height: 415px;
+}
+
+.pet-detalis-group-header-left-photo-slider-item-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.slider-for .slick-arrow {
+  background: rgba(255, 255, 255 , 0.4);
+  width: 42px;
+  height: 42px;
+  z-index: 5;
+}
+
+.slider-for .slick-prev {
+  left: 15px;
+  border-radius: 50px;
+}
+
+.slider-for .slick-prev::before {
+  content: '<';
+  color: #fff;
+  font-weight: 700;
+}
+
+.slider-for .slick-next {
+  right: 15px;
+  border-radius: 50px;
+}
+
+.slider-for .slick-next::before {
+  content: '>';
+  color: #fff;
+  font-weight: 700;
+}
+
+.slider-nav .pet-detalis-group-header-left-photo-slider-item-1 {
+  width: 94px;
+  height: 94px;
+  margin: 12px 6px;
+}
+.slider-nav img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* End Pet detalis Group header left photo slider Item 1 */
+
+/* End pet detalis header left */
+
+/* End Pet detalis Section */
+
+/* End detalis Page */
 
 
 
