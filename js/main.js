@@ -27,6 +27,14 @@ $(document).ready(function(){
         focusOnSelect: true
     });
 
+    $('.our-customer-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+    });
+
     // $('#productsSlider').slick({
     //     slidesToShow: 6,
     //     infinite: true,

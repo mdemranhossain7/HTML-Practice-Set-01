@@ -1825,9 +1825,270 @@ footer {
 
 /* End Pet detalis Group header left photo slider Item 1 */
 
+/* Start Pet details vaildet */
+.pet-detalis-vaildet {
+  background: #FCEED5;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin: 17px 0;
+}
+
+/* Start Pet details vaildet Item 1 */
+.pet-detalis-vaildet-item-1 {
+  width: 48%;
+  gap: 10px;
+}
+
+.pet-detalis-vaildet-item-1-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.pet-detalis-vaildet-item-1-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.pet-detalis-vaildet-item-1 p {
+  font-size: 14px;
+  color: #002A48;
+  font-weight: 700;
+}
+/* End Pet details vaildet Item 1 */
+
+/* Start Pet details vaildet Item 2 */
+.pet-detalis-vaildet-item-2 {
+  width: 48%;
+  gap: 10px;
+}
+
+.pet-detalis-vaildet-item-2-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.pet-detalis-vaildet-item-2-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.pet-detalis-vaildet-item-2 p {
+  font-size: 14px;
+  color: #002A48;
+  font-weight: 700;
+}
+/* End Pet details vaildet Item 2 */
+
+/* Start Pet Details Share */
+.pet-detalis-share {
+  padding: 6px 10px;
+  gap: 20px;
+}
+/* Start pet details share item 1 */
+.pet-detalis-share-item-1 {
+  gap: 8px;
+}
+.pet-detalis-share-item-1 i {
+  font-size: 15px;
+  color: #002A48;
+}
+
+.pet-detalis-share-item-1 p {
+  font-size: 14px;
+  color: #002A48;
+  font-weight: 700;
+}
+/* End pet details share item 1 */
+
+/* Start pet details share item 2 */
+.pet-detalis-share-item-2 {
+  gap: 18px;
+}
+.pet-detalis-share-item-2 a {
+  color: #99A2A5;
+}
+
+.pet-detalis-share-item-2 i {
+  font-size: 18px;
+}
+/* End pet details share item 2 */
+
+/* End Pet Details Share */
+
+/* End Pet details vaildet */
+
 /* End pet detalis header left */
 
+
+/* Start pet detalis header right */
+.pet-detalis-group-right {
+  width: 48%;
+  margin: 0 40px;
+  gap: 18px;
+}
+
+/* Start pet detalis header right title */
+.pet-detalis-group-right-title {
+  gap: 10px;
+}
+.pet-detalis-group-right-title a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #667479;
+}
+.pet-detalis-group-right-title i {
+  font-size: 10px;
+  color: #667479;
+}
+/* End pet detalis header right title */
+
+/* Start pet detalis header right Tag */
+.pet-detalis-group-right-tag {
+  gap: 6px;
+}
+.pet-detalis-group-right-tag p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #99A2A5;
+}
+
+.pet-detalis-group-right-tag h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00171F;
+}
+
+.pet-detalis-group-right-tag h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #002A48;
+}
+/* End pet detalis header right Tag */
+
+/* Start pet detalis header right contact */
+.pet-detalis-group-right-contact {
+  width: 60%;
+  gap: 18px;
+}
+
+/* Start pet detalis header right contact item 1 */
+.pet-detalis-group-right-contact-item-1 {
+  background: #003459;
+  padding: 10px 28px;
+  border-radius: 50px;
+}
+.pet-detalis-group-right-contact-item-1 span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FDFDFD;
+}
+/* End pet detalis header right contact item 1 */
+
+
+/* Start pet detalis header right contact item 2 */
+.pet-detalis-group-right-contact-item-2 {
+  padding: 8px 28px;
+  border-radius: 50px;
+  border: 2px solid #002A48;
+  gap: 10px;
+}
+
+.pet-detalis-group-right-contact-item-2-logo {
+  width: 24px;
+  aspect-ratio: 1/1;
+}
+
+.pet-detalis-group-right-contact-item-2-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.pet-detalis-group-right-contact-item-2 span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #002A48;
+}
+/* End pet detalis header right contact item 2 */
+
+
+/* End pet detalis header right contact */
+
+/* Start pet detalis header right Information */
+.pet-detalis-information {
+  width: 100%;
+}
+
+.pet-detalis-information-item-1 {
+  padding: 8px 0;
+}
+
+.pet-detalis-information-item-1 h1 {
+  width: 35%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #667479;
+  margin-left: 12px;
+}
+
+.pet-detalis-information-item-1 h2 {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #667479;
+  margin-left: 12px;
+}
+
+.pet-detalis-information hr {
+  border: 1px solid #EBEEEF;
+}
+
+/* End pet detalis header right Information */
+
+
+/* End pet detalis header right */
+
+
 /* End Pet detalis Section */
+
+
+/* Start Our Customer Section */
+
+/* Start Our Customer Top */
+.our-customer-top h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00171F;
+  text-transform: capitalize;
+}
+/* End Our Customer Top */
+
+/* Start Our Customer Slider */
+.our-customer-slider {
+  gap: 12px;
+  margin: 20px 0;
+}
+
+/* Start Our Customer Slider item 1 */
+.our-customer-slider-item-1 {
+  width: 248px;
+  height: 340px;
+  margin: 0 8px;
+}
+
+.our-customer-slider-item-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* End Our Customer Slider item 1 */
+.slick-dots li button::before {
+  font-size: 20px;
+}
+/* End Our Customer Slider */
+
+/* End Our Customer Section */
+
 
 /* End detalis Page */
 
