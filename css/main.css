@@ -1757,6 +1757,9 @@ footer {
 
 /* Start detalis Page */
 
+.responsive-pet-detalis {
+  display: none;
+}
 /* Start Pet detalis Section */
 .pet-detalis-group {
   border: 1px solid #EBEEEF;
@@ -1826,6 +1829,16 @@ footer {
 /* End Pet detalis Group header left photo slider Item 1 */
 
 /* Start Pet details vaildet */
+.responsive-pet-detalis-vaildet {
+  width: 100%;
+  background: #FCEED5;
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin: 17px 0;
+  gap: 10px;
+  display: none;
+}
+
 .pet-detalis-vaildet {
   background: #FCEED5;
   padding: 10px 12px;
@@ -2016,6 +2029,10 @@ footer {
 /* Start pet detalis header right Information */
 .pet-detalis-information {
   width: 100%;
+}
+
+.pet-detalis-information-top {
+  display: none;
 }
 
 .pet-detalis-information-item-1 {
@@ -2260,6 +2277,91 @@ footer {
   /* End Responsive Category Middle Right Bottom */
 
   /* End Responsive Category Middle Right Section */
+
+
+
+
+  /* Start Responsive pet detalis Section */
+
+  /* Start Responsive pet detalis header left  */
+  .pet-detalis-group-header-left {
+    width: 46%;
+  }
+
+  /* Start Responsive Pet detalis Group header left photo slider Item 1 */
+.pet-detalis-group-header-left-photo-slider-item-1 {
+  width: 560px;
+  height: auto;
+}
+/* End Responsive Pet detalis Group header left photo slider Item 1 */
+
+  /* Start Responsive Pet detalis Group header left photo slider Item 1 */
+  .slider-nav .pet-detalis-group-header-left-photo-slider-item-1 {
+    width: 70px;
+    height: 70px;
+  }
+  /* End Responsive Pet detalis Group header left photo slider Item 1 */
+
+  /* Start Responsive Pet details vaildet */
+
+  .pet-detalis-vaildet {
+    padding: 10px 5px;
+  }
+
+  /* Start Responsive Pet details vaildet Item 1  */
+  .pet-detalis-vaildet-item-1 {
+    gap: 5px;
+    width: 45%;
+  }
+  
+  .pet-detalis-vaildet-item-1-logo {
+    width: 25px;
+    height: 25px;
+  }
+
+  .pet-detalis-vaildet-item-1 p {
+    font-size: 13px;
+  }
+  /* End Responsive Pet details vaildet Item 1  */
+
+
+  /* Start Responsive Pet details vaildet Item 2  */
+  .pet-detalis-vaildet-item-2 {
+    gap: 5px;
+    width: 50%;
+  }
+
+  .pet-detalis-vaildet-item-2-logo {
+    width: 25px;
+    height: 25px;
+  }
+
+  
+  .pet-detalis-vaildet-item-2 p {
+    font-size: 13px;
+  }
+  /* End Responsive Pet details vaildet Item 2  */
+
+  /* End Responsive Pet details vaildet */
+
+  /* End Responsive pet detalis header left  */
+
+
+  /* Start Responsive pet detalis header right  */
+  .pet-detalis-group-right {
+    width: 46%;
+  }
+
+  /* Start Responsive pet detalis header right contact */
+  .pet-detalis-group-right-contact {
+    width: 75%;
+  }
+  /* End Responsive pet detalis header right contact */
+
+
+  /* End Responsive pet detalis header right  */
+
+  /* End Responsive pet detalis Section */
 
 
 }
@@ -2724,6 +2826,117 @@ footer {
 
   /* End Responsive Category Middle Section */
 
+
+
+  /* Start Responsive pet detalis Section */
+  .pet-detalis-vaildet {
+    padding: 8px 4px;
+  }
+
+  .pet-detalis-vaildet-item-1 {
+    gap: 5px;
+    width: 45%;
+  }
+
+  .pet-detalis-vaildet-item-1-logo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pet-detalis-vaildet-item-1 p {
+    font-size: 11px;
+  }
+
+  .pet-detalis-vaildet-item-2 {
+    gap: 5px;
+    width: 52%;
+  }
+
+  .pet-detalis-vaildet-item-2-logo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pet-detalis-vaildet-item-2 p {
+    font-size: 11px;
+  }
+
+  .pet-detalis-share-item-1 i {
+    font-size: 14px;
+  }
+
+  .pet-detalis-share-item-1 p {
+    font-size: 11px;
+  }
+
+  .pet-detalis-share-item-2 i {
+    font-size: 14px;
+  }
+
+  .pet-detalis-group-right {
+    width: 45%;
+  }
+
+  .pet-detalis-group-right-title a {
+    font-size: 12px;
+  }
+
+  .pet-detalis-group-right-title i {
+    font-size: 8px;
+  }
+
+  .pet-detalis-group-right-tag p {
+    font-size: 12px;
+  }
+
+  .pet-detalis-group-right-tag h1 {
+    font-size: 22px;
+  }
+
+  .pet-detalis-group-right-tag h2 {
+    font-size: 18px;
+  }
+
+  .pet-detalis-group-right-contact {
+    width: 80%;
+    gap: 14px;
+  }
+
+  .pet-detalis-group-right-contact-item-1 {
+    padding: 8px 24px;
+  }
+
+  .pet-detalis-group-right-contact-item-1 span {
+    font-size: 14px;
+  }
+
+  .pet-detalis-group-right-contact-item-2 {
+    padding: 6px 24px;
+  }
+
+  .pet-detalis-group-right-contact-item-2-logo {
+    width: 22px;
+  }
+
+  .pet-detalis-group-right-contact-item-2 span {
+    font-size: 14px;
+  }
+
+  .pet-detalis-information-item-1 h1 {
+    font-size: 12px;
+  }
+
+  .pet-detalis-information-item-1 h2 {
+    font-size: 12px;
+    width: 55%;
+  }
+  /* End Responsive pet detalis Section */
+
+  /* Start Responsive Our coustomer Section */
+  .our-customer-slider-item-1 {
+    height: 280px;
+  }
+  /* End Responsive Our coustomer Section */
 
 }
 
@@ -3365,6 +3578,138 @@ dj king
 
   /* End Responsive Category Middle Section */
 
+  /* Start Responsive pet detalis Section */
+  .pet-detalis-group-header-left-photo-slider-item-1 {
+    height: 260px;
+  }
+
+  .slider-nav .pet-detalis-group-header-left-photo-slider-item-1 {
+    height: 30px;
+  }
+
+  .pet-detalis-vaildet {
+    padding: 8px 8px;
+  }
+
+  .pet-detalis-vaildet-item-1 {
+    gap: 5px;
+    width: 46%;
+  }
+
+  .pet-detalis-vaildet-item-1-logo {
+    width: 18px;
+    height: 18px;
+  }
+
+  .pet-detalis-vaildet-item-1 p {
+    font-size: 8px;
+  }
+
+  
+  .pet-detalis-vaildet-item-2 {
+    gap: 5px;
+    width: 46%;
+  }
+
+  .pet-detalis-vaildet-item-2 p {
+    font-size: 8px;
+  }
+
+  .pet-detalis-vaildet-item-2-logo {
+    width: 18px;
+    height: 18px;
+  }
+
+  .pet-detalis-share-item-1 {
+    gap: 5px;
+  }
+
+  .pet-detalis-share-item-1 i {
+    font-size: 12px;
+  }
+
+  .pet-detalis-share-item-1 p {
+    font-size: 10px;
+  }
+
+  .pet-detalis-share-item-2 {
+    gap: 12px;
+  }
+
+  .pet-detalis-share-item-2 i {
+    font-size: 12px;
+  }
+
+  .pet-detalis-group-right {
+    margin: 0;
+  }
+
+  .pet-detalis-group-right-title a {
+    font-size: 10px;
+  }
+
+  .pet-detalis-group-right-title i {
+    font-size: 8px;
+  }
+
+  .pet-detalis-group-right-tag p {
+    font-size: 10px;
+  }
+
+  .pet-detalis-group-right-tag h1 {
+    font-size: 20px;
+  }
+
+  .pet-detalis-group-right-tag h2 {
+    font-size: 16px;
+  }
+
+  .pet-detalis-group-right-contact {
+    width: 90%;
+    gap: 8px;
+  }
+
+  .pet-detalis-group-right-contact-item-1 {
+    padding: 8px 22px;
+  }
+
+  .pet-detalis-group-right-contact-item-1 span {
+    font-size: 12px;
+  }
+
+  .pet-detalis-group-right-contact-item-2-logo {
+    width: 20px;
+  }
+
+  .pet-detalis-group-right-contact-item-2 {
+    padding: 4px 22px;
+  }
+
+  .pet-detalis-group-right-contact-item-2 span {
+    font-size: 12px;
+  }
+
+  .pet-detalis-information-item-1 h1 {
+    font-size: 10px;
+  }
+
+  .pet-detalis-information-item-1 h2 {
+    font-size: 10px;
+    width: 55%;
+  }
+  /* End Responsive pet detalis Section */
+
+  
+  /* Start Responsive Our coustomer Section */
+  .our-customer-top h1 {
+    font-size: 22px;
+  }
+  
+  .our-customer-slider-item-1 {
+    height: 250px;
+  }
+  /* End Responsive Our coustomer Section */
+
 
 
 
@@ -3818,6 +4163,88 @@ dj king
   /* End Responsive Category Middle Right Section */
 
   /* End Responsive Category Middle Section */
+
+
+  /* Start Responsive pet detalis Section */
+  .pet-detalis-group {
+    border: 0;
+    padding: 0;
+  }
+
+  .pet-detalis-group-header-left {
+    width: 100%;
+  }
+
+  .pet-detalis-vaildet {
+    display: none;
+  }
+
+  .pet-detalis-vaildet-item-1 {
+    width: 100%;
+  }
+  
+  .pet-detalis-vaildet-item-2 {
+    width: 100%;
+  }
+
+  .pet-detalis-share {
+    display: none;
+  }
+
+  .pet-detalis-information-top h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #00171F;
+  }
+
+  .pet-detalis-information-share {
+    width: 15%;
+    gap: 8px;
+  }
+
+  .pet-detalis-information-share i {
+    font-size: 15px;
+    color: #002A48;
+  }
+
+  .pet-detalis-information-share p {
+    font-size: 14px;
+    color: #002A48;
+  }
+
+  .pet-detalis-group-right {
+    width: 100%;
+  }
+
+  .pet-detalis-group-right-tag p {
+    display: none;
+  }
+
+  .pet-detalis-group-right-contact {
+    width: 75%;
+  }
+
+  .pet-detalis-information-item-1 h1 {
+    width: 42%;
+  }
+
+  .pet-detalis-information-item-1 h2 {
+    width: 50%;
+  }
+
+  .pet-detalis-group-right {
+    margin: 0;
+  }
+
+  .pet-detalis-information-top {
+    display: flex;
+  }
+
+  .responsive-pet-detalis-vaildet {
+    display: flex;
+  }
+
+  /* End Responsive pet detalis Section */
 
 
 
@@ -4356,6 +4783,123 @@ dj king
 
   /* End Responsive Category Middle Section */
 
+  
+
+  /* Start Responsive pet detalis Section */
+  .pet-detalis-group {
+    border: 0;
+    padding: 0;
+  }
+
+  .pet-detalis-group-header-left {
+    width: 100%;
+  }
+
+  .pet-detalis-vaildet {
+    display: none;
+  }
+
+  .pet-detalis-vaildet-item-1 {
+    width: 85%;
+  }
+  
+  .pet-detalis-vaildet-item-2 {
+    width: 96%;
+  }
+
+  .responsive-pet-detalis-vaildet {
+    margin: 16px 16px;
+  }
+
+  .pet-detalis-share {
+    display: none;
+  }
+
+  .pet-detalis-information-top {
+    margin: 0 10px;
+    padding: 20px 0;
+    display: flex;
+  }
+
+  .pet-detalis-information-top h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #00171F;
+  }
+
+  .pet-detalis-information-share {
+    width: 20%;
+    gap: 8px;
+  }
+
+  .pet-detalis-information-share i {
+    font-size: 15px;
+    color: #002A48;
+  }
+
+  .pet-detalis-information-share p {
+    font-size: 14px;
+    color: #002A48;
+  }
+
+  .pet-detalis-group-right {
+    width: 100%;
+    margin: 0 16px;
+  }
+
+  .pet-detalis-group-right-tag p {
+    display: none;
+  }
+
+  .pet-detalis-group-right-contact {
+    width: 100%;
+  }
+
+  .pet-detalis-information-item-1 h1 {
+    width: 42%;
+  }
+
+  .pet-detalis-information-item-1 h2 {
+    width: 50%;
+  }
+
+
+  br {
+    display: none;
+  }
+
+  .pet-detalis-group-right-contact-item-1 {
+    padding: 10px 22px;
+    width: 36%;
+  }
+
+  .pet-detalis-group-right-contact-item-1 span {
+    font-size: 14px;
+  }
+
+  .pet-detalis-group-right-contact-item-2 {
+    padding: 6px 20px;
+    gap: 5px;
+    width: 58%;
+  }
+  
+  .pet-detalis-group-right-contact-item-2 span {
+    font-size: 14px;
+  }
+
+  .slider-nav .pet-detalis-group-header-left-photo-slider-item-1 {
+    height: 38px;
+  }
+
+  .navbar-2-hide {
+    display: none;
+  }
+
+  
+  .responsive-pet-detalis-vaildet {
+    display: flex;
+  }
+  /* End Responsive pet detalis Section */
 
 
 
