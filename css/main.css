@@ -161,6 +161,7 @@ header {
   background: url('/assets/Furniture-5.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 0px 0px 62px 62px;
 }
 
 /* Start Navbar Section */
@@ -210,6 +211,37 @@ nav {
   width: 10%;
 }
 /* End Navbar Section */
+
+/* Start Header Banner */
+.header-banner-item {
+  gap: 54px;
+  margin: 245px 0;
+}
+
+.header-banner-item h1 {
+  width: 45%;
+  font-size: 64px;
+  font-weight: 700;
+  color: #07484A;
+}
+
+.header-banner-item p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #07484A;
+}
+
+.header-banner-item a {
+  width: 16%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FDFBF8;
+  background: #70908B;
+  padding: 24px 54px;
+  border-radius: 50px;
+  text-align: center;
+}
+/* End Header Banner */
 
 
 /* End Header Section */
