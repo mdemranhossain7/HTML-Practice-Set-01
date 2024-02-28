@@ -208,7 +208,12 @@ nav {
 }
 
 .navbar-icon {
-  width: 10%;
+  width: 12%;
+}
+
+.navbar-icon a {
+  font-size: 27px;
+  color: #07484A;
 }
 /* End Navbar Section */
 
@@ -245,6 +250,19 @@ nav {
 
 
 /* End Header Section */
+
+
+/* Start Category Section */
+.category h1 {
+  text-align: center;
+  margin: 100px 0;
+  color: #07484A;
+  font-size: 64px;
+  font-weight: 700;
+}
+/* End Category Section */
+
+
 
 
 
