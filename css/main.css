@@ -218,6 +218,7 @@ nav {
 /* End Navbar Section */
 
 /* Start Header Banner */
+
 .header-banner-item {
   gap: 54px;
   margin: 245px 0;
@@ -259,6 +260,10 @@ nav {
   color: #07484A;
   font-size: 64px;
   font-weight: 700;
+}
+
+.category-items {
+  gap: 60px;
 }
 
 /* Start Category Left  */
@@ -370,6 +375,57 @@ nav {
 /* End Category Left Bottom Btn */
 
 /* End Category Left  */
+
+/* Start Category Right  */
+.category-right {
+  width: 70%;
+  gap: 32px;
+}
+
+/* Start Category Right Item 1 */
+.category-right-item-1 {
+  width: 48%;
+  height: 321px;
+}
+
+.category-right-item-1:hover {
+  position: relative;
+}
+
+.category-right-item-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.category-right-item-1-explore {
+  gap: 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(173, 173, 173, 0.7);
+}
+
+.category-right-item-1-explore h2 {
+  font-size: 64px;
+  font-weight: 400;
+  color: #FDFBF8;
+}
+
+.category-right-item-1-explore a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #07484A;
+  padding: 14px 42px;
+  background: #E0EFF6;
+  border-radius: 6px;
+}
+
+/* End Category Right Item 1 */
+
+
+/* End Category Right  */
 
 /* End Category Section */
 
