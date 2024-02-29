@@ -380,6 +380,7 @@ nav {
 .category-right {
   width: 70%;
   gap: 32px;
+  margin-bottom: 100px;
 }
 
 /* Start Category Right Item 1 */
