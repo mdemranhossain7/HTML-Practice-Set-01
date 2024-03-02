@@ -387,9 +387,6 @@ nav {
 .category-right-item-1 {
   width: 48%;
   height: 321px;
-}
-
-.category-right-item-1:hover {
   position: relative;
 }
 
@@ -436,11 +433,15 @@ nav {
 
 /* Start Products Section */
 .products {
+  display: none;
+}
+
+.products-bg {
   position: relative;
   margin: 100px auto;
 }
 
-.products-bg {
+.products-bg-photo {
   position: absolute;
   width: 926px;
   left: -450px;
@@ -456,7 +457,7 @@ nav {
 .products-items {
   position: absolute;
   gap: 54px;
-  z-index: 999;
+  z-index: 30;
 }
 
 .products-items h1 {
@@ -621,6 +622,111 @@ nav {
 /* End Products Items */
 
 /* End Products Section */
+
+
+
+
+/* Start Package Section */
+
+.package-title {
+  margin: 100px 0;
+}
+
+.package-title h4 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #07484A;
+}
+
+.package-items {
+  margin: 100px 0;
+}
+
+/* Start Package Left */
+.package-left {
+  position: relative;
+  gap: 32px;
+}
+.package-left-top {
+  width: 822px;
+  height: 556px;
+}
+
+.package-left-top img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.package-left-top-maximize {
+  padding: 15px 16px;
+  background: #07484A;
+  border-radius: 16px;
+  position: absolute;
+  width: 48px;
+  bottom: 196px;
+  right: 0;
+}
+
+.package-left-top-maximize-icon {
+  width: 18px;
+  aspect-ratio: 1/1;
+  background: #07484A;
+}
+
+.package-left-top-maximize-icon img {
+  width: 100%;
+  height: 100%;
+}
+/* Start Package Left Bottom Item 1 */
+.package-left-bottom-item-1 {
+  gap: 20px;
+}
+.package-left-bottom-item-1 h2 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #07484A;
+}
+
+.package-left-bottom-item-1 .icons {
+  gap: 12px;
+}
+
+.package-left-bottom-item-1 .icons i {
+  color: #FFC107;
+  font-size: 40px;
+}
+
+.package-left-bottom-item-1 h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #07484A;
+}
+/* Start Package Left Bottom Item 1 */
+
+/* Start Package Left Bottom Item 2 */
+.package-left-bottom-item-2 a {
+  background: #70908B;
+  padding: 16px 24px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.package-left-bottom-item-2 p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FDFBF8;
+}
+
+.package-left-bottom-item-2 i {
+  font-size: 26px;
+  color: #FDFBF8;
+}
+/* End Package Left Bottom Item 2 */
+
+/* End Package Left */
+
+/* End Package Section */
 
 
 
