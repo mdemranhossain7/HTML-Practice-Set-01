@@ -646,10 +646,10 @@ nav {
 .package-left {
   position: relative;
   gap: 32px;
+  width: 52%;
 }
 .package-left-top {
-  width: 822px;
-  height: 556px;
+  width: 100%;
 }
 
 .package-left-top img {
@@ -663,8 +663,8 @@ nav {
   background: #07484A;
   border-radius: 16px;
   position: absolute;
-  width: 48px;
-  bottom: 196px;
+  width: 50px;
+  bottom: 282px;
   right: 0;
 }
 
@@ -694,7 +694,7 @@ nav {
 
 .package-left-bottom-item-1 .icons i {
   color: #FFC107;
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .package-left-bottom-item-1 h3 {
@@ -725,6 +725,260 @@ nav {
 /* End Package Left Bottom Item 2 */
 
 /* End Package Left */
+
+/* Start Package Right */
+.package-right {
+  width: 45%;
+  gap: 32px;
+}
+
+/* Start Package Right Top */
+.package-right-top {
+  gap: 40px;
+}
+
+/* Start Package Right Top Item 1 */
+.package-right-top-item-1 {
+  gap: 25px;
+}
+
+.package-right-top-item-1 h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #07484A;
+}
+
+.package-right-top-item-1 h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #07484A;
+}
+
+.package-right-top-item-1 a {
+  gap: 8px;
+}
+
+.package-right-top-item-1 p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+
+.package-right-top-item-1 i {
+  font-size: 14px;
+  color: #000;
+}
+/* End Package Right Top Item 1 */
+
+/* Start Package Right Top Item 2 */
+.package-right-top-item-2 {
+  gap: 12px;
+}
+
+.package-right-top-item-2-left {
+  width: 40%;
+}
+
+.package-right-top-item-2-left-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.package-right-top-item-2-left-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.package-right-top-item-2-right {
+  width: 58%;
+  gap: 24px;
+  background: #E0F6F1;
+  padding: 34px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.package-right-top-item-2-right-text-1 h1 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #07484A;
+}
+
+.package-right-top-item-2-right-text-1 h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #07484A;
+}
+
+.package-right-top-item-2-right-icons {
+  gap: 6px;
+}
+
+.package-right-top-item-2-right-icons i {
+  color: #FFC107;
+  font-size: 17px;
+}
+
+.package-right-top-item-2-zoom {
+  padding: 8px 10px;
+  background: #07484A;
+  width: 35px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}
+
+.package-right-top-item-2-zoom a {
+  width: 14px;
+  height: 14px;
+}
+
+.package-right-top-item-2-zoom img {
+  width: 100%;
+  height: 100%;
+}
+/* End Package Right Top Item 2 */
+
+/* End Package Right Top */
+
+/* Start Package Right Bottom */
+
+/* Start Package Right Bottom Items */
+.package-right-bottom-items {
+  gap: 30px;
+  position: relative;
+}
+/* Start Package Right Bottom Item 1 */
+.package-right-bottom-item-1 {
+  width: 520px;
+  gap: 12px;
+}
+
+.package-right-bottom-item-1-left {
+  width: 230px;
+  height: 140px;
+}
+
+.package-right-bottom-item-1-left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.package-right-bottom-item-1-right {
+  width: 52%;
+  gap: 10px;
+}
+
+.package-right-bottom-item-1-right-text-1 {
+  width: auto;
+}
+
+.package-right-bottom-item-1-right-text-1 h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #07484A;
+}
+
+.package-right-bottom-item-1-right-text-1 h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #07484A;
+}
+
+.package-right-bottom-item-1-right-rating {
+  gap: 6px;
+}
+
+.package-right-bottom-item-1-right-rating i {
+  font-size: 15px;
+  color: #FFC107;
+}
+
+.package-right-bottom-item-1-right p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #07484A;
+}
+
+.package-right-bottom-item-1-right-more {
+  gap: 7px;
+}
+
+.package-right-bottom-item-1-right-more p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #07484A;
+}
+
+.package-right-bottom-item-1-right-more i {
+  font-size: 14px;
+  color: #07484A;
+}
+
+/* End Package Right Bottom Item 1 */
+
+/* End Package Right Bottom Items */
+
+/* Start Package Right Bottom Slider */
+.package-right-bottom-slider {
+  position: relative;
+}
+/* Start Package Right Bottom Slider vartical Line */
+.package-right-bottom-slider-vr-line-2 {
+  border: 5px solid #70908B;
+  height: 54px;
+  position: absolute;
+  top: -150px;
+  right: -96px;
+}
+
+.package-right-bottom-slider-vr-line-1 {
+  border: 1px solid #07484A;
+  height: 165px;
+  position: absolute;
+  top: -150px;
+  right: -91px;
+}
+/* End Package Right Bottom Slider vartical Line */
+
+/* Start Package Right Bottom Slider vartical Button */
+.package-right-bottom-slider-vr-btn {
+  gap: 20px;
+  position: absolute;
+  bottom: -148px;
+  left: 66px;
+}
+
+.package-right-bottom-slider-vr-btn-1 {
+  background: #E0EFF6;
+  padding: 12px 18px;
+  border-radius: 50px;
+}
+.package-right-bottom-slider-vr-btn-1 i {
+  font-size: 10px;
+  color: #07484A;
+}
+
+.package-right-bottom-slider-vr-btn-2 {
+  background: #F9D9DA;
+  padding: 12px 18px;
+  border-radius: 50px;
+}
+.package-right-bottom-slider-vr-btn-2 i {
+  font-size: 10px;
+  color: #07484A;
+}
+/* End Package Right Bottom Slider vartical Button */
+
+/* End Package Right Bottom Slider */
+
+/* End Package Right Bottom */
+
+/* End Package Right */
 
 /* End Package Section */
 
