@@ -179,11 +179,11 @@ body {
 
 /* Start Navbar Right */
 .navbar-right {
-  width: 45%;
+  width: 50%;
 }
 
 .navbar-right-search {
-  width: 40%;
+  width: 60%;
   padding: 16px 32px;
   background: #F0F0F0;
   border-radius: 8px;
@@ -199,7 +199,29 @@ body {
   color: #848484;
 }
 
+.navbar-right-items {
+  width: 35%;
+}
 
+.navbar-right-items i {
+  font-size: 25px;
+  color: #000000;
+}
+
+.navbar-right-items .user {
+  gap: 12px;
+}
+
+.navbar-right-items .user img {
+  width: 39px;
+  height: 39px;
+}
+
+.navbar-right-items span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #646464;
+}
 /* End Navbar Right */
 
 /* End Navbar Section */
