@@ -150,6 +150,64 @@ body {
 /* Common Classes */
 
 
+/* Start Navbar Section */
+
+.navbar {
+  margin: 16px 0;
+}
+
+/* Start Navbar Left */
+.navbar-left {
+  width: 45%;
+}
+
+.navbar-left-logo {
+  width: 10%;
+}
+
+.navbar-left-items {
+  width: 75%;
+}
+
+.navbar-left-items a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #272727;
+}
+
+/* Start Navbar Left */
+
+/* Start Navbar Right */
+.navbar-right {
+  width: 45%;
+}
+
+.navbar-right-search {
+  width: 40%;
+  padding: 16px 32px;
+  background: #F0F0F0;
+  border-radius: 8px;
+}
+.navbar-right-search input {
+  border: 0;
+  background: #F0F0F0;
+}
+
+.navbar-right-search input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #848484;
+}
+
+
+/* End Navbar Right */
+
+/* End Navbar Section */
+
+
+
+
+
 
 
 
