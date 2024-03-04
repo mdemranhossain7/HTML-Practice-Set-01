@@ -342,6 +342,21 @@ body {
 
 
 
+/* Start Trending Section */
+.trending {
+  margin: 80px 0;
+  gap: 26px;
+}
+
+.trending h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #272727;
+}
+/* End Trending Section */
+
+
+
 
 
 
