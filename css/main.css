@@ -228,6 +228,53 @@ body {
 
 
 
+/* Start Invite Section */
+.invite {
+  background: #F9FAFF;
+}
+
+.invite-items {
+  padding: 8px 0;
+}
+
+/* Start Invite Item 1 */
+.invite-item-1 {
+  gap: 15px;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.invite-item-1 p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #272727;
+}
+
+.invite-item-1 a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #00398F;
+}
+
+.invite-item-1 a:hover {
+  text-decoration: underline;
+}
+/* End Invite Item 1 */
+
+/* Start Invite Item 2 */
+.invite-item-2 {
+  padding: 9px;
+}
+/* End Invite Item 2 */
+
+/* End Invite Section */
+
+
+
+
+
+
+
 
 
 
