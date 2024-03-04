@@ -435,6 +435,74 @@ body {
 
 
 
+/* Start Deals Of The Day Section */
+.deals {
+  gap: 26px;
+  margin-bottom: 65px;
+}
+
+.deals h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #272727;
+}
+
+.deals-product {
+  gap: 70px;
+}
+/* Start Deals Product Item 1 */
+.deals-product-item-1 {
+  width: 488px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2) ;
+  border-radius: 10px;
+}
+
+.deals-product-item-1-top {
+  width: 488px;
+  height: 298px;
+}
+
+.deals-product-item-1-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.deals-product-item-1-bottom {
+  margin: 30px auto;
+  gap: 42px;
+}
+
+.deals-product-item-1-bottom-2 {
+  gap: 22px;
+  margin-bottom: 38px;
+}
+
+.deals-product-item-1-bottom-2 p {
+  font-size: 36px;
+  font-weight: 700;
+  color: #272727;
+}
+
+.deals-product-item-1-bottom-2 span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #272727;
+}
+/* End Deals Product Item 1 */
+
+/* End Deals Of The Day Section */
+
+
+
+
+
+
+
+
+
+
 
 
 
