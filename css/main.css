@@ -501,6 +501,7 @@ body {
 /* Start Trending Offers Section */
 .trending-offers {
   gap: 30px;
+  margin-bottom: 90px;
 }
 
 .trending-offers h1 {
