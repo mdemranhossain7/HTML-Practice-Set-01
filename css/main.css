@@ -498,6 +498,83 @@ body {
 
 
 
+/* Start Trending Offers Section */
+.trending-offers {
+  gap: 30px;
+}
+
+.trending-offers h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #272727;
+  margin-left: 100px;
+}
+
+/* Start Trending Offers Product Item 1 */
+.trending-offers-product-item-1 {
+  width: 60%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2) ;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.trending-offers-product-item-1-left {
+  width: 45%;
+  gap: 65px;
+}
+
+.trending-offers-product-item-1-left-top {
+  width: 175px;
+  height: 70px;
+}
+
+.trending-offers-product-item-1-left-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.trending-offers-product-item-1-left-bottom {
+  gap: 38px;
+}
+
+.trending-offers-product-item-1-left-bottom p {
+  font-size: 48px;
+  font-weight: 700;
+  color: #272727;
+}
+
+.trending-offers-product-item-1-left-bottom a {
+  font-size: 24px;
+  font-weight: 400;
+  color: #272727;
+  border: 2px solid #222222;
+  border-radius: 10px;
+  padding: 10px 38px;
+}
+
+.trending-offers-product-item-1-right {
+  width: 55%;
+}
+
+.trending-offers-product-item-1-right-photo {
+  width: 604px;
+  height: 587px;
+}
+
+.trending-offers-product-item-1-right-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 10px 10px 0px;
+}
+/* End Trending Offers Product Item 1 */
+
+/* End Trending Offers Section */
+
+
+
+
+
 
 
 
