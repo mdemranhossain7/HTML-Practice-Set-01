@@ -574,6 +574,63 @@ body {
 
 
 
+/* Start Banner Section */
+.banner-item-1 {
+  position: relative;
+}
+.banner-item-1-bg {
+  width: 100%;
+  height: 892px;
+}
+
+.banner-item-1-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Start Banner Item 1 */
+.banner-item-1-bg-items {
+  gap: 90px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.banner-item-1-bg-items-Text-group {
+  gap: 35px;
+}
+
+.banner-item-1-bg-items-Text-group h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner-item-1-bg-items-Text-group h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner-item-1-bg-items-explore {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 38px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+/* End Banner Item 1 */
+
+/* End Banner Section */
+
+
+
 
 
 
