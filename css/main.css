@@ -355,6 +355,67 @@ body {
 /* End Invite Section */
 
 
+
+/* Start Responive Categories Section */
+.responive-categories {
+  margin-top: 22px;
+  display: none;
+}
+
+.responive-categories-items {
+  width: 100%;
+}
+/* Start Responive Categories Item 1 */
+.responive-categories-item-1 {
+  width: 12%;
+  gap: 10px;
+}
+
+.responive-categories-item-1-top {
+  background: #E2EAFF;
+  padding: 20px 20px;
+  border-radius: 50px;
+}
+
+.responive-categories-item-1-top-logo {
+  width: 25px;
+  aspect-ratio: 1/1;
+}
+
+.responive-categories-item-1-top-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.responive-categories-item-1-bottom p {
+  font-size: 14px;
+  color: #272727;
+  font-weight: 400;
+}
+/* End Responive Categories Item 1 */
+
+/* Start Responive Categories Item 2 */
+.responive-categories-item-2 {
+  width: 18%;
+  gap: 10px;
+}
+
+.responive-categories-item-2-top {
+  width: 65px;
+  aspect-ratio: 1/1;
+}
+
+.responive-categories-item-2-top img {
+  width: 100%;
+  height: 100%;
+}
+/* End Responive Categories Item 2 */
+
+/* End Responive Categories Section */
+
+
+
+
 /* Start Header Banner Section */
 
 /* Start header Banner Item 1 */
@@ -1069,6 +1130,12 @@ body {
   }
   /* End Responsive Invite Section */
 
+  /* Start Responive Categories Section */
+  .responive-categories {
+    display: block;
+  }
+  /* End Responive Categories Section */
+
 }
 
 /* Extra small devices (portrait phones, less than 640px) */
@@ -1114,6 +1181,28 @@ body {
     display: none;
   }
   /* End Responsive Invite Section */
+  
+  /* Start Responive Categories Section */
+  .responive-categories {
+    display: flex;
+  }
+
+  .responive-categories-item-1 {
+    width: 16%;
+  }
+
+  .responive-categories-item-1-top {
+    padding: 18px 18px;
+  }
+
+  .responive-categories-item-1-bottom p {
+    font-size: 12px;
+  }
+
+  .responive-categories-item-2-top {
+    width: 62px;
+  }
+  /* End Responive Categories Section */
 
 }
 
@@ -1160,5 +1249,38 @@ body {
     display: none;
   }
   /* End Responsive Invite Section */
+
+  
+  /* Start Responive Categories Section */
+  .responive-categories {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .responive-categories-item-1 {
+    width: 16%;
+  }
+
+  .responive-categories-item-1-top {
+    padding: 12px 14px;
+  }
+
+  .responive-categories-item-1-top-logo {
+    width: 20px;
+  }
+
+  .responive-categories-item-1-bottom p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .responive-categories-item-2 {
+    width: 16%;
+  }
+
+  .responive-categories-item-2-top {
+    width: 45px;
+  }
+  /* End Responive Categories Section */
 
 }
