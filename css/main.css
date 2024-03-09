@@ -338,7 +338,17 @@ body {
 
 /* Start Invite Item 2 */
 .invite-item-2 {
-  padding: 9px;
+  padding: 10px 10px;
+}
+
+.invite-item-2-icon {
+  width: 18px;
+  aspect-ratio: 1/1;
+}
+
+.invite-item-2 img {
+  width: 100%;
+  height: 100%;
 }
 /* End Invite Item 2 */
 
@@ -864,6 +874,12 @@ body {
   }
   /* End Responsive Navbar Section */
 
+  /* Start Responsive Invite Section */
+  .invite-item-1 {
+    width: 50%;
+  }
+  /* End Responsive Invite Section */
+
 }
 
 /* large devices (laptop, 1024px and up) */
@@ -916,6 +932,24 @@ body {
     font-size: 14px;
   }
   /* End Responsive Navbar Section */
+
+  /* Start Responsive Invite Section */
+  .invite-item-1 {
+    width: 50%;
+  }
+
+  .invite-item-1 p {
+    font-size: 14px;
+  }
+
+  .invite-item-1 a {
+    font-size: 14px;
+  }
+
+  .invite-item-2 {
+    padding: 8px 8px;
+  }
+  /* End Responsive Invite Section */
 
 }
 
@@ -982,6 +1016,29 @@ body {
   }
   /* End Responsive Navbar Section */
 
+  /* Start Responsive Invite Section */
+  .invite-item-1 {
+    gap: 10px;
+    width: 55%;
+  }
+
+  .invite-item-1 p {
+    font-size: 12px;
+  }
+
+  .invite-item-1 a {
+    font-size: 12px;
+  }
+
+  .invite-item-2 {
+    padding: 2px 6px;
+  }
+
+  .invite-item-2-icon {
+    width: 14px;
+  }
+  /* End Responsive Invite Section */
+
 }
 
 /* Small devices (landscape phones, 640px and up) */
@@ -1005,6 +1062,12 @@ body {
     gap: 8px;
   }
   /* End Responsive Navbar Section */
+
+  /* Start Responsive Invite Section */
+  .invite {
+    display: none;
+  }
+  /* End Responsive Invite Section */
 
 }
 
@@ -1045,6 +1108,13 @@ body {
     width: 22px;
   }
   /* End Responsive Navbar Section */
+  
+  /* Start Responsive Invite Section */
+  .invite {
+    display: none;
+  }
+  /* End Responsive Invite Section */
+
 }
 
 /* 2xs devices (portrait phones, less than 414px) */
@@ -1084,5 +1154,11 @@ body {
     width: 20px;
   }
   /* End Responsive Navbar Section */
+  
+  /* Start Responsive Invite Section */
+  .invite {
+    display: none;
+  }
+  /* End Responsive Invite Section */
 
 }
