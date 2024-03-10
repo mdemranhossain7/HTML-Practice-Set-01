@@ -360,6 +360,7 @@ body {
 .responive-categories {
   margin-top: 22px;
   display: none;
+  margin-bottom: 30px;
 }
 
 .responive-categories-items {
@@ -439,6 +440,7 @@ body {
 
 .header-banner-item-1-right-bg {
   height: 796px;
+  opacity: 50%;
 }
 
 .header-banner-item-1-right-bg img {
@@ -457,7 +459,12 @@ body {
 }
 
 .header-banner-item-1-right-items-logo {
-  width: 75%;
+  width: 70%;
+}
+
+.header-banner-item-1-right-items-logo img {
+  width: 100%;
+  height: 100%;
 }
 
 .header-banner-item-1-right-items-group {
@@ -888,6 +895,25 @@ body {
     width: 1920px;
     margin: 0 auto;
   }
+
+  /* Start Responsive Navbar Section */
+  .navbar-left-logo {
+    width: 8%;
+  }
+
+  .navbar-right {
+    width: 45%;
+  }
+
+  .navbar-right-items {
+    width: 28%;
+  }
+
+  .navbar-right-items .user {
+    gap: 18px;
+  }
+  /* End Responsive Navbar Section */
+
 }
 
 /* 4XL devices (extra-large desktops, 1536px and up) */
@@ -896,6 +922,13 @@ body {
     width: 1536px;
     margin: 0 auto;
   }
+  
+  /* Start Responsive Header Section */
+  .header-banner-item-1-right-items-logo {
+    width: 70%;
+  }
+  /* End Responsive Header Section */
+
 }
 
 /* 3XL devices (larger desktops, 1440px and up) */
@@ -904,6 +937,17 @@ body {
     width: 1440px;
     margin: 0 auto;
   }
+
+  /* Start Responsive Header Section */
+  .header-banner-item-1-right-items-group-text p {
+    font-size: 42px;
+  }
+
+  .header-banner-item-1-right-items-group a {
+    font-size: 20px;
+  }
+  /* End Responsive Header Section */
+
 }
 
 /* 2XL devices (large desktops, 1360px and up) */
@@ -912,6 +956,21 @@ body {
     width: 1360px;
     margin: 0 auto;
   }
+
+  /* Start Responsive Header Section */
+  .header-banner-item-1-right-items {
+    gap: 50px;
+  }
+  
+  .header-banner-item-1-right-items-group-text p {
+    font-size: 40px;
+  }
+
+  .header-banner-item-1-right-items-group a {
+    font-size: 20px;
+  }
+  /* End Responsive Header Section */
+
 }
 
 /* Extra large devices (large desktops, 1280px and up) */
@@ -940,6 +999,23 @@ body {
     width: 50%;
   }
   /* End Responsive Invite Section */
+
+  
+
+
+  /* Start Responsive Header Section */
+  .header-banner-item-1-right-items {
+    gap: 50px;
+  }
+  
+  .header-banner-item-1-right-items-group-text p {
+    font-size: 36px;
+  }
+
+  .header-banner-item-1-right-items-group a {
+    font-size: 20px;
+  }
+  /* End Responsive Header Section */
 
 }
 
@@ -1011,6 +1087,40 @@ body {
     padding: 8px 8px;
   }
   /* End Responsive Invite Section */
+
+  
+  
+
+  
+  /* Start Responsive Header Section */
+  .header-banner-item-1-left {
+    height: 700px;
+  }
+
+  .header-banner-item-1-right-bg {
+    height: 700px;
+  }
+
+  .header-banner-item-1-right-items {
+    gap: 45px;
+  }
+  
+  .header-banner-item-1-right-items-group-text p {
+    font-size: 28px;
+  }
+
+  .header-banner-item-1-right-items-group-text {
+    gap: 16px;
+  }
+
+  .header-banner-item-1-right-items-group {
+    gap: 30px;
+  }
+
+  .header-banner-item-1-right-items-group a {
+    font-size: 16px;
+  }
+  /* End Responsive Header Section */
 
 }
 
@@ -1100,6 +1210,42 @@ body {
   }
   /* End Responsive Invite Section */
 
+  
+  
+  
+
+  
+  /* Start Responsive Header Section */
+  .header-banner-item-1-left {
+    height: 500px;
+  }
+
+  .header-banner-item-1-right-bg {
+    height: 500px;
+  }
+
+  .header-banner-item-1-right-items {
+    gap: 40px;
+  }
+  
+  .header-banner-item-1-right-items-group-text p {
+    font-size: 20px;
+  }
+
+  .header-banner-item-1-right-items-group-text {
+    gap: 16px;
+  }
+
+  .header-banner-item-1-right-items-group {
+    gap: 25px;
+  }
+  
+  .header-banner-item-1-right-items-group a {
+    font-size: 14px;
+    padding: 8px 22px;
+  }
+  /* End Responsive Header Section */
+
 }
 
 /* Small devices (landscape phones, 640px and up) */
@@ -1135,6 +1281,12 @@ body {
     display: block;
   }
   /* End Responive Categories Section */
+
+  /* Start Responsive Header Section */
+  .header-banner {
+    display: none;
+  }
+  /* End Responsive Header Section */
 
 }
 
@@ -1203,6 +1355,13 @@ body {
     width: 62px;
   }
   /* End Responive Categories Section */
+
+  
+  /* Start Responsive Header Section */
+  .header-banner {
+    display: none;
+  }
+  /* End Responsive Header Section */
 
 }
 
@@ -1282,5 +1441,12 @@ body {
     width: 45px;
   }
   /* End Responive Categories Section */
+
+  
+  /* Start Responsive Header Section */
+  .header-banner {
+    display: none;
+  }
+  /* End Responsive Header Section */
 
 }
