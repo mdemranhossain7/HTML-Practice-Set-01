@@ -1567,7 +1567,7 @@ body {
   
   /* Start Responsive Trending Section */
   .trending {
-    gap: 10px;
+    gap: 0px;
     margin: 50px 0;
   }
 
